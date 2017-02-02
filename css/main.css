@@ -41,3 +41,6 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.share-page {
+    margin-bottom: 20px;
+}
