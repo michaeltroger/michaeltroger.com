@@ -1,3 +1,10 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "variables";
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -14,7 +21,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: $link-color;
 }
 a:hover {
     text-decoration: underline;
@@ -26,7 +33,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: $text-color;
 }
 footer {
     border-top: 1px solid #d5d5d5;
