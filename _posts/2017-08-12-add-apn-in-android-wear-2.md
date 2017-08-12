@@ -8,8 +8,8 @@ Unfortunately _Google_ does not - different to the _Android_ phone version - all
 When inserting a virtual providers' SIM in your _Android Wear_ smartwatch, it will most likely not be able to connect to the network, due to the lack of a fitting APN. In this short blog post I want to show you how I was able to get my virtual provider's SIM working on my _Huawei Watch 2 4G_.
 
 The follwing steps are involved:
-- root the smartwatch
-- add the APN via the _ADB_ shell
+- rooting the smartwatch
+- adding the APN via the _ADB_ shell
 
 ### Rooting the smartwatch
 Yes, indeed! There is so far no option to do this without root! Check [xda-developers](https://forum.xda-developers.com/) if root is available for your smartwatch. In case of the _Huawei Watch 2_, luckily there is one. Follow the instructions from [this post](https://forum.xda-developers.com/watch-2/development/recovery-unofficial-twrp-3-1-0-0-touch-t3631364).
