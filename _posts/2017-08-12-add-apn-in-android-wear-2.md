@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-### To make virtual providers work with your smartwatch
+### Make virtual providers work with your smartwatch
 
 Unfortunately _Google_ does not - different to the _Android_ phone version - allow the adding of APN's manually in _Android Wear_ at the time of writing. This is a big problem because in many countries _MVNOs_ - so called _mobile virtual network operator_ operate. They don't have their own network but use existing infrastructure from other providers in order to provide mobile services. Also in Austria we have a lot of them and they are used by a lot of people. Some local examples are the providers _Hot_ (uses _T-Mobile's_ network), _Yesss_ (uses _A1'_ network) and _Spusu_ (uses _Drei's_ network). 
 
