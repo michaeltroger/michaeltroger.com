@@ -16,7 +16,7 @@ Yes, indeed! There is so far no option to do this without root! Check [xda-devel
 
 ### Add the APN via the ADB shell
 After rooting successfully we can add the provider via the _ADB_ shell. Assuming you have _ADB_ already installed after rooting, we continue without going into install instructions.
-Run the _ADB_ shell by `adb shell`. Enter the root mode by entering `su`.
+Run the _ADB_ shell by {% highlight shell %}adb shell{% endhighlight %}. Enter the root mode by entering `su`.
 
 With `content query --uri content://telephony/carriers --where "name='yourprovider'"` you can now check whether an entry for your provider exists. Replace _yourprovider_ with your actual provider's name.
 
