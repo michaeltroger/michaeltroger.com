@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Add an APN in Android Wear 2.0
 ### to make virtual providers work with your smartwatch
@@ -26,5 +26,4 @@ If it doesn't exist we can now add it via `content insert --uri content://teleph
 Finally put your smartwatch into airplane mode and disable it again. Voila! We have 4G working on the _Huawei Watch 2_with a _MVNO_!
 
 Here the commands I used succesfully for the Austrian Provider spusu:
-`content query --uri content://telephony/carriers --where "name='spusu'"` for checking whether the entry exists and `content insert --uri content://telephony/carriers --bind name:s:"spusu" --bind numeric:s:"23217" --bind type:s:"default,sulp" --bind mcc:i:232 --bind mnc:s:17 --bind apn:s:"mass.at" --bind user:s:"" --bind password:s:""` to add it. 
-
+`content query --uri content://telephony/carriers --where "name='spusu'"` for checking whether the entry exists and `content insert --uri content://telephony/carriers --bind name:s:"spusu" --bind numeric:s:"23217" --bind type:s:"default,sulp" --bind mcc:i:232 --bind mnc:s:17 --bind apn:s:"mass.at" --bind user:s:"" --bind password:s:""` to add it.
