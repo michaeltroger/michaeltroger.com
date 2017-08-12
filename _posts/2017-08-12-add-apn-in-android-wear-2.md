@@ -24,5 +24,5 @@ If it doesn't exist we can now add it via {% highlight shell %}content insert --
 
 Finally put your smartwatch into airplane mode and disable it again. Voila! We have 4G working on the _Huawei Watch 2 4G_ with a _MVNO_!
 
-Here the commands I used succesfully for the Austrian Provider spusu:
+Here the commands I used succesfully for the Austrian Provider _spusu_:
 {% highlight shell %}content query --uri content://telephony/carriers --where "name='spusu'"{% endhighlight %} for checking whether the entry exists and {% highlight shell %}content insert --uri content://telephony/carriers --bind name:s:"spusu" --bind numeric:s:"23217" --bind type:s:"default,sulp" --bind mcc:i:232 --bind mnc:s:17 --bind apn:s:"mass.at" --bind user:s:"" --bind password:s:""{% endhighlight %} to add it.
