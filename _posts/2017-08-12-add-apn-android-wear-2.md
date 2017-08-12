@@ -12,8 +12,6 @@ The follwing steps are involved:
 - root the smartwatch
 - add the APN via the _ADB_ shell
 
-
-
 ### Rooting the smartwatch
 Yes, indeed! There is so far no option to do this without root! Check [xda-developers](https://forum.xda-developers.com/) if root is available for your smartwatch. In case of the _Huawei Watch 2_, luckily there is one. Follow the instructions from [this post](https://forum.xda-developers.com/watch-2/development/recovery-unofficial-twrp-3-1-0-0-touch-t3631364).
 
@@ -23,7 +21,7 @@ Run the _ADB_ shell by `adb shell`. Enter the root mode by entering `su`.
 
 With `content query --uri content://telephony/carriers --where "name='yourprovider'"` you can now check whether an entry for your provider exists. Replace _yourprovider_ with your actual provider's name.
 
-If it doesn't exist we can now add it via `content insert --uri content://telephony/carriers --bind name:s:"yourprovider" --bind numeric:s:"yourmccmns" --bind type:s:"default,sulp" --bind mcc:i:yourmcc --bind mnc:s:yourmns --bind apn:s:"yourapn" --bind user:s:"yourusername" --bind password:s:"yourpassword"`. Replace _yourprovider_ with the name of your provider - its the same name you will use to query the entry, _yourmccmns_ is your provider's MCC and MNS combined. You should be able to find both in the internet - if not then my advice is to enter the SIM in your phone, usually there you will have the APN configured so you can just check the data there! _yourmcc_ is the MCC only and _yourmns_ is the MNS only as discussed. Finally replace _yourapn_, _yourusername_ and _yourpassword_ with your provider's data. 
+If it doesn't exist we can now add it via `content insert --uri content://telephony/carriers --bind name:s:"yourprovider" --bind numeric:s:"yourmccmns" --bind type:s:"default,sulp" --bind mcc:i:yourmcc --bind mnc:s:yourmns --bind apn:s:"yourapn" --bind user:s:"yourusername" --bind password:s:"yourpassword"`. Replace _yourprovider_ with the name of your provider - its the same name you will use to query the entry, _yourmccmns_ is your provider's MCC and MNS combined. You should be able to find both in the internet - if not then my advice is to enter the SIM in your phone, usually there you will have the APN configured so you can just check the data there! _yourmcc_ is the MCC only and _yourmns_ is the MNS only as discussed. Finally replace _yourapn_, _yourusername_ and _yourpassword_ with your provider's data. Check whether the APN was added succesfully by running the query from the paragraph before again. 
 
 Finally put your smartwatch into airplane mode and disable it again. Voila! We have 4G working on the _Huawei Watch 2_with a _MVNO_!
 
