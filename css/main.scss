@@ -9,6 +9,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+@media (max-width: 1200px) {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -54,3 +59,5 @@ ul.posts li {
 pre {
     white-space: pre-wrap;   
 }
+
+
