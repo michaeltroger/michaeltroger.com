@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Grüner Pass: Privatsphäre und Datenschutz
 ---
 <div class="blurb">
 <a href="/greenpass">English</a> 
-<h1>{{ page.title }}</h1>
+<h1>Grüner Pass: Privatsphäre und Datenschutz</h1>
 <p>Privatsphäre und Sicherheit sind wichtig!<br>
 Du kannst diese App nutzen, ohne dass Angaben zu deiner Person online gespeichert oder verarbeitet werden.
 Die erfassten Daten werden ausschließlich lokal und offline auf deinem Gerät gespeichert und verarbeitet und 
