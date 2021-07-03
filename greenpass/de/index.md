@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="blurb">
-<a href="/greenpass">English</a> 
+<h2><a href="/greenpass">English</a></h2>
 <h1>Grüner Pass: Privatsphäre und Datenschutz</h1>
 <p>Privatsphäre und Sicherheit sind wichtig!<br>
 Du kannst diese App nutzen, ohne dass Angaben zu deiner Person online gespeichert oder verarbeitet werden.
