@@ -1,4 +1,4 @@
-# michaeltroger.github.io
+# michaeltroger.com
 Personal website including a blog - hosted on GitHub
 
 This repository is representing the source code of my website https://michaeltroger.com
