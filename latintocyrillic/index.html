@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Latin to Cyrillic Converter by Michael Troger</title>
+     <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-38000620-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body>
+
+<h1>Latin ↔ Cyrillic Converter</h1>
+<p>The Latin to Cyrillic Converter is developed by <a href="/">Michael Troger</a>. Don't hesitate to  <a href="/contact">contact me</a>  if you have some input. The application is available for Android as well as for PC.</p>
+<p>Simple web version using the Serbian alphabet:</p>
+<table>
+    <tr><td><label for="latin">Latin</label></td><td><label for="cyrillic">Cyrillic</label></td></tr>
+    <tr><td><textarea id="latin"></textarea></td><td><textarea id="cyrillic"></textarea></td></tr>
+    <tr><td><a href="javascript:latinToCyrillic()">Latin->Cyrillic</a></td><td><a href="javascript:cyrillicToLatin()">Cyrillic->Latin</a></td></tr>
+</table>
+<p>
+    Used transliteration/transcription table:
+<br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/serbian.csv" target="_blank">Serbian</a>
+<br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/macedonian.csv" target="_blank">Macedonian</a>
+</p>
+<p>
+    Download Android: <a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic">Latin to Cyrillic Converter in the Play Store</a><br>
+    Download PC (Java required): <a href="/files/LatinToCyrillicPC_V3.0.jar">Latin to Cyrillic Converter for PC</a>
+</p>
+
+<h2>Important notes:</h2>
+<p>
+    With version 3.0 of the application the alphabets besides Serbian and Macedonian have been removed. Russian and the other alphabets are no longer included. The reason for that is the impossibility for 100% correct conversion in both directions (Latin to Cyrillic AND Cyrillic to Latin) in those languages. Some latin characters are just not unique. This also lead to some bad reviews and as this application is mainly used for Serbian anyway I made this decision. I apologize for the inconvinence if you used any of the other language alphabets. If you still for some reason want to further use the old version - feel free to mail me on <a href="/contact">https://michaeltroger.com/contact</a> and I'll provide it to you.
+    </p>
+    <p>
+Included in earlier version:
+</p>
+<p>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/bulgarian.csv" target="_blank">Bulgarian Transliteration</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/bulgarian1.csv" target="_blank">Bulgarian Transcription to English</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/bulgarian2.csv" target="_blank">Bulgarian Transcription to German</a>
+</p>
+
+<p>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/russian.csv" target="_blank">Russian Transliteration</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/russian1.csv" target="_blank">Russian Transcription to English</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/russian2.csv" target="_blank">Russian Transcription to German</a>
+</p>
+
+<p>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/ukrainian.csv" target="_blank">Ukrainian Transliteration</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/ukrainian1.csv" target="_blank">Ukrainian Transcription to English</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/ukrainian2.csv" target="_blank">Ukrainian Transcription to German</a>
+</p>
+
+<p>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/belorussian.csv" target="_blank">Belorussian Transliteration</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/belorussian1.csv" target="_blank">Belorussian Transcription to English</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/belorussian2.csv" target="_blank">Belorussian Transcription to German</a>
+</p>
+
+<p>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/kazakh.csv" target="_blank">Kazakh Transliteration</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/kazakh2.csv" target="_blank">Kazakh Transcription to German</a>
+</p>
+
+<p>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/mongolian.csv" target="_blank">Mongolian Transliteration</a><br>
+    <a href="http://datapipes.okfnlabs.org/csv/html/?url=http://michaeltroger.com/csv/mongolian2.csv" target="_blank">Mongolian Transcription to German</a>
+</p><br><br>
+<p><a href="/imprint">Imprint</a></p>
+<script src="/js/serbian_latin_cyrillic.js"></script>
+</body>
+</html>
