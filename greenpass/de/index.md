@@ -14,7 +14,9 @@ vollständig Open Source und damit öffentlich einsehbar.
   
 <p>Welche Daten werden bei Verwendung der App erfasst?<br>
 Das gewählte PDF Dokument wird in den App-Speicher kopiert und ausschließlich zur Anzeige ausgelesen.
-Um die vollformatige Anzeige des QR Codes zu ermöglichen wird das Dokument visuell (nicht textlich) durchsucht, ob sich darin ein QR Code befindet.
+Die App erfasst nicht den Inhalt des Dokumentes.
+Das heißt für die App macht es keinen Unterschied, ob du z.B. ein Gesundheits-Zertifikat oder ein Bus Ticket importierst.
+Um die vollformatige Anzeige des QR Codes zu ermöglichen wird die 1. Seite des Dokumentes visuell (nicht textlich) durchsucht, ob sich darin ein QR Code befindet.
 Der Textinhalt des QR Codes wird zu Laufzeit der App ausgelesen und ausschließlich zur Erstellung des formatfüllenden QR Codes verwendet.
 Sämtliche Daten werden lokal und offline auf deiner App am jeweiligen Gerät gespeichert. 
 Die Dokument-Daten verlassen zu keinem Zeitpunkt die App und können vom Benutzer jederzeit wieder aus dem App-Speicher gelöscht werden, 
