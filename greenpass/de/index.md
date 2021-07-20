@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Grüner Pass: Privatsphäre und Datenschutz
 ---
 <div class="blurb">
 <h2><a href="/greenpass">English</a></h2>
