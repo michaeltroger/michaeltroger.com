@@ -6,7 +6,9 @@ title: Michael Troger's Repositories
 <ul>
 {% for repository in site.github.public_repositories %}
   <li><a href="{{ repository.html_url }}">{{ repository.name }}</a>
-    <br>{{ repository.description }}
+    {% if repository.description != ""  %}
+       <br>{{ repository.description }}
+    {% endif %}
     <br>Stars: {{ repository.stargazers_count }} | Forks: {{ repository.forks_count }}
   </li>
 {% endfor %}
