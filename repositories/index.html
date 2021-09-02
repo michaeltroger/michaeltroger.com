@@ -6,7 +6,7 @@ title: Michael Troger's Repositories
 <ul>
 {% assign repos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repo in repos %}
-  <li><a href="{{ repository.html_url }}">{{ repo.name }}</a>
+  <li><a href="{{ repo.html_url }}">{{ repo.name }}</a>
     {% if repo.description %}
        <br>{{ repo.description }}
     {% endif %}
