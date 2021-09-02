@@ -4,12 +4,13 @@ title: Michael Troger's Repositories
 ---
 <h1>{{ page.title }}</h1>
 <ul>
-{% for repository in site.github.public_repositories %}
-  <li><a href="{{ repository.html_url }}">{{ repository.name }}</a>
-    {% if repository.description %}
-       <br>{{ repository.description }}
+{% assign repos = site.github.public_repositories | sort: 'stargazers_count' %}
+{% for repo in repos %}
+  <li><a href="{{ repository.html_url }}">{{ repo.name }}</a>
+    {% if repo.description %}
+       <br>{{ repo.description }}
     {% endif %}
-    <br>Stars: {{ repository.stargazers_count }} | Forks: {{ repository.forks_count }}
+    <br>Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
   </li>
 {% endfor %}
 </ul>
