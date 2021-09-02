@@ -7,7 +7,7 @@ The reason for that being that 99% of this repo is private data of myself.
 
 Therefore I would recommend to use [Jonathan McGlone’s](https://github.com/hankquinlan/hankquinlan.github.io/) project as a starter, since it doesn't contain any private information and the author allows copying without restrictions.
 
-### Instructions:
+### Instructions
 Builds automatically on commits, files can directly be edited within the GitHub UI.
 
 Local development:
