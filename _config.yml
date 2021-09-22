@@ -1,4 +1,4 @@
 name: Michael Troger
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-gems: ['jekyll-github-metadata']
+gems: ['jekyll-github-metadata','jekyll-minifier']
