@@ -3,6 +3,17 @@ layout: default
 title: Michael Troger's Repositories
 ---
 <h1>{{ page.title }}</h1>
+{% assign totalStars = 0 %}
+{% assign totalForks = 0 %}
+{% assign repos = site.github.public_repositories %}
+{% for repo in repos %}
+  {% assign totalStars = totalStars | plus: repo.stargazers_count %}
+  {% assign totalForks = totalForks | plus: repo.forks_count %}
+{% endfor %}
+<p>
+Total received stars for repos: {{ totalStars }}
+Total forks from repos: {{ totalForks }}
+</p>
 <ul>
 {% assign repos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repo in repos %}
