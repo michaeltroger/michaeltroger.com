@@ -6,7 +6,7 @@ on:
     - cron:  '0 3 * * *' # Runs every day at 3am
 
 jobs:
-  refresh:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger GitHub pages rebuild
