@@ -15,5 +15,18 @@ Following a selected list of Android projects that I actively maintain: </p>
 Since they helped me grow as developer, I decided giving something back to the community.
 I'm an active member on GitHub and Stack Overflow. Feel free to check out my profiles.
 </p>
-<p>Additionally I created an automatically updated overview of <a href="/repositories">all my open-source repositories</a>.</p>
+<p>Additionally I created an automatically generated overview of <a href="/repositories">all my open-source repositories</a>.</p>
+<p>Excerpt:</p>
+<ul>
+{% assign repos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
+{% for repo in repos limit:3 %}
+  <li><a href="{{ repo.html_url }}">{{ repo.name }}</a>
+    {% if repo.description %}
+       <br>{{ repo.description }}
+    {% endif %}
+    <br>Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
+  </li>
+{% endfor %}
+<li><a href="/repositories">See more</a></li>
+</ul>
 </div>
