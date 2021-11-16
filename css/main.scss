@@ -16,6 +16,12 @@ body {
         padding-right: 10px;
         margin: 20px auto;
     }
+    h1 {
+       font-size: 1.8em;   
+    }
+    p, h3, li, pre {
+       font-size: 1.2em;
+    }
 }
 li {
     font-size: 1.5em;   
@@ -47,7 +53,6 @@ h3 {
 }
 p {
     font-size: 1.5em;
-    line-height: 1.6em;
     color: $text-color;
 }
 footer {
