@@ -2,7 +2,7 @@
 published: true
 ---
 This year, for the first time I decided to participate at the Advent of Code puzzle challenge. While I knew some friends were participating before, I somehow never found the time or I just was not motivated enough.
-What changed this year? I heard friends speaking enthuastically about it and it's promoted quite strongly in the developer community in the web. What was an extra motivation was that [Jetbrains/Kotlin is a main sponsor](https://blog.jetbrains.com/kotlin/2021/11/advent-of-code-2021-in-kotlin/).
+What changed this year? I heard friends speaking enthusiastically about it and it's promoted quite strongly in the developer community in the web. What was an extra motivation was that [Jetbrains/Kotlin is a main sponsor](https://blog.jetbrains.com/kotlin/2021/11/advent-of-code-2021-in-kotlin/).
 Solving puzzles in my favorite programming language sounded like fun. A Kotlin developer also provides [a nice template project](https://github.com/kotlin-hands-on/advent-of-code-kotlin-template) to get started, which I found very useful to save some time. For preparation I watched some [solutions from 2020](https://kotlinlang.org/docs/advent-of-code.html), presented by the Kotlin team.
 
 ### The Plan
