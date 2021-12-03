@@ -8,4 +8,4 @@ Solving puzzles in my favorite programming language sounded like fun. A Kotlin d
 ### The Plan
 I'm not too much experienced with solving puzzles and coding challenges, so I don't have too high expectations. Also for the global competition, the timezone isn't too comfortable for me and I prefer solving them when I find time. **My focus** will lay on **solving the problems in an ideomatic, nicely readable way**. Providing solutions with as less code as possible and being as quick as possible are non-goals for me. I'll try to provide my solutions on the same day the puzzles start, but I can't promise it due to work and private life potentially interfering.
 
-[**I provide all my solutions on GitHub**](https://github.com/michaeltroger/advent-of-code-2021-in-kotlin).
+[**All my solutions of 2021 can be found on GitHub**](https://github.com/michaeltroger/advent-of-code-2021-in-kotlin).
