@@ -1,13 +1,11 @@
 ---
 published: true
 ---
-### Advent Of Code 2021 in Kotlin
-
 This year, for the first time I decided to participate at the Advent of Code puzzle challenge. While I knew some friends were participating before, I somehow never found the time or I just was not motivated enough.
-What changed this year? I heard friends speaking enthuastically about it and it's promoted quite strongly in the developer community in the web. What was an extra motivation was Jetbrains/Kotlin being a main sponsor.
-Solving puzzles in my favorite programming language sounded like fun. A Kotlin developer also provides a nice template project to get started. 
-I was happy to save some time. For preparation I watched some solutions from 2020, presented by the Kotlin team.
+What changed this year? I heard friends speaking enthuastically about it and it's promoted quite strongly in the developer community in the web. What was an extra motivation was that [Jetbrains/Kotlin is a main sponsor](https://blog.jetbrains.com/kotlin/2021/11/advent-of-code-2021-in-kotlin/).
+Solving puzzles in my favorite programming language sounded like fun. A Kotlin developer also provides [a nice template project](https://github.com/kotlin-hands-on/advent-of-code-kotlin-template) to get started, which I found very useful to save some time. For preparation I watched some [solutions from 2020](https://kotlinlang.org/docs/advent-of-code.html), presented by the Kotlin team.
 
 ### The Plan
-I'm not too much experienced with solving puzzles and coding challenges. Also for the global competition, the timezone isn't too comfortable for me. My focus will lay on solving the problems in a ideomatic, nicely readable way. It's a non-goal to provide solutions with as less code as possible and also to be as quick as possible. I'll try to provide my solutions on the day of the quiz, but I can't promise it due to work and private life interfering.
-All my solutions can be found on GitHub.
+I'm not too much experienced with solving puzzles and coding challenges. Also for the global competition, the timezone isn't too comfortable for me. **My focus** will lay on **solving the problems in an ideomatic, nicely readable way**. Providing solutions with as less code as possible and being as quickly as possible are non-goals for me. I'll try to provide my solutions on the same day the puzzles start, but I can't promise it due to work and private life potentially interfering.
+
+[**I provide all my solutions on GitHub**](https://github.com/michaeltroger/advent-of-code-2021-in-kotlin).
