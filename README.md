@@ -9,6 +9,8 @@ The reason for that being that 99% of this repo is private data of myself.
 
 Therefore I would recommend to use [Jonathan McGlone’s](https://github.com/hankquinlan/hankquinlan.github.io/) project as a starter, since it doesn't contain any private information and the author allows copying without restrictions.
 
+You are of course free to check how things are done technically though.
+
 ## Instructions
 GitHub Pages builds automatically on commits. Files can directly be edited within the GitHub UI.
 
