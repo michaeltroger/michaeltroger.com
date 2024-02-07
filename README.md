@@ -16,7 +16,7 @@ You don't need to ask for permission for this. If providing my website as open s
 ## Instructions
 GitHub Pages builds automatically on commits. Files can directly be edited within the GitHub UI.
 
-### Local development:
+### Local deployment
 `jekyll serve` builds and serves the page at [http://localhost:4000](http://localhost:4000)
 
 See also [Jekyll docs](https://jekyllrb.com/docs/usage/)
