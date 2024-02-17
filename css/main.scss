@@ -92,11 +92,14 @@ input[type="submit"] {
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
+    color: black;
 }
 #input {
     width: 100%;
     resize: none;
     font-size: 1.5em;
     margin-bottom: 10px;
+    overflow-y: scroll;
+    padding: 10px;
 }
 
