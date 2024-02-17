@@ -5,8 +5,59 @@ title: Contact Michael Troger
 <h1>Contact</h1>
 <p>Michael Troger, MSc.<br>
 Puchenau, Austria<br>
-<a href="mailto:&#x77;&#x65;&#x62;&#x40;&#x74;&#x72;&#x6f;&#x67;&#x65;&#x72;&#x2e;&#x61;&#x70;&#x70;">&#x77;&#x65;&#x62;&#x40;&#x74;&#x72;&#x6f;&#x67;&#x65;&#x72;&#x2e;&#x61;&#x70;&#x70;</a>
+&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
+</p>
+<p>As an IT enthusiast I care about IT privacy and security. You can use following form to send me a PGP encrypted email with the email client of your choice.
+</p>
+
+<form action="" id="form">
+    <textarea id="input" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Encrypt & open mail client" id="submit" disabled=true>
+</form>
+<p class="note"><b>Not familiar with PGP yet?</b><br>It makes email communication safer. If you press the button above, the email will include a block of text starting with "-----BEGIN PGP MESSAGE-----" and ending with "-----END PGP MESSAGE-----". You can send it as it is. I will be able to decrypt and read your message. 
 </p>
 <p>
-@Recruiters: I am really happy at adidas Runtastic.
+Download: <a href="/.well-known/openpgpkey/hu/fxw7uchakyo46hffyjj96ik4q33fno4a">PGP Public Key</a>
+<br>Fingerprint:<br>
+CD61 A00F 7652 8C73 67D4<br>2E12 9D3B 8646 DE92 27FD
 </p>
+<p>You can find my public key also on the 
+<a href="https://keys.openpgp.org/">keys.openpgp.org</a> key server.
+</p>
+
+<script>
+
+function init() {
+    const form = document.getElementById('form');
+    const submit = document.getElementById('submit');
+    const input = document.getElementById('input');
+
+    submit.disabled = false;
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        (async () => {
+            const response = await fetch('/.well-known/openpgpkey/hu/fxw7uchakyo46hffyjj96ik4q33fno4a');
+            const key = await response.text();
+
+            const encrypted = await openpgp.encrypt({
+                message: await openpgp.createMessage({ text: input.value }), 
+                encryptionKeys: await openpgp.readKey({ armoredKey: key })
+            });
+
+            input.disabled = true;
+            input.value = encrypted;
+            submit.style.display = 'none';
+
+            const body = encodeURIComponent(encrypted);
+            window.open(`mailto:m@troger.app?body=${body}`, '_blank');
+        })();
+
+    });
+}
+
+
+</script>
+<script async src="https://unpkg.com/openpgp@^5/dist/openpgp.min.js" onload="init()"></script>
