@@ -11,11 +11,12 @@ Puchenau, Austria<br>
 </p>
 
 <form action="" id="form">
-    <textarea id="input" rows="10"></textarea>
+    <textarea id="input" rows="10" placeholder="Your message..."></textarea>
     <br>
     <input type="submit" value="Encrypt & open mail client" id="submit" disabled=true>
 </form>
-<p class="note"><b>Not familiar with PGP yet?</b><br>It makes email communication safer. If you press the button above, the email will include a block of text starting with "-----BEGIN PGP MESSAGE-----" and ending with "-----END PGP MESSAGE-----". You can send it as it is. I will be able to decrypt and read your message. 
+<p id="after-sent" style="display: none;"><b>Your email app should now have been opened. If it was not, then please manually send the message from above to &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</b></p>
+<p class="note"><b>Not familiar with PGP yet?</b><br>PGP makes email communication much safer. If you press the above button, your message will be encrypted. It will start with "-----BEGIN PGP MESSAGE-----" and end with "-----END PGP MESSAGE-----". You can send it as it is. I will be able to decrypt and read your message. 
 </p>
 <p>
 Download: <a href="/.well-known/openpgpkey/hu/pcgudogicctdyjg4eiwtmbdr8mda3fze">PGP Public Key</a>
@@ -32,6 +33,7 @@ function init() {
     const form = document.getElementById('form');
     const submit = document.getElementById('submit');
     const input = document.getElementById('input');
+    const afterSent = document.getElementById('after-sent');
 
     submit.disabled = false;
 
@@ -50,6 +52,7 @@ function init() {
             input.disabled = true;
             input.value = encrypted;
             submit.style.display = 'none';
+            afterSent.style.display = 'block';
 
             const body = encodeURIComponent(encrypted);
             window.open(`mailto:m@troger.app?body=${body}`, '_blank');
@@ -57,7 +60,6 @@ function init() {
 
     });
 }
-
 
 </script>
 <script async src="https://unpkg.com/openpgp@^5/dist/openpgp.min.js" onload="init()"></script>
