@@ -42,8 +42,14 @@ function init() {
     submit.disabled = false;
 
     copyToClipboard.onclick = () => {
-        navigator.clipboard.writeText(input.value);
-        alert("Copied to clipboard.")
+        navigator.clipboard
+            .writeText(input.value)
+            .then(() => {
+                alert("Copied to clipboard.");
+            })
+            .catch(() => {
+                alert("Error. Couldn't copy to clipboard. Please copy manually.");
+            });
     };
 
     form.addEventListener('submit', (e) => {
