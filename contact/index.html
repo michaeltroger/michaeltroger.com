@@ -16,7 +16,7 @@ You can use the following form to send me a PGP encrypted email with the email c
     <br>
     <input type="submit" value="Encrypt & open mail client" id="submit" disabled=true>
 </form>
-<div id="after-sent" style="display: none;">
+<div id="after-sent" class="hidden">
     <button id="copy-to-clipboard">Copy text to clipboard.</button>
     <p><b>Your email app should now have been opened. If it was not, then please manually send the message from above to &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</b></p>
 </div>
@@ -30,7 +30,6 @@ CD61 A00F 7652 8C73 67D4<br>2E12 9D3B 8646 DE92 27FD
 <p>You can find my public key also via the Web Key Directory (WKD) and on the 
 <a href="https://keys.openpgp.org/">keys.openpgp.org</a> key server.
 </p>
-
 <script>
 
 function init() {
@@ -73,7 +72,7 @@ function init() {
             afterSent.style.display = 'block';
 
             const body = encodeURIComponent(encrypted);
-            window.open(`mailto:m@troger.app?body=${body}`, '_blank');
+            window.location.href = `mailto:m@troger.app?body=${body}`;
         })();
     };
 }
