@@ -19,12 +19,12 @@ body {
     h1 {
        font-size: 1.8em !important;   
     }
-    p, h3, li, pre, ul.posts {
+    p, h3, li, pre, ul.posts, textarea {
        font-size: 1.2em !important;
     }
 }
 li {
-    font-size: 1.5em;   
+    font-size: $font-size;   
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -48,11 +48,11 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
-    font-size: 1.5em;
+    font-size: $font-size;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: $font-size;
     color: $text-color;
 }
 footer {
@@ -62,7 +62,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: $font-size;
 }
 
 ul.posts li {
@@ -72,7 +72,7 @@ ul.posts li {
     margin-bottom: 20px;
 }
 pre {    
-    font-size: 1.5em;  
+    font-size: $font-size;  
     white-space: pre-wrap;   
 }
 .note {
@@ -98,15 +98,18 @@ input, button {
 input:focus, input:active, input:hover, button:focus, button:active, button:hover {
     background: white
 }
+textarea {
+    font-size: $font-size;
+    color: $text-color;
+}
 #input {
     width: 90%;
     resize: none;
-    font-size: 1.5em;
     margin-bottom: 10px;
     overflow-y: scroll;
     padding: 10px;
 }
 .warning {
     color: red;
-    font-size: 1.5em;
+    font-size: $font-size;
 }
