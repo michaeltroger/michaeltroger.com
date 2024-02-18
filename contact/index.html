@@ -54,6 +54,9 @@ function init() {
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
+        
+        input.disabled = true;
+        submit.style.display = 'none';
 
         (async () => {
             const response = await fetch('/.well-known/openpgpkey/hu/pcgudogicctdyjg4eiwtmbdr8mda3fze');
@@ -64,9 +67,8 @@ function init() {
                 encryptionKeys: await openpgp.readKey({ armoredKey: key })
             });
 
-            input.disabled = true;
             input.value = encrypted;
-            submit.style.display = 'none';
+
             afterSent.style.display = 'block';
 
             const body = encodeURIComponent(encrypted);
