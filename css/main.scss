@@ -33,8 +33,9 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 a {
     text-decoration: none;
