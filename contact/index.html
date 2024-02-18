@@ -59,7 +59,7 @@ function init() {
         submit.style.display = 'none';
 
         (async () => {
-            const response = await fetch('/.well-known/openpgpkey/hu/pcgudogicctdyjg4eiwtmbdr8mda3fze');
+            const response = await fetch('/troger_public.asc');
             const key = await response.text();
 
             const encrypted = await openpgp.encrypt({
