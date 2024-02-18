@@ -83,19 +83,18 @@ pre {
     margin-right: 25px;
     border: 1px solid black;
 }
-input[type="submit"] {
+input, button {
     border: 1px solid black;
     background: darkgray;
-    box-shadow: none;
-    border-radius: 0px;
-    font-size: 1.5em;
+    box-shadow: 10px 5px 5px blue;
+    font-size: 1em;
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
     color: black;
 }
 #input {
-    width: 100%;
+    width: 90%;
     resize: none;
     font-size: 1.5em;
     margin-bottom: 10px;
