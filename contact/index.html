@@ -72,7 +72,7 @@ function init() {
             afterSent.style.display = 'block';
 
             const body = encodeURIComponent(encrypted);
-            window.location.href = `mailto:m@troger.app?body=${body}`;
+            window.location.href = `mailto:m@troger.app?subject=Encrypted%20message&body=${body}`;
         })();
     };
 }
