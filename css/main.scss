@@ -93,6 +93,9 @@ input, button {
     margin-bottom: 20px;
     color: black;
 }
+input:focus, input:active, input:hover, button:focus, button:active, button:hover {
+    background: white
+}
 #input {
     width: 90%;
     resize: none;
