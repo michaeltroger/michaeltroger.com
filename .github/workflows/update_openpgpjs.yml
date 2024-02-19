@@ -13,7 +13,7 @@ jobs:
       with:
         node-version: 21
 
-    - run: npm install
+    - run: npm --prefix openpgpjs install
 
     - run: cp openpgpjs/dist/openpgp.min.js js/openpgp.min.js
 
