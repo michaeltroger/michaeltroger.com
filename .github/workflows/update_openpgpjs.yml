@@ -1,0 +1,27 @@
+name: Update OpenPGP.js
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 21
+
+    - run: npm install
+
+    - run: cp openpgpjs/dist/openpgp.min.js js/openpgp.min.js
+
+    - name: Open pull request
+      uses: peter-evans/create-pull-request@v6
+      with:
+        branch: feature/update-openpgpjs
+        title: Update of OpenPGP.js
+        commit-message: Update of OpenPGP.js
+        add-paths: |
+          js/openpgp.min.js
