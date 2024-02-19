@@ -18,6 +18,7 @@ jobs:
     - run: npm --prefix openpgpjs install
 
     - run: cp openpgpjs/dist/openpgp.min.js js/openpgp.min.js
+    - run: cp openpgpjs/dist/openpgp.min.js.map js/openpgp.min.js.map
 
     - name: Open pull request
       uses: peter-evans/create-pull-request@v6
@@ -27,3 +28,4 @@ jobs:
         commit-message: Update of OpenPGP.js
         add-paths: |
           js/openpgp.min.js
+          js/openpgp.min.js.map
