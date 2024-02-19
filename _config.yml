@@ -1,5 +1,6 @@
 name: Michael Troger
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+exclude: [openpgpjs]
 gems: 
   - jekyll-github-metadata
