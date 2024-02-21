@@ -14,11 +14,11 @@ Threema: <a href="https://threema.id/ASW9JJJU">ASW9JJJU</a>
 <p>As an IT enthusiast I care about IT privacy and security. 
 The message below will be encrypted and opened in your email client, where you can finally send it over to me.
 </p>
-<noscript><p class="warning">This form does not work without JavaScript. It uses JavaScript to encrypt your message with OpenPGP.js.</p></noscript>
-<form action="" id="form">
-    <textarea id="input" rows="5" placeholder="Your message for me..."></textarea>
+<noscript><p class="warning">Activating JavaScript is optional, but without your message below won't be encrypted (using OpenPGP.js).</p></noscript>
+<form action="mailto:&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;" id="form">
+    <textarea id="input" name="body" rows="5" placeholder="Your message for me..."></textarea>
     <br>
-    <input type="submit" value="Encrypt & open mail client" id="submit" disabled=true title="mailto:&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">
+    <input type="submit" value="Encrypt & open mail client" id="submit" title="mailto:&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">
 </form>
 <div id="after-sent" class="hidden">
     <button id="copy-to-clipboard">Copy text to clipboard.</button>
@@ -36,9 +36,11 @@ CD61 A00F 7652 8C73 67D4<br>2E12 9D3B 8646 DE92 27FD
 </p>
 <script>
 
+const submit = document.getElementById('submit');
+submit.disabled = true; // disable until openpgp.min.js is loaded
+
 function init() {
     const form = document.getElementById('form');
-    const submit = document.getElementById('submit');
     const input = document.getElementById('input');
     const afterSent = document.getElementById('after-sent');
     const copyToClipboard = document.getElementById('copy-to-clipboard');
