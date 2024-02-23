@@ -111,6 +111,9 @@ textarea {
     overflow-y: scroll;
     padding: 10px;
 }
+#input[disabled] {
+    color:gray;
+}
 .warning {
     color: red;
     font-size: $font-size;
