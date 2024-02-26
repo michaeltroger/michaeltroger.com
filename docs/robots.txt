@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /contact/
+Disallow: /signal/
 Disallow: /private/
 Disallow: /images/freetime.jpg
+Disallow: /images/qr.svg
