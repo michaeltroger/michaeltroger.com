@@ -121,3 +121,14 @@ textarea {
 .hidden {
     display: none;
 }
+.img-fullwidth {
+    width: 100%;
+    max-width: 800px;
+}
+.img-fullwidth-lowmax {
+    width: 100%;
+    max-width: 256px;
+}
+.fullwidth {
+    width: 100%;
+}
