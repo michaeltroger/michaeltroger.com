@@ -161,3 +161,9 @@ function cyrillicToLatin() {
     }
     latin.value = exchanged;
 }
+
+const latinToCyrillicButton = document.getElementById('latin-button');
+const cyrillicToLatinButton = document.getElementById('cyrillic-button');
+
+latinToCyrillicButton.onclick = latinToCyrillic;
+cyrillicToLatinButton.onclick = cyrillicToLatin;
