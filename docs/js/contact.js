@@ -4,6 +4,9 @@ const input = document.getElementById('input');
 const afterSent = document.getElementById('after-sent');
 const copyToClipboard = document.getElementById('copy-to-clipboard');
 
+input.disabled = false;
+submit.disabled = false;
+
 copyToClipboard.onclick = () => {
     navigator.clipboard
         .writeText(input.value)
