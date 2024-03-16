@@ -25,7 +25,7 @@ form.onsubmit = (e) =>{
     submit.classList.add('hidden');
 
     (async () => {
-        const response = await fetch('https://troger.app/troger_public.asc');
+        const response = await fetch('/files/troger_public.asc');
         const key = await response.text();
 
         const encrypted = await openpgp.encrypt({
