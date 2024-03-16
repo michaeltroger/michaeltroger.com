@@ -146,3 +146,13 @@ textarea {
     margin-left: auto; 
     display: block;
 }
+a:not(:is([href*='michaeltroger.com'], [href^='/'], [href^='./'], [href^='../']))::after {
+    width: 14px;
+    height: 14px;
+    display:inline-block;
+    margin-left: 5px;
+    content: url("/images/external.svg");
+  }
+a:has(img)::after {
+    content: none !important;
+}
