@@ -146,7 +146,7 @@ textarea {
     margin-left: auto; 
     display: block;
 }
-a:not(:is([href*='michaeltroger.com'], [href^='/'], [href^='./'], [href^='../']))::after {
+a:not(:is([href^='/']))::after {
     width: 14px;
     height: 14px;
     display:inline-block;
