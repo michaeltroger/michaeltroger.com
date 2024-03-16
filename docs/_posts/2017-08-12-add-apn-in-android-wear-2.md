@@ -1,5 +1,6 @@
 ---
-published: true
+layout: post
+title: Add APN in Android Wear 2
 ---
 ### Make virtual providers work with your smartwatch
 
