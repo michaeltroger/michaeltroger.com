@@ -2,5 +2,8 @@ User-agent: *
 Disallow: /contact/
 Disallow: /signal/
 Disallow: /private/
+Disallow: /privacy/
+Disallow: /greenpass/privacy/
+Disallow: /greenpass/privacy/de/
 Disallow: /images/freetime.jpg
 Disallow: /images/qr.svg
