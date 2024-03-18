@@ -11,7 +11,7 @@ layout: feed
 	<id>https://michaeltroger.com/blog</id>
 	<author>
 		<name>Michael Troger</name>
-		<email>rss@michaeltroger.com</email>
+		<email>rss@troger.app</email>
 	</author>
 
 	{% for post in site.posts %}
@@ -20,7 +20,7 @@ layout: feed
 			<link href="https://michaeltroger.com{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>https://michaeltroger.com{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
+			<content type="html">{{ post.content | replace: '<a href="/', '<a href="https://michaeltroger.com/' | xml_escape }}</content>
 		</entry>
 	{% endfor %}
 
