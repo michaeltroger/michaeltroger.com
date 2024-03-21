@@ -3,3 +3,4 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 gems: 
   - jekyll-github-metadata
+website_repo_url: https://github.com/michaeltroger/michaeltroger.com
