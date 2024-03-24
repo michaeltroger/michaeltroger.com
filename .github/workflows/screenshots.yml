@@ -28,6 +28,7 @@ jobs:
     - name: Keep only few screenshots
       run: |
         mv screenshots screenshots_generated
+        mkdir screenshots
         cp screenshots_generated/iPhone* screenshots/IPhone.jpeg
         cp screenshots_generated/desktopPage1920x1080* screenshots/desktopPage.jpeg
         rm -rd screenshots_generated
