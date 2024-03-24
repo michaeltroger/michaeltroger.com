@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Michael Troger's Repositories
+description: My repositories on GitHub.
 ---
-<h1>{{ page.title }}</h1>
-<p>Last updated at: {{ site.time }}</p>
+# {{ page.title }}
+Last updated at: {{ site.time }}
+
 {% assign totalStars = 0 %}
 {% assign totalForks = 0 %}
 {% assign repos = site.github.public_repositories %}
@@ -11,24 +13,18 @@ title: Michael Troger's Repositories
   {% assign totalStars = totalStars | plus: repo.stargazers_count %}
   {% assign totalForks = totalForks | plus: repo.forks_count %}
 {% endfor %}
-<p>
-Total received stars for repos: {{ totalStars }}<br>
+
+Total received stars for repos: {{ totalStars }}  
 Total forks from repos: {{ totalForks }}
-</p>
-<p>
-<a href="https://github.com/michaeltroger">Follow @michaeltroger on GitHub</a>
-</p>
-<ul>
+
+[Follow @michaeltroger on GitHub](https://github.com/michaeltroger)
+
 {% assign repos = site.github.public_repositories %}
 {% if repos %}
   {% assign sortedRepos = repos | sort: 'stargazers_count' | reverse %}
   {% for repo in sortedRepos %}
-    <li><a href="{{ repo.html_url }}">{{ repo.name }}</a>
-      {% if repo.description %}
-        <br>{{ repo.description }}
-      {% endif %}
-      <br>Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
-    </li>
+* [{{ repo.name }}]({{ repo.html_url }})  
+  {% if repo.description %}{{ repo.description }}{% endif %}  
+  Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
   {% endfor %}
 {% endif %}
-</ul>
