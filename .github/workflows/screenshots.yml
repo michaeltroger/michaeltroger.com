@@ -1,0 +1,30 @@
+name: screenshots ci actions
+on:
+  workflow_run:
+      workflows: ["Deploy"]
+      types:
+        - completed
+
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: install puppeteer-headful
+      uses: mujo-code/puppeteer-headful@master
+      env:
+        CI: 'true'
+    - name: screenshots-ci-action
+      uses: flameddd/screenshots-ci-action@master
+      with:
+        url: https://michaeltroger.com
+        devices: iPhone 13,Pixel 5
+    - name: Create screenshot pull request if on main branch
+      uses: peter-evans/create-pull-request@v6
+      if: github.ref == 'refs/heads/main'
+      with:
+        branch: feature/update_screenshots
+        title: Update of screenshots
+        commit-message: Update of screenshots
+        add-paths: |
+          screenshots/*
