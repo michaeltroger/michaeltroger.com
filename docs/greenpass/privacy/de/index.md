@@ -1,68 +1,53 @@
 ---
 layout: default
 title: Grüner Pass Privatsphäre und Datenschutz
+description: Datenschutz-Erklärung für die Grüner Pass PDF Wallet Android App.
 ---
-<div class="blurb">
-<h2><a href="/greenpass/privacy">English</a></h2>
-<h1>Grüner Pass: Privatsphäre und Datenschutz</h1>
+## [English](/greenpass/privacy)
+# Grüner Pass: Privatsphäre und Datenschutz
 
-<h2>Kontaktdaten</h2>
-<p>
-Michael Troger, MSc.<br>
-Puchenau, Austria<br>
+## Kontaktdaten
+Michael Troger, MSc.  
+Puchenau, Austria  
 &#103;&#114;&#101;&#101;&#110;&#112;&#97;&#115;&#115;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
-</p>
 
-<h2>Welche Daten werden bei Verwendung der App erfasst?</h2>
-<p>
-<b>Die App funktioniert offline und alle von der App erfassten Daten bleiben auf dem Gerät</b> und werden nicht zu unseren Servern gesendet und auch nicht an Dritte weitergegeben.
+## Welche Daten werden bei Verwendung der App erfasst?
+**Die App funktioniert offline und alle von der App erfassten Daten bleiben auf dem Gerät** und werden nicht zu unseren Servern gesendet und auch nicht an Dritte weitergegeben.
 Das heißt wir haben keinen Zugriff auf deine persönlichen Daten.
-Folgend kannst du mehr Informationen finden wie Daten <b>auf deinem Gerät</b> verwendet werden:
-</p>
-<h3>- Import von Dokumenten erklärt</h3>
-<p>
+Folgend kannst du mehr Informationen finden wie Daten **auf deinem Gerät** verwendet werden:
+
+### - Import von Dokumenten erklärt
 Das gewählte PDF Dokument wird in den App-Speicher kopiert und ausschließlich zur Anzeige ausgelesen.
 Die App erfasst nicht den Inhalt des Dokumentes.
 Das heißt für die App macht es keinen Unterschied, ob du ein Gesundheits-Zertifikat oder ein Bus Ticket importierst.
-<br>
+
 Um die vollformatige Anzeige des QR-Codes zu ermöglichen werden die PDF Seiten des Dokumentes visuell (nicht textuell) durchsucht, ob sich darin ein QR-Code befindet.
 Der Textinhalt des QR Codes wird zu Laufzeit der App ausgelesen und ausschließlich zur Erstellung des formatfüllenden QR-Codes verwendet.
 Die QR-Code-Suchfunktionalität ist optional und kann in den App-Einstellungen deaktiviert werden.
-<br>
+
 Die Dokument-Daten verlassen zu keinem Zeitpunkt die App und können vom Benutzer jederzeit wieder aus dem App-Speicher gelöscht werden, 
 indem das Dokument mit der Löschfunktion der App entfernt wird oder die App deinstalliert wird. 
 Andere Apps haben keinen Zugriff auf das Dokument im App-Speicher.
-</p>
-<h3>- Behandlung passwortgeschützter Dokumente erklärt</h3>
-<p>
+
+### - Behandlung passwortgeschützter Dokumente erklärt
 Nach Eingabe des Passworts zur Entschlüsselung, bleibt das Dokument dauerhaft (bis zur Löschung vom Benutzer) entschlüsselt im App-Speicher. 
 Dein Passwort wird ausschließlich zur Entschlüsselung verwendet und wird nirgends gespeichert und nirgends hingesendet.
-</p>
 
-<h2>Open Source</h2>
-<p>
-Der <a href="https://github.com/michaeltroger/greenpass-android">Quellcode der App</a> ist vollständig Open Source.
+## Open Source
+Der [Quellcode der App](https://github.com/michaeltroger/greenpass-android) ist vollständig Open Source.
 Das erlaubt dir die App-Funkionalität und ihr Verhalten zu überprüfen.
-</p>    
   
-<h2>Gibt es Werbung in der App?</h2>
-<p>Nein, es gibt keine Werbung.</p>
+## Gibt es Werbung in der App?
+Nein, es gibt keine Werbung.
     
-<h2>Gibt es eine Form von Tracking in der App?</h2>
-<p>Nein, es gibt kein Tracking.</p>
+## Gibt es eine Form von Tracking in der App?
+Nein, es gibt kein Tracking.
   
-<h2>Welche Berechtigungen braucht diese App?
-<br>
-Auf welche Gerätefunktionalitäten hat diese App Zugriff?</h2>
-<p>
+## Welche Berechtigungen braucht diese App? Auf welche Gerätefunktionalitäten hat diese App Zugriff?
 Die App erlaubt optional das Authentifizieren mit Fingerabdruck-Sensor. Darüber hinaus benötigt die App keinerlei Berechtigungen. 
 Sie hat also keinen Zugriff auf Dinge wie Internet, Kamera, andere Dateien (die nicht importiert sind) auf deinem Gerät, etc.
 Sie hat ausschließlich Zugriff auf die aktuell importierten Dokumente.
-</p>
 
-<h2>Aktualität dieser Datenschutzerklärung</h2>
-<p>
+## Aktualität dieser Datenschutzerklärung
 Diese Datenschutzerklärung ist aktuell und wurde im März 2024 erstellt. Da die App von Zeit zu Zeit aktualisiert wird, könnte ich auch diese Erklärung aktualisieren.
-Die aktuelle Erklärung wird immer unter dieser URL verfügbar sein. Die Erklärung ist <a href="{{ site.website_source_root_url }}{{ page.path }}">Open-Source</a> wie der Rest der App, was es auch ermöglicht die Änderungshistorie einzusehen.
-</p>
-</div>
+Die aktuelle Erklärung wird immer unter dieser URL verfügbar sein. Die Erklärung ist [Open-Source]({{ site.website_source_root_url }}{{ page.path }}) wie der Rest der App, was es auch ermöglicht die Änderungshistorie einzusehen.
