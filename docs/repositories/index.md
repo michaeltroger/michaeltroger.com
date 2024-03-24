@@ -25,8 +25,8 @@ Total forks from repos: {{ totalForks }}
   {% assign sortedRepos = repos | sort: 'stargazers_count' | reverse %}
   {% for repo in sortedRepos %}
     <li>
-      [{{ repo.name }}]({{ repo.html_url }})  
-      {% if repo.description %}{{ repo.description }}  {% endif %}
+      <a href="{{ repo.html_url }}">{{ repo.name }}</a><br>
+      {% if repo.description %}{{ repo.description }}<br>{% endif %}
       Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
     </li>
   {% endfor %}
