@@ -1,38 +1,34 @@
 ---
 layout: default
 title: CV of Michael Troger
+description: A brief overview of my career
 ---
-<div class="blurb">
-<h1>My Dream Job</h1>
-<ul>
-  <li>Flexible work time</li>
-  <li>Remote friendly</li>
-  <li>Fair compensation</li>
-  <li>Use of cutting-edge technologies</li>
-  <li>Small and agile teams</li>
-</ul>
+# My Dream Job
+* Flexible work time
+* Remote friendly
+* Fair compensation
+* Use of cutting-edge technologies
+* Small and agile teams
 
-<h1>Tech Stack</h1>
+# Tech Stack
 <img src="/images/kotlin.svg" alt="Kotlin" title="Kotlin" width="50" height="50"/> <img src="/images/android.svg" alt="Android" title="Android" width="50" height="50"/> <img src="/images/git.svg" alt="Git" title="Git" width="50" height="50"/> <img src="/images/intellij-idea.svg" alt="IntelliJ IDEA" title="IntelliJ IDEA" width="50" height="50"/> <img src="/images/jira.svg" alt="Jira" title="Jira" width="50" height="50"/> <img src="/images/confluence.png" alt="Confluence" title="Confluence" width="50" height="50"/> <img src="/images/bitbucket.svg" alt="Bitbucket" title="Bitbucket" width="50" height="50"/> <img src="/images/gradle.svg" alt="Gradle" title="Gradle" width="50" height="50"/> <img src="/images/jenkins.svg" alt="Jenkins" title="Jenkins" width="50" height="50"/> <img src="/images/mysql.svg" alt="MySQL" title="MySQL" width="50" height="50"/> <img src="/images/linux.svg" alt="Linux" title="Linux" width="50" height="50"/>
-<p>
+
 I was lucky to try many more technologies (e.g. JavaScript, C#, C++, Unity, Python, Scala, Node.js) in different projects, but the technologies above I'm currently most confident with. From my experience a good developer can handle learning a new programming language or tool rather quickly since the concepts are mostly similar.
-</p>
+
   
-<h1>CV</h1>
-<p>I earned my <b>Bachelor's degree</b> in <b>Media Technology and Design</b>, where I specialized in Online and Interactive Media.
+# CV
+I earned my **Bachelor's degree** in **Media Technology and Design**, where I specialized in Online and Interactive Media.
 During my Bachelor studies I worked for a semester abroad in Belgium to perform applied research, as a developer for augmented reality applications for Android. 
 For my thesis I developed an augmented virtuality video chat for the browser. 
 In that time I also gained my first work experience as a web developer in new media agencies.
-</p>
-<p>
-Following that I earned my <b>Master's degree</b> in <b>Mobile Computing</b> where my thesis engaged with Machine Learning based on smartphone sensor data. 
-After my studies I then switched also professionally fully from Web Development to Software Development.</p>
-<p>
-Currently I'm a <b>Senior Software Engineer</b> (Android) at <b>Adidas Runtastic</b>, where I gained lots of knowledge, working in an international Scrum team. 
+
+
+Following that I earned my **Master's degree** in **Mobile Computing** where my thesis engaged with Machine Learning based on smartphone sensor data. 
+After my studies I then switched also professionally fully from Web Development to Software Development.
+
+Currently I'm a **Senior Software Engineer** (Android) at **Adidas Runtastic**, where I gained lots of knowledge, working in an international Scrum team. 
 Working on Adidas apps as well as on in-house libraries, the job allows me to write code that is used by millions of sports users worldwide. 
 I especially appreciate being able to work with state of the art technologies.
-</p>
 
-<p>To explore my full CV please check my <a href="https://www.linkedin.com/in/michaeltroger/">LinkedIn</a>.</p>
+To explore my full CV please check my [LinkedIn](https://www.linkedin.com/in/michaeltroger/).
   
-</div>
