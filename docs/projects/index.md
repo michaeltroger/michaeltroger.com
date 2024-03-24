@@ -40,7 +40,6 @@ Over the last years I learnt to value open-source software and platforms like St
 Since they helped me grow as developer, I decided to give something back to the community.
 I'm an active member on GitHub and Stack Overflow. Feel free to check out my profiles.
 
-
 [Michael Troger on StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)
 
 [Michael Troger on GitHub](https://github.com/michaeltroger)
