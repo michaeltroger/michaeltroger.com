@@ -22,7 +22,8 @@ Therefore I would recommend to use [Jonathan McGlone’s](https://github.com/han
 * Static site generator: Jekyll
 * Markdown processor: Kramdown
 * Templating language: Liquid
-* Stylesheet: SCSS
+* Style sheets: SCSS
+* Scripts: JavaScript
 
 ## Instructions
 GitHub Pages builds automatically on commits. Files can directly be edited within the GitHub UI.
