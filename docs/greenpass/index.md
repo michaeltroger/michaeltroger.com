@@ -9,17 +9,17 @@ Unofficial app that is fully [open source](https://github.com/michaeltroger/gree
 With ~150,000 downloads and shortly being one of the top 3 apps of Austria, this is my most succesful privately developed app so far.
 
 <a href='https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-<img alt='Get it on Google Play' height='80px' src='/images/googleplay.png'/>
+<img alt='Get it on Google Play' height='80' src='/images/googleplay.png'/>
 </a>
 <a href="https://f-droid.org/packages/com.michaeltroger.gruenerpass">
-<img src="/images/fdroid.png" alt="Get it on F-Droid" height="80px">
+<img src="/images/fdroid.png" alt="Get it on F-Droid" height="80">
 </a>
 <br>
 <a href="https://www.amazon.com/gp/mas/dl/android?p=com.michaeltroger.gruenerpass">
-<img src="/images/amazonappstore.png" class="img-padding" alt="Available at Amazon Appstore" height=55>
+<img src="/images/amazonappstore.png" class="img-padding" alt="Available at Amazon Appstore" height='55'>
 </a>
 <a href="https://appgallery.huawei.com/app/C108212859">
-<img src="/images/huaweiappgallery.png" class="img-padding" alt="Explore it on Huawei AppGallery" height=55>
+<img src="/images/huaweiappgallery.png" class="img-padding" alt="Explore it on Huawei AppGallery" height='55'>
 </a>
 
 [Privacy Policy English](/greenpass/privacy)  

@@ -43,10 +43,10 @@ Included alphabets in the Android version:
 * Ukrainian (ISO 9:1995)
 
 <a href='https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-<img alt='Get it on Google Play' height='80px' src='/images/googleplay.png'/>
+<img alt='Get it on Google Play' height='80' src='/images/googleplay.png'/>
 </a>
 <a href="https://f-droid.org/packages/at.mikenet.serbianlatintocyrillic">
-<img src="/images/fdroid.png" alt="Get it on F-Droid" height="80px">
+<img src="/images/fdroid.png" alt="Get it on F-Droid" height="80">
 </a>
 
 [Source Code Android app on Github](https://github.com/michaeltroger/latintocyrillic-android)  
