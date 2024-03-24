@@ -25,8 +25,12 @@ jobs:
       with:
         url: https://michaeltroger.com
         devices: iPhone 13
-    - name: Remove file suffixes
-      run: rename 's/-.*$//' screenshots/*
+    - name: Keep only few screenshots
+      run: |
+        mv screenshots screenshots_generated
+        cp screenshots_generated/iPhone* screenshots/IPhone.jpeg
+        cp screenshots_generated/desktopPage1920x1080* screenshots/desktopPage.jpeg
+        rm -rd screenshots_generated
     - name: Create screenshot pull request if on master branch
       uses: peter-evans/create-pull-request@v6
       if: github.ref == 'refs/heads/master'
