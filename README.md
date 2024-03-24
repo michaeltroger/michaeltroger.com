@@ -4,8 +4,13 @@
 This repository is representing the **source code of my private website https://michaeltroger.com** that is hosted with GitHub Pages.
 The website is powered by Jekyll and I can use Markdown to author my posts. It is based on [Jonathan McGlone’s](https://github.com/hankquinlan/hankquinlan.github.io/) project.
 
-|<img src="screenshots/desktopPage.jpeg" height="400">|
--
+<table>
+<tr>
+<td>
+<img src="screenshots/desktopPage.jpeg" height="400">|
+</td>
+</tr>
+</table>
 
 ## License
 This project on purpose does not provide a license. That means it is **under my exclusive copyright**.
