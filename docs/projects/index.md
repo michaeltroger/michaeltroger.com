@@ -48,10 +48,15 @@ Additionally I created an automatically generated overview of [all my open-sourc
 
 {% assign repos = site.github.public_repositories %}
 {% if repos %}
+<ul>
   {% assign sortedRepos = repos | sort: 'stargazers_count' | reverse %}
   {% for repo in sortedRepos limit:3 %}
-* [{{ repo.name }}]({{ repo.html_url }})  
-  {% if repo.description %}{{ repo.description }}{% endif %}  
-  Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}{% endfor %}
+    <li>
+       <a href="{{ repo.html_url }}">{{ repo.name }}</a><br>
+        {% if repo.description %}{{ repo.description }}<br>{% endif %}  
+        Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
+    </li>
+  {% endfor %}
+    <li><a href="/repositories">See more</a></li>
+</ul>
 {% endif %}
-* [See more](/repositories)
