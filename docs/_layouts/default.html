@@ -3,9 +3,7 @@
 		<head>
 			<meta charset="utf-8" />
 			<title>{{ page.title }}</title>
-			{% if page.description %}
-			<meta name="description" content="{{ page.description }}">
-			{% endif %}
+			{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">  
@@ -23,9 +21,7 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
 			{{ content }}
-			
 			</div>
 			<footer>
 	    		<ul>
@@ -34,10 +30,10 @@
 	        		<li><a href="https://stackoverflow.com/users/5155371/michael-troger">Stack Overflow</a></li>
 	        		<li><a href="https://www.linkedin.com/in/michaeltroger">LinkedIn</a></li>
 	        		<li><a href="https://paypal.me/trogermichael">PayPal</a></li>
-			</ul>
-			<p>&copy; {{ site.time | date: '%Y' }} Michael Troger<br>
-			This website is <a href="{{ site.website_source_root_url }}{{ page.path }}">open source</a>.
-			</p>
+				</ul>
+				<p>&copy; {{ site.time | date: '%Y' }} Michael Troger<br>
+				This website is <a href="{{ site.website_source_root_url }}{{ page.path }}">open source</a>.
+				</p>
 			</footer>
 		</body>
 	</html>
