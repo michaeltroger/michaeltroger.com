@@ -1,7 +1,7 @@
 name: screenshots ci actions
 on:
   workflow_run:
-      workflows: ["Deploy"]
+      workflows: ["pages-build-deployment"]
       types:
         - completed
 
