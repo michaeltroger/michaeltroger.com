@@ -49,6 +49,8 @@ Included alphabets in the Android version:
 <img src="/images/fdroid.png" alt="Get it on F-Droid" height="80">
 </a>
 
+[Privacy Policy English](/latintocyrillic/privacy)  
+
 [Source Code Android app on Github](https://github.com/michaeltroger/latintocyrillic-android)  
 [Source Code Kotlin Multiplatform library on Github](https://github.com/michaeltroger/latin-to-cyrillic)
 
