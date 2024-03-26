@@ -17,44 +17,35 @@ Puchenau, Austria
 ## Which data is collected when using this website?
 I don't do any data collection and I do not have access to any personal data about your visit. 
 However, due to the way the internet works, with your page request, your IP address is sent together with some other information, like the requested URL and so called Headers, to the server hosting this website.
-Although I am not the owner of the server, I can promise you that I put effort into assuring as much anonymity as possible for you. Also I will be very transparent on how the setup looks like and which parties are involved:
+I'm not the owner of the web server, but I will be very transparent on how the setup looks like and which parties are involved:
 
 ### - Registrar
-My domains are registered at [OVH GmbH](https://www.ovhcloud.com), a European company.
+My domains are registered at [OVH SAS](https://www.ovhcloud.com), a French company.
 Since they only serve as registrar, they would not be involved in data collection.
 
-### - Name Server & Proxy
-I use the services of [Cloudflare, Inc.](https://www.cloudflare.com), an American company with servers all around the world,
-for managing the Domain Name System (DNS) and as proxy to forward your requests to the actual webhost.
-The advantage of such proxy is that requests can be answered from a location close to your own, which decreases load time and increases security.
+### - Name Server
+I use the services of [Cloudflare, Inc.](https://www.cloudflare.com), a US company with servers all around the world,
+to translate the website's domain name into the actual IP address of the host.
 
-Cloudflare will receive your IP address along with your request details. This is required for a proper functionality of the website and a technical need.
+Cloudflare will receive your IP address. This is required for a proper functionality of the website and a technical need.
 You can find the [full privacy policy of Cloudflare here](https://www.cloudflare.com/privacypolicy/) for further information.
-The services that I use from them are the name server and the Cloudflare Proxy.
+The service that I use from them is only the name server.
 
 Cloudflare is part of the [EU-U.S. Data Privacy Framework](https://www.dataprivacyframework.gov).
 
 ### - Hosting
-The website is hosted by [GitHub, Inc.](https://github.com), an American company.
-The reason I chose this host is that I as a programmer really like the way I can deploy my website from open source code.
+The website is hosted by [GitHub, Inc.](https://github.com), a US company.
+The reason I chose this host, is that I as a programmer really like the way I can deploy my website from open source code.
 
-Cloudflare has an option to not expose the visitor IP  to the host (in this case GitHub), which I enabled.
-So it is most certain that GitHub will not receive your IP, but the one from Cloudflare only.
-Since this is not fully in my hands,
-I still want to share the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection) for more information about their data usage.
-Generally speaking, a web host will always need an IP and request details for proper technical functionality.
-You can find the [full privacy policy of GitHub here](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+GitHub, and potentially its subprocessors, will receive your IP address, together with your request details. This is needed for proper technical functionality.
+You can read the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)
+and the [full privacy policy of GitHub here](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+for more information about their data usage. 
 The service that I use from them is called GitHub Pages.
 
+The list of [subprocessors of GitHub can be found here](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors). A subprocessor is e.g. a Content Delivery Network (CDN) like Fastly.
+
 GitHub is part of the [EU-U.S. Data Privacy Framework](https://www.dataprivacyframework.gov).
-
-## Further Measures Taken for Security and Privacy
-The connection to the proxy (Cloudflare) and further to the hoster (GitHub) are both fully encrypted with Secure Sockets Layer (SSL).
-I have a very strict Content Security Policy (CSP) in place, which disallows the execution of other resources than from my own domain.
-This makes sure your IP is not exposed to any other third party and to not make you trackable.
-On Cloudflare I have set-up several things to ensure your privacy towards the hoster: Since they are not needed for the site's functionality, I anonymize your User Agent and Accept Language headers. 
-They are sent automatically by your browser. As mentioned in the section "hosting", I also enabled the option to not expose your IP to the hoster.
-
 
 ## External Links
 Definition: An external link is any link that does not target {{ site.url }}.
