@@ -1,3 +1,4 @@
+Test report generated via observatory.mozilla.org API
 Grade: A+
 Score: 125
 Total Tests: 11
