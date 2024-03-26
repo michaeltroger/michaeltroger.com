@@ -46,6 +46,8 @@ Generally speaking, a web host will always need an IP and request details for pr
 You can find the [full privacy policy of GitHub here](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 The service that I use from them is called GitHub Pages.
 
+GitHub is part of the [EU-U.S. Data Privacy Framework](https://www.dataprivacyframework.gov).
+
 ## Further Measures Taken for Security and Privacy
 The connection to the proxy (Cloudflare) and further to the hoster (GitHub) are both fully encrypted with Secure Sockets Layer (SSL).
 I have a very strict Content Security Policy (CSP) in place, which disallows the execution of other resources than from my own domain.
