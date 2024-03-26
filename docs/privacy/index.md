@@ -39,7 +39,7 @@ The reason I chose this host, is that I as a programmer really like the way I ca
 
 GitHub, and potentially its subprocessors, will receive your IP address, together with your request details. This is needed for proper technical functionality.
 You can read the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)
-and the [full privacy policy of GitHub here](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+and the [full privacy policy of GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 for more information about their data usage. 
 The service that I use from them is called GitHub Pages.
 
