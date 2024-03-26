@@ -19,31 +19,24 @@ I don't do any data collection and I do not have access to any personal data abo
 However, due to the way the internet works, with your page request, your IP address is sent together with some other information, like the requested URL and so called Headers, to the server hosting this website.
 I'm not the owner of the web server, but I will be very transparent on how the setup looks like and which parties are involved:
 
-### - Registrar
-My domains are registered at [OVH SAS](https://www.ovhcloud.com), a French company.
-Since they only serve as registrar, they would not be involved in data collection.
+### - Registrar & Name Server
+[OVH SAS](https://www.ovhcloud.com), a French company,
+is my registrar and also my name server provider. They take over the task to translate the website's domain name into the actual IP address of the host.
 
-### - Name Server
-I use the services of [Cloudflare, Inc.](https://www.cloudflare.com), a US company with servers all around the world,
-to translate the website's domain name into the actual IP address of the host.
-
-Cloudflare will receive your IP address. This is required for a proper functionality of the website and a technical need.
-You can find the [full privacy policy of Cloudflare here](https://www.cloudflare.com/privacypolicy/) for further information.
-The service that I use from them is only the name server.
-
-Cloudflare is part of the [EU-U.S. Data Privacy Framework](https://www.dataprivacyframework.gov).
+OVH will receive your IP address. This is required for a proper functionality of the website and a technical need.
+You can read the [privacy policy of OVH](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/) for further information.
 
 ### - Hosting
 The website is hosted by [GitHub, Inc.](https://github.com), a US company.
 The reason I chose this host, is that I as a programmer really like the way I can deploy my website from open source code.
 
-GitHub, and potentially its subprocessors, will receive your IP address, together with your request details. This is needed for proper technical functionality.
+GitHub, and potentially its subprocessors, will receive your IP address, together with your request details. This is needed for a proper technical functionality.
 You can read the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)
-and the [full privacy policy of GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+and the [privacy policy of GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 for more information about their data usage. 
 The service that I use from them is called GitHub Pages.
 
-The list of [subprocessors of GitHub can be found here](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors). A subprocessor is e.g. a Content Delivery Network (CDN) like Fastly.
+The list of [subprocessors of GitHub can be found here](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors). A subprocessor is for example a Content Delivery Network (CDN) like Fastly.
 
 GitHub is part of the [EU-U.S. Data Privacy Framework](https://www.dataprivacyframework.gov).
 
