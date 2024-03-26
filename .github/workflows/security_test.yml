@@ -6,7 +6,7 @@ on:
     - cron:  '0 2 * * *' # Runs every day at 2am
 
 jobs:
-  security_test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
