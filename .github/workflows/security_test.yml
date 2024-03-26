@@ -13,6 +13,7 @@ jobs:
       - name: Check website safety
         run: |
           curl -d 'hidden=true' 'https://http-observatory.security.mozilla.org/api/v1/analyze?host=michaeltroger.com' > temp_testreport.txt
+          rm testreport.txt
           echo "Test report generated via observatory.mozilla.org API" >> testreport.txt
           cat temp_testreport.txt | grep -oP '(?<="grade":")[^"]*' | sed 's/^/Grade: /' >> testreport.txt
           cat temp_testreport.txt | grep -oP '(?<="score":)\d+' | sed 's/^/Score: /' >> testreport.txt
