@@ -18,11 +18,11 @@ jobs:
           cat temp_testreport.txt | grep -oP '(?<="tests_quantity":)\d+' | sed 's/^/Total Tests: /' >> testreport.txt
           cat temp_testreport.txt | grep -oP '(?<="tests_failed":)\d+' | sed 's/^/Failed Tests: /' >> testreport.txt
           rm temp_testreport.txt
-    - name: Create pull request
-      uses: peter-evans/create-pull-request@v6
-      with:
-        branch: feature/update_testreport
-        title: Update of test report
-        commit-message: Update of test report
-        add-paths: |
-          testreport.txt
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: feature/update_testreport
+          title: Update of test report
+          commit-message: Update of test report
+          add-paths: |
+            testreport.txt
