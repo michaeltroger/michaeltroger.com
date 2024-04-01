@@ -21,9 +21,9 @@ Das gewählte PDF Dokument wird in den App-Speicher kopiert und ausschließlich 
 Die App erfasst nicht den Inhalt des Dokumentes.
 Das heißt für die App macht es keinen Unterschied, ob du ein Gesundheits-Zertifikat oder ein Bus Ticket importierst.
 
-Um die vollformatige Anzeige des QR-Codes zu ermöglichen werden die PDF Seiten des Dokumentes visuell (nicht textuell) durchsucht, ob sich darin ein QR-Code befindet.
-Der Textinhalt des QR Codes wird zu Laufzeit der App ausgelesen und ausschließlich zur Erstellung des formatfüllenden QR-Codes verwendet.
-Die QR-Code-Suchfunktionalität ist optional und kann in den App-Einstellungen deaktiviert werden.
+Um die vollformatige Anzeige des Barcodes zu ermöglichen werden die PDF Seiten des Dokumentes visuell (nicht textuell) durchsucht, ob sich darin ein Barcode befindet.
+Der Textinhalt des Barcodes wird zu Laufzeit der App ausgelesen und ausschließlich zur Erstellung des formatfüllenden Barcodes verwendet.
+Die Barcode-Suchfunktionalität ist optional und kann in den App-Einstellungen deaktiviert werden.
 
 Die Dokument-Daten verlassen zu keinem Zeitpunkt die App und können vom Benutzer jederzeit wieder aus dem App-Speicher gelöscht werden, 
 indem das Dokument mit der Löschfunktion der App entfernt wird oder die App deinstalliert wird. 

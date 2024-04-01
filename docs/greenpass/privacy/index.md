@@ -21,9 +21,9 @@ The chosen PDF document is copied into the app's storage space and is solely rea
 The app does not sensually grasp the document's content. 
 I.e. for the app it makes no difference if you import a health related certificate or a bus ticket.
 
-To enable the fullscreen display of the QR code, the document's pages are searched visually (not textually), if there is any QR code inside.
-The text content of the QR code is read out by the app at runtime and soleley used for creation of the fullscreen QR code.
-The QR code search functionality is optional and can be disabled in the app's settings.
+To enable the fullscreen display of the barcode, the document's pages are searched visually (not textually), if there is any barcode inside.
+The text content of the barcode is read out by the app at runtime and solely used for creation of the fullscreen barcode.
+The barcode search functionality is optional and can be disabled in the app's settings.
 
 The document's data does at no point leave the app and can be removed from the app storage at any time, 
 by deleting the document with the delete functionality of the app or by uninstalling the app.
