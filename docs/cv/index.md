@@ -26,7 +26,7 @@ In that time I also gained my first work experience as a web developer in new me
 Following that I earned my **Master's degree** in **Mobile Computing** where my thesis engaged with Machine Learning based on smartphone sensor data. 
 After my studies I then switched also professionally fully from Web Development to Software Development.
 
-Currently I'm a **Senior Software Engineer** (Android) at **Adidas Runtastic**, where I gained lots of knowledge, working in an international Scrum team. 
+Currently I'm a **Senior Software Engineer** (Android) at **adidas Digital Sports** (formerly adidas Runtastic), where I gained lots of knowledge, working in an international Scrum team.
 Working on Adidas apps as well as on in-house libraries, the job allows me to write code that is used by millions of sports users worldwide. 
 I especially appreciate being able to work with state of the art technologies.
 

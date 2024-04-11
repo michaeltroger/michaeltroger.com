@@ -7,7 +7,7 @@ description: Michael Troger, Senior Software Engineer Android
 
 * Pronouns: he/him
 * I'm from Puchenau, Austria.
-* I work as a Senior Software Engineer Android at <a href="https://www.runtastic.com/">adidas Runtastic</a>.
+* I work as a Senior Software Engineer Android at [adidas Digital Sports](https://careers.adidas-group.com/locations/hubs/wien).
 * I'm the author of [Green Pass PDF Wallet](/greenpass).
 
 ![Image of myself, Michael Troger](/images/michael.jpg)
