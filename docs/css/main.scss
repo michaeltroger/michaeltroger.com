@@ -156,3 +156,6 @@ a:not(:is([href^='/']))::after {
 a:has(img)::after {
     content: none !important;
 }
+.me {
+    border-radius: 50%;
+}
