@@ -10,5 +10,4 @@ description: Michael Troger, Senior Software Engineer Android
 * I work as a Senior Software Engineer Android at [adidas Digital Sports](https://careers.adidas-group.com/locations/hubs/wien).
 * I'm the author of [Green Pass PDF Wallet](/greenpass).
 
-{:.me}
-![Image of myself, Michael Troger](/images/michael.jpg)
+![Image of myself, Michael Troger](/images/michael.jpg){:.me}
