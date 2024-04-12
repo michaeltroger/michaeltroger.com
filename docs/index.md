@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Michael Troger
-description: Michael Troger, Senior Software Engineer Android
+description: Michael Troger, Senior Software Engineer Android at adidas Digital Sports
 ---
 # Hi there, I'm Michael Troger!
 
