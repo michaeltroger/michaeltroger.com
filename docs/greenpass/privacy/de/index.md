@@ -49,7 +49,7 @@ Sie hat also keinen Zugriff auf Dinge wie Internet, Kamera, andere Dateien (die 
 Sie hat ausschließlich Zugriff auf die aktuell importierten Dokumente.
 
 ## Gerootete Geräte
-Es ist nicht empfohlen die App auf sogenannten gerooteten Geräten zu verwenden. Root-Zugriff erlaubt anderen Apps potenziell den Zugriff auf deine ansonsten sicheren Dokumente.
+Es wird nicht empfohlen die App auf sogenannten gerooteten Geräten zu verwenden. Root-Zugriff erlaubt anderen Apps potenziell den Zugriff auf deine ansonsten sicheren Dokumente.
 
 ## Externe Links
 Definition: Ein externer Link ist jede URL in der App, markiert mit dem "Öffnen in Neuem"-Icon.
