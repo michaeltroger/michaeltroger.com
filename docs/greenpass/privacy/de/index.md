@@ -48,6 +48,16 @@ Die App erlaubt optional das Authentifizieren mit Fingerabdruck-Sensor. Darüber
 Sie hat also keinen Zugriff auf Dinge wie Internet, Kamera, andere Dateien (die nicht importiert sind) auf deinem Gerät, etc.
 Sie hat ausschließlich Zugriff auf die aktuell importierten Dokumente.
 
+## Gerootete Geräte
+Es ist nicht empfohlen die App auf sogenannten gerooteten Geräten zu verwenden. Root-Zugriff erlaubt anderen Apps potenziell den Zugriff auf deine ansonsten sicheren Dokumente.
+
+## Externe Links
+Definition: Ein externer Link ist jede URL in der App, markiert mit dem "Öffnen in Neuem"-Icon.
+
+Da die App selbst keinen Internetzugriff hat, werden Links in deinem Standard-Browser geöffnet.
+Ein externer Link kann auch von einer deiner anderen installierten Apps geöffnet werden, wie z.B. dein App Store fürs Bewerten der App.
+Wenn du die App durch solch einen externen Link verlässt, dann kann ich nicht die selbe Privatsphäre garantieren wie in meiner eigenen App.
+
 ## Aktualität dieser Datenschutzerklärung
-Diese Datenschutzerklärung ist aktuell und wurde im März 2024 erstellt. Da die App von Zeit zu Zeit aktualisiert wird, könnte ich auch diese Erklärung aktualisieren.
+Diese Datenschutzerklärung ist aktuell und wurde im April 2024 erstellt. Da die App von Zeit zu Zeit aktualisiert wird, könnte ich auch diese Erklärung aktualisieren.
 Die aktuelle Erklärung wird immer unter dieser URL verfügbar sein. Die Erklärung ist [Open-Source]({{ site.website_source_root_url }}{{ page.path }}) wie der Rest der App, was es auch ermöglicht die Änderungshistorie einzusehen.

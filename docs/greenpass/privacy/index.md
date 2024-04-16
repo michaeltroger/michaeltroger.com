@@ -45,8 +45,18 @@ No, there is no tracking.
 ## Which permissions does this app need? To what device capabilities has this app access?
 This app optionally allows to authenticate via fingerprint sensor. Other than that the app requires no permissions at all.
 Therefore it has also no access to things like internet, camera, or other (not imported) files on your device, etc.
-The app can solely access the currently imported documents. 
+The app can solely access the currently imported documents.
+
+## Rootes devices
+It is not recommended to use the app on so called rooted devices. Root access potentially allows other apps to access your otherwise safe documents.
+
+## External links
+Definition: An external link is any URL in the app, marked with the "open in new" icon next to it.
+
+Since the app itself does not have internet access, links will be opened in your default browser.
+An external link can also be handled by one of your other installed apps, like e.g. for rating the app it is usually your app store.
+When you leave the app through such an external link, then I can not guarantee the same level of privacy as in my own app. 
 
 ## Up-to-Dateness of this Policy
-This policy is currently valid and was created in March, 2024. Since the app will be updated from time to time, I might also update this policy.
+This policy is currently valid and was created in April, 2024. Since the app will be updated from time to time, I might also update this policy.
 The current policy will always be available at this URL. The policy is [open-source]({{ site.website_source_root_url }}{{ page.path }}) like the rest of the app, so you can also check the history of changes.
