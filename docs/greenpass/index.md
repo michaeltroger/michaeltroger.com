@@ -4,7 +4,7 @@ title: Green Pass PDF Wallet by Michael Troger
 description: Introducing the Green Pass PDF Wallet app.
 ---
 # Green Pass PDF Wallet
-Stores and displays your most important PDF documents like e.g. a public transport ticket, a theater ticket or any other PDF certificate.
+An Android app that stores and displays your most important PDF documents like e.g. a public transport ticket, a theater ticket or any other PDF certificate.
 Any included barcode is shown enlarged automatically, if e.g. a QR code is detected within the document.
 Unofficial app that is fully [open source](https://github.com/michaeltroger/greenpass-android).
 
