@@ -51,7 +51,7 @@ Included alphabets in the Android version:
 
 [Privacy Policy English](/latintocyrillic/privacy)  
 
-[Source Code Android app on Github](https://github.com/michaeltroger/latintocyrillic-android)  
-[Source Code Kotlin Multiplatform library on Github](https://github.com/michaeltroger/latin-to-cyrillic)
+[Source Code Android app on GitHub](https://github.com/michaeltroger/latintocyrillic-android)
+[Source Code Kotlin Multiplatform library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic)
 
 <script src="/js/serbian_latin_cyrillic.js"></script>

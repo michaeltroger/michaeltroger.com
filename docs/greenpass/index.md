@@ -32,7 +32,7 @@ Therefore nowadays the app would be the perfect app for safe and always easy at 
 [Privacy Policy English](/greenpass/privacy)  
 [Privacy Policy German (Datenschutzerklärung)](/greenpass/privacy/de)
 
-[Source Code on Github](https://github.com/michaeltroger/greenpass-android)
+[Source Code on GitHub](https://github.com/michaeltroger/greenpass-android)
 
 # Success
 With ~150,000 downloads and shortly being one of the top 3 apps of Austria, this is my most succesful privately developed app so far.
