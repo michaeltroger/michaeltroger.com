@@ -1,5 +1,5 @@
 Test report generated via observatory.mozilla.org API
 Grade: B
 Score: 75
-Total Tests: 11
+Total Tests: 10
 Failed Tests: 2
