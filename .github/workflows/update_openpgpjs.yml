@@ -10,6 +10,8 @@ jobs:
     - uses: actions/checkout@v4
       with:
         submodules: true
+        
+    - run: rm -rd openpgpjs
 
     - run: git submodule update --remote --merge
 
