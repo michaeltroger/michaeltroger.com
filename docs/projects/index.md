@@ -52,7 +52,7 @@ Additionally I created an automatically generated overview of [all my open-sourc
   {% assign sortedRepos = repos | sort: 'stargazers_count' | reverse %}
   {% for repo in sortedRepos limit:3 %}
     <li>
-       <a href="{{ repo.html_url }}">{{ repo.name }}</a><br>
+       <a href="{{ repo.html_url }}">{{ repo.name }}{% if repo.archived %} (archived){% endif %}</a><br>
         {% if repo.description %}{{ repo.description }}<br>{% endif %}  
         Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
     </li>
