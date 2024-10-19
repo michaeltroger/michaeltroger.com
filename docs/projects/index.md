@@ -5,10 +5,10 @@ description: Introducing the projects I worked on in the past and also an overvi
 ---
 # Android Apps Worked on Professionally
 I bring experience in writing code used by several millions of users worldwide. During my time at adidas Digital Sports (Runtastic) I worked on:
-* Adidas Running - Sport activity tracker (Runtastic)\
+* Adidas Running - Sport activity tracker (previously "Runtastic")\
   50M+ downloads\
   (my part: feature enhancements)
-* Adidas Training - Home workout (Runtastic Results, discontinued)\
+* Adidas Training - Home workout (previously "Runtastic Results", discontinued)\
   10M+ downloads\
   (my part: feature enhancements)
 * Adidas - Shopping\
