@@ -23,7 +23,7 @@ I bring experience in writing code used by several millions of users worldwide. 
 * [Runtastic Sleep Better - Sleep tracker](https://web.archive.org/web/20240102165257/https://play.google.com/store/apps/details?id=com.runtastic.android.sleepbetter.lite) (discontinued)\
   5M+ downloads\
   My part: maintainance
-* [Runtastic Heart Rate Monitor](https://web.archive.org/web/20171226114912/https://play.google.com/store/apps/details?id=com.runtastic.android.heartrate.lite) (discontinued)\
+* [Runtastic Heart Rate Monitor](https://web.archive.org/web/20171226114912/https://play.google.com/store/apps/details?id=com.runtastic.android.heartrate.lite) (previously "Runtastic Me", discontinued)\
   5M+ downloads\
   My part: maintainance
 
