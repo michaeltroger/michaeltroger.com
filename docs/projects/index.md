@@ -5,25 +5,25 @@ description: Introducing the projects I worked on in the past and also an overvi
 ---
 # Android Apps Worked on Professionally
 I bring experience in writing code used by several millions of users worldwide. During my time at adidas Digital Sports (Runtastic) I worked on:
-* Adidas Running - Sport activity tracker (previously "Runtastic")\
+* [Adidas Running - Sport activity tracker](https://play.google.com/store/apps/details?id=com.runtastic.android) (previously "Runtastic")\
   50M+ downloads\
   My part: feature enhancements
-* Adidas Training - Home workout (previously "Runtastic Results", discontinued)\
+* [Adidas Training - Home workout](https://web.archive.org/web/20231020104742/http://play.google.com/store/apps/details?id=com.runtastic.android.results.lite) (previously "Runtastic Results", discontinued)\
   10M+ downloads\
   My part: feature enhancements
-* Adidas - Shopping\
+* [Adidas - Shopping](https://play.google.com/store/apps/details?id=com.adidas.app)\
   50M+ downloads\
   My part: feature enhancements
-* Adidas Confirmed - Exclusive shopping\
+* [Adidas Confirmed - Exclusive shopping](https://play.google.com/store/apps/details?id=com.adidas.confirmed.app)\
   10M+ downloads\
   My part: feature enhancements
-* Runtastic Steps - Steps counter & pedometer (discontinued)\
+* [Runtastic Steps - Steps counter & pedometer](https://web.archive.org/web/20190418173635/https://play.google.com/store/apps/details?id=com.runtastic.android.me.lite) (discontinued)\
   1M+ downloads\
   My part: feature enhancements
-* Runtastic Sleep Better - Sleep tracker (discontinued)\
+* [Runtastic Sleep Better - Sleep tracker](https://web.archive.org/web/20240102165257/https://play.google.com/store/apps/details?id=com.runtastic.android.sleepbetter.lite) (discontinued)\
   5M+ downloads\
   My part: maintainance
-* Runtastic Heart Rate Monitor (discontinued)\
+* [Runtastic Heart Rate Monitor](https://web.archive.org/web/20171226114912/https://play.google.com/store/apps/details?id=com.runtastic.android.heartrate.lite) (discontinued)\
   5M+ downloads\
   My part: maintainance
 
