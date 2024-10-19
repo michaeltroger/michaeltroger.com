@@ -3,7 +3,17 @@ layout: default
 title: Projects by Michael Troger
 description: Introducing the projects I worked on in the past and also an overview about ongoing ones.
 ---
-# My Projects
+# Android Apps Worked on Professionally
+I bring experience in writing code used by several millions of users worldwide. During my time at adidas Digital Sports (Runtastic) I worked on:
+* Adidas Running (Runtastic) - 50M+ downloads (feature enhancements)
+* Adidas Training (Runtastic Results, discontinued) - 10M+ downloads (feature enhancements)
+* Adidas - 50M+ downloads (feature enhancements)
+* Adidas Confirmed - 10M+ downloads (feature enhancements)
+* Runtastic Steps - Steps counter & pedometer (discontinued) - 1M+ downloads (feature enhancements)
+* Runtastic Sleep Better - Sleep tracker (discontinued) - 5M+ downloads (maintainance)
+* Runtastic Heart Rate Monitor (discontinued) - 5M+ downloads (maintainance)
+
+# Private Projects
 Although being a professional software developer, programming stayed a hobby of mine. Therefore I'm working on some projects in my free-time.
 Following a selected list of Android projects that I actively maintain, described in more detail:
 
