@@ -7,25 +7,25 @@ description: Introducing the projects I worked on in the past and also an overvi
 I bring experience in writing code used by several millions of users worldwide. During my time at adidas Digital Sports (Runtastic) I worked on:
 * Adidas Running - Sport activity tracker (previously "Runtastic")\
   50M+ downloads\
-  (my part: feature enhancements)
+  My part: feature enhancements
 * Adidas Training - Home workout (previously "Runtastic Results", discontinued)\
   10M+ downloads\
-  (my part: feature enhancements)
+  My part: feature enhancements
 * Adidas - Shopping\
   50M+ downloads\
-  (my part: feature enhancements)
+  My part: feature enhancements
 * Adidas Confirmed - Exclusive shopping\
   10M+ downloads\
-  (my part: feature enhancements)
+  My part: feature enhancements
 * Runtastic Steps - Steps counter & pedometer (discontinued)\
   1M+ downloads\
-  (my part: feature enhancements)
+  My part: feature enhancements
 * Runtastic Sleep Better - Sleep tracker (discontinued)\
   5M+ downloads\
-  (my part: maintainance)
+  My part: maintainance
 * Runtastic Heart Rate Monitor (discontinued)\
   5M+ downloads\
-  (my part: maintainance)
+  My part: maintainance
 
 # Private Projects
 Although being a professional software developer, programming stayed a hobby of mine. Therefore I'm working on some projects in my free-time.
