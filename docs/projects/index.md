@@ -3,6 +3,9 @@ layout: default
 title: Projects by Michael Troger
 description: Introducing the projects I worked on in the past and also an overview about ongoing ones.
 ---
+# Projects
+{:.no_toc}
+
 * Table of Contents
 {:toc}
 
