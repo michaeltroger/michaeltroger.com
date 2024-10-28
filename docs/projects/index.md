@@ -3,6 +3,9 @@ layout: default
 title: Projects by Michael Troger
 description: Introducing the projects I worked on in the past and also an overview about ongoing ones.
 ---
+* Table of Contents
+{:toc}
+
 # Android Apps Worked on Professionally
 I bring experience in writing code used by several millions of users worldwide. During my time at adidas Digital Sports (Runtastic) I worked on:
 * [Adidas Running - Sport activity tracker](https://play.google.com/store/apps/details?id=com.runtastic.android)\
