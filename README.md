@@ -29,8 +29,7 @@ Therefore I would recommend to use [Jonathan McGlone’s](https://github.com/han
 GitHub Pages builds automatically on commits. Files can directly be edited within the GitHub UI.
 
 ### Local deployment
-1. Move to `docs` folder
-2. Run `bundle install`
-3. `bundle exec jekyll serve` builds and serves the page at [http://localhost:4000](http://localhost:4000)
-
-See also [Jekyll docs](https://jekyllrb.com/docs/usage/)
+1. Move to `docs` folder: `cd docs`
+2. Install dependencies: `bundle install`
+3. Build and serve the page on [http://localhost:4000](http://localhost:4000): `bundle exec jekyll serve`\
+   Optionally call the command [with a GitHub token](https://github.com/jekyll/github-metadata/blob/main/docs/authentication.md), in order to render repository information: `JEKYLL_GITHUB_TOKEN=123abc bundle exec jekyll serve`
