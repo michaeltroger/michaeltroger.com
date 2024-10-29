@@ -39,6 +39,7 @@ I bring experience in writing code used by several millions of users worldwide. 
   My part: maintainance
 
 # Private Projects
+## Android Development
 Although being a professional software developer, programming stayed a hobby of mine. Therefore I'm working on some projects in my free-time.
 Following a selected list of Android projects that I actively maintain, described in more detail:
 
@@ -48,7 +49,7 @@ Following a selected list of Android projects that I actively maintain, describe
 
 Some of them you can also find on my [Google Play Developer page](https://play.google.com/store/apps/developer?id=Michael+Troger).
 
-## Web development and hosting
+## Web Development and Hosting
 Besides Android development, I host and maintain this, and a couple of other small websites. 
 I also manage the domains and do their domain name system (DNS) configuration.
 Currently I'm having only static websites, hosted on GitHub Pages, except one with shared hosting on OVH servers.
