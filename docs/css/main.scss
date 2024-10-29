@@ -9,10 +9,12 @@ body {
     margin: 60px auto;
     width: 70%;
     font-size: $font-size-regular;
+    font-family: 'Garamond', 'Times New Roman', 'Serif';
     color: $text-color;
 }
-*, body {
-    font-family: 'Garamond', 'Times New Roman', 'Serif';
+textarea, input, button, select {
+    font-family: inherit;
+    font-size: inherit;
 }
 h1, h2, h3, nav ul a, footer ul a, input, button {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
@@ -23,7 +25,7 @@ footer, .note {
 h1 {
     font-size: $font-size-header;
 }
-h2, h3, textarea {
+h2, h3 {
     font-size: $font-size-regular;
 }
 nav ul, footer ul {
@@ -139,7 +141,7 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
     h1 {
        font-size: $font-size-header-smallscreen;
     }
-    h2, h3, textarea {
+    h2, h3 {
        font-size: $font-size-regular-smallscreen;
     }
 }
