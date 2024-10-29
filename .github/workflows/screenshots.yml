@@ -20,30 +20,30 @@ jobs:
       uses: mujo-code/puppeteer-headful@master
       env:
         CI: 'true'
+    - name: Create temporary directory for screenshots
+      run: mkdir new_screenshots
     - name: Generate screenshots homepage
       uses: flameddd/screenshots-ci-action@master
       with:
         url: https://michaeltroger.com
         devices: iPhone 13
-    - name: Keep only few screenshots
+    - name: Keep only few homepage screenshots
       run: |
-        mv screenshots screenshots_generated
-        mkdir screenshots
-        cp screenshots_generated/iPhone* screenshots/home_iphone.jpeg
-        cp screenshots_generated/desktopPage1920x1080* screenshots/home_desktop.jpeg
-        rm -rd screenshots_generated
+        cp screenshots/iPhone* new_screenshots/home_iphone.jpeg
+        cp screenshots/desktopPage1920x1080* new_screenshots/home_desktop.jpeg
+        rm -rd screenshots
     - name: Generate screenshots contact page
       uses: flameddd/screenshots-ci-action@master
       with:
         url: https://michaeltroger.com/contact
         devices: iPhone 13
-    - name: Keep only few screenshots
+    - name: Keep only few contact screenshots
       run: |
-        mv screenshots screenshots_generated
-        mkdir screenshots
-        cp screenshots_generated/iPhone* screenshots/contact_iphone.jpeg
-        cp screenshots_generated/desktopPage1920x1080* screenshots/contact_desktop.jpeg
-        rm -rd screenshots_generated
+        cp screenshots/iPhone* new_screenshots/contact_iphone.jpeg
+        cp screenshots/desktopPage1920x1080* new_screenshots/contact_desktop.jpeg
+        rm -rd screenshots
+    - name: Rename screenshots folder
+      run: mv new_screenshots screenshots
     - name: Create screenshot pull request if on master branch
       uses: peter-evans/create-pull-request@v6
       if: github.ref == 'refs/heads/master'
