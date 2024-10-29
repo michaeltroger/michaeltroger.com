@@ -144,4 +144,7 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
     h2, h3 {
        font-size: $font-size-regular-smallscreen;
     }
+    footer, .note {
+        font-size: $font-size-small-smallscreen;
+    }
 }
