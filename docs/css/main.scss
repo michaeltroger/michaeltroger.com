@@ -9,11 +9,24 @@ body {
     margin: 60px auto;
     width: 70%;
     font-size: $font-size-regular;
-    font-family:'Garamond', 'Times New Roman', 'Serif';
     color: $text-color;
 }
+*, body {
+    font-family: 'Garamond', 'Times New Roman', 'Serif';
+}
+h1, h2, h3, nav ul a, footer ul a, input, button {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+footer, .note {
+    font-size: $font-size-small;
+}
+h1 {
+    font-size: $font-size-header;
+}
+h2, h3, textarea {
+    font-size: $font-size-regular;
+}
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -30,20 +43,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1, h2, h3 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-h1 {
-    font-size: $font-size-header;
-}
-h2, h3 {
-    font-size: $font-size-regular;
-}
 footer {
     border-top: 1px solid #d5d5d5;
-}
-footer, footer p, footer li {
-    font-size: $font-size-small;
 }
 ul.posts li {
     list-style: none;
@@ -52,7 +53,6 @@ ul.posts li {
     margin-bottom: 20px;
 }
 .note {
-    font-size: $font-size-small;
     background-color: lightgray;
     padding: 10px;
     margin-left: 25px;
@@ -76,7 +76,6 @@ input:focus, input:active, input:hover, button:focus, button:active, button:hove
     background: white
 }
 textarea {
-    font-size: $font-size-regular;
     overflow-y: scroll;
     resize: none;
 }
