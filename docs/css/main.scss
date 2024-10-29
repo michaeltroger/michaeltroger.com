@@ -146,15 +146,12 @@ textarea {
     margin-left: auto; 
     display: block;
 }
-a:not(:is([href^='/']))::after {
+a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
     width: 14px;
     height: 14px;
     display:inline-block;
     margin-left: 5px;
     content: url("/images/external.svg");
-  }
-a:has(img)::after {
-    content: none !important;
 }
 .me {
     border-radius: 50%;
