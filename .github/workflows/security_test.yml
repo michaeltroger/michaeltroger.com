@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check website safety
         run: |
-          curl -d 'hidden=true' 'https://http-observatory.security.mozilla.org/api/v1/analyze?host=michaeltroger.com' > temp_testreport.txt
+          curl -d 'hidden=true' 'https://observatory-api.mdn.mozilla.net/api/v2/scan?host=michaeltroger.com' > temp_testreport.txt
           rm testreport.txt
           echo "Test report generated via observatory.mozilla.org API" >> testreport.txt
           cat temp_testreport.txt | grep -oP '(?<="grade":")[^"]*' | sed 's/^/Grade: /' >> testreport.txt
