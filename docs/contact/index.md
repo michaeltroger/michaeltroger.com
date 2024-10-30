@@ -30,13 +30,16 @@ If you press the above button, your message will be encrypted with PGP.
 It will start with "-----BEGIN PGP MESSAGE-----" and end with "-----END PGP MESSAGE-----".
 You can send it as it is. I (and only I) will be able to decrypt and read your message.
 
+## PGP
 
-Download: [PGP Public Key](/files/troger_public.asc)  
+You can find my public key via the Web Key Directory (WKD) and on the [keys.openpgp.org](https://keys.openpgp.org/) key server.
+
+Download:  
+[Public Key](/files/troger_public.asc)  
+
 Fingerprint:  
 CD61 A00F 7652 8C73 67D4  
 2E12 9D3B 8646 DE92 27FD
-
-You can find my public key also via the Web Key Directory (WKD) and on the [keys.openpgp.org](https://keys.openpgp.org/) key server.
 
 <script src="/js/openpgp.min.js"></script>
 <script src="/js/contact.js"></script>
