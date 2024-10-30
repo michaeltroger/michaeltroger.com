@@ -7,7 +7,7 @@ The website is powered by Jekyll and I can use Markdown to author my posts. It i
 <table>
 <tr>
 <td>
-<img src="screenshots/desktopPage.jpeg" width="100%">
+<img src="screenshots/home_desktop.jpeg" width="100%">
 </td>
 </tr>
 </table>
