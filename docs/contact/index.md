@@ -8,8 +8,8 @@ description: Infos on how to contact me.
 Michael Troger, MSc.  
 Puchenau, Austria
 
-Email: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
-Signal: [QR code](/signal) | [Send message](https://signal.me/#eu/mQSNhZj6cm52pLwD07aBqUWJBSzc2HU3mnSaglo5ttIzhhiEJRJH2otozi-OSBXF)
+Signal: [QR code](/signal) | [Send message](https://signal.me/#eu/mQSNhZj6cm52pLwD07aBqUWJBSzc2HU3mnSaglo5ttIzhhiEJRJH2otozi-OSBXF)  
+Email: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 
 As an IT enthusiast I care about IT privacy and security. 
 The message below will be encrypted and opened in your email client, from where you can send it over to me.
