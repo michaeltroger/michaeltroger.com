@@ -5,7 +5,7 @@ description: Overview of my blog posts.
 ---
 # {{ page.title }}
 
-In my blog I'm writing about hobby projects related to Software Engineering, IT and Linux.
+In my blog I'm writing about hobby projects related to software engineering, IT and Linux.
 
 Also available as [RSS-Feed](/blog/atom.xml)!
 
