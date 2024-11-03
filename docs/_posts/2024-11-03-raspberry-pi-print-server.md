@@ -2,7 +2,7 @@
 layout: post
 title: Raspberry Pi Print Server
 ---
-In this article I will describe how to set up a USB printer as a (wireless) network printer, using a Raspberry Pi 3. Finally I will connect my Linux desktop with the printer. In this example I'm connecting a Brother laser printer, however most of the tutorial is applicable for any USB printer.
+In this article I will describe how to set up a USB printer as a (wireless) network printer, using a Raspberry Pi 3. Finally I will connect my Linux desktop with the printer. In this example I'm connecting a Brother laser printer (HL-L2310D), however most of the tutorial is applicable for any USB printer.
 
 # Install the Operating System
 Install the **Raspberry Pi Imager** software on your (Linux) desktop, it makes the installation of the images easily. On EndeavourOS (Arch) this is as easy as running:
@@ -50,7 +50,7 @@ When you go to the administration page, it will ask you to switch to the actual 
 When choosing to add a printer, your printer should be shown. After proceeding you're asked to select a driver. In case no fitting driver is listed, you need to install the driver before being able to continue. If it's listed you can skip the driver section following.
 
 ## Install Printer Driver
-Now install the appropriate printer drivers. In case of my Brother laser printer there are no ARM drivers available out of the box, so they need to be installed manually. Luckily there are open-source drivers available for my printer, which can easily be installed:
+Now install the appropriate printer drivers. In case of my Brother laser printer there are no ARM drivers available out of the box, so they need to be installed manually. Luckily there are open-source drivers available for my HL-L2310D printer, which can easily be installed:
 {% highlight shell %}sudo apt install printer-driver-brlaser{% endhighlight %}
 
 ## Add Printer to CUPS
