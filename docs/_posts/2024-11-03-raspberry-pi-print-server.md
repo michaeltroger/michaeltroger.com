@@ -8,7 +8,7 @@ In this article I will describe how to set up a USB printer as a (wireless) netw
 Install the **Raspberry Pi Imager** software on your (Linux) desktop, it makes the installation of the images easily. On EndeavourOS (Arch) this is as easy as running:
 {% highlight shell %}pacman -S rpi-imager{% endhighlight %}
 
-Connect a Micro-SD card with your desktop PC and open the program.
+Connect a Micro-SD card to your desktop PC and open the program.
 
 ## Operating System Choice
 You can choose to install Raspberry Pi OS with desktop environment or without.
