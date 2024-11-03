@@ -82,6 +82,9 @@ textarea {
     overflow-y: scroll;
     resize: none;
 }
+pre {
+    white-space: pre-wrap;
+}
 #input {
     width: 90%;
     padding: 10px;
