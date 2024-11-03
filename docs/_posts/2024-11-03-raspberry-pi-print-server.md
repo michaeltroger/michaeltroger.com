@@ -56,9 +56,16 @@ Now install the appropriate printer drivers. In case of my Brother laser printer
 ## Add Printer to CUPS
 Back in the CUPS admin page the device can now be selected. Choose to share this printer. Print a test page from within the CUPS web interface.
 
-# Connect the Desktop PC
+# Connect Clients
+## Desktop PC
 On EndeavourOS (KDE) the printer can't be found out of the box. But there is a handy tool to the rescue. Install it as follows:
 {% highlight shell %}pacman -S system-config-printer{% endhighlight %}
 Then launch the tool:
 {% highlight shell %}system-config-printer{% endhighlight %}
 Follow the instructions (applying firewall settings), add the printer and that should be it!
+
+## Android
+On Android 15 I had to manually add the printer:
+Default Print Service -> Add printer
+{% highlight shell %}raspberrypi:631/printers/Brother_HL-L2310D_series{% endhighlight %}
+The printer name you can find in the CUPS web interface. Afterwards I had to restart my phone in order to show the printer in the printer dialog.
