@@ -4,6 +4,7 @@
 ---
 
 @import "variables";
+@import "highlighting";
 
 body {
     margin: 60px auto;
@@ -84,6 +85,12 @@ textarea {
 }
 pre {
     white-space: pre-wrap;
+    color: white;
+}
+.gutter pre {
+    color: darkgray;
+    padding-right: 15px;
+    padding-left: 10px;
 }
 #input {
     width: 90%;

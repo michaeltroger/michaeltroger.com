@@ -6,7 +6,7 @@ In this article I will describe how to set up a USB printer as a (wireless) netw
 
 # Install the Operating System
 Install the **Raspberry Pi Imager** software on your (Linux) desktop, it makes the installation of the images easily. On EndeavourOS (Arch) this is as easy as running:
-{% highlight shell %}pacman -S rpi-imager{% endhighlight %}
+{% highlight shell linenos %}pacman -S rpi-imager{% endhighlight %}
 
 Connect a Micro-SD card to your desktop PC and open the program.
 
@@ -25,10 +25,10 @@ Recommended settings:
 
 # Configure the Raspberry Pi
 Connect the Pi to your router with a network cable. Plug the USB printer into your Pi. Insert the Micro-SD card and turn the Raspberry on. It can take a minute until you can login:
-{% highlight shell %}ssh pi@raspberrypi{% endhighlight %}
+{% highlight shell linenos %}ssh pi@raspberrypi{% endhighlight %}
 
 First update the system:
-{% highlight shell %}
+{% highlight shell linenos %}
 sudo apt update
 sudo apt upgrade
 {% endhighlight %}
@@ -37,13 +37,13 @@ sudo apt upgrade
 # CUPS Configuration
 Next we will need to set up the CUPS printing system.
 Install CUPS:
-{% highlight shell %}sudo apt install cups{% endhighlight %}
+{% highlight shell linenos %}sudo apt install cups{% endhighlight %}
 Add your user to the *lpadmin* group:
-{% highlight shell %}sudo usermod -a -G lpadmin pi{% endhighlight %}
+{% highlight shell linenos %}sudo usermod -a -G lpadmin pi{% endhighlight %}
 Enable the sharing of printers with your network:
-{% highlight shell %}cupsctl --share-printers{% endhighlight %}
+{% highlight shell linenos %}cupsctl --share-printers{% endhighlight %}
 Open a browser on your desktop PC and open the CUPS admin page (it might take a couple of seconds until the address can be resolved)
-{% highlight shell %}http://raspberrypi:631{% endhighlight %}
+{% highlight shell linenos %}http://raspberrypi:631{% endhighlight %}
 
 When you go to the administration page, it will ask you to switch to the actual IP address of your Pi for managing printers. Follow this request.
 
@@ -51,7 +51,7 @@ When choosing to add a printer, your printer should be shown. After proceeding y
 
 ## Install Printer Driver
 Now install the appropriate printer drivers. In case of my Brother laser printer there are no ARM drivers available out of the box, so they need to be installed manually. Luckily there are open-source drivers available for my HL-L2310D printer, which can easily be installed:
-{% highlight shell %}sudo apt install printer-driver-brlaser{% endhighlight %}
+{% highlight shell linenos %}sudo apt install printer-driver-brlaser{% endhighlight %}
 
 ## Add Printer to CUPS
 Back in the CUPS admin page the device can now be selected. Choose to share this printer. Print a test page from within the CUPS web interface.
@@ -59,9 +59,9 @@ Back in the CUPS admin page the device can now be selected. Choose to share this
 # Connect Clients
 ## Linux PC
 On EndeavourOS (KDE) the printer can't be found out of the box. But there is a handy tool to the rescue. Install it as follows:
-{% highlight shell %}pacman -S system-config-printer{% endhighlight %}
+{% highlight shell linenos %}pacman -S system-config-printer{% endhighlight %}
 Then launch the tool:
-{% highlight shell %}system-config-printer{% endhighlight %}
+{% highlight shell linenos %}system-config-printer{% endhighlight %}
 Follow the instructions (applying firewall settings), add the printer and that should be it!
 
 ## Windows PC
@@ -70,5 +70,5 @@ On Windows 10 the printer was recognized out of the box.
 ## Android
 On Android 15 I had to manually add the printer:
 Default Print Service -> Add printer
-{% highlight shell %}raspberrypi:631/printers/Brother_HL-L2310D_series{% endhighlight %}
+{% highlight shell linenos %}raspberrypi:631/printers/Brother_HL-L2310D_series{% endhighlight %}
 The printer name you can find in the CUPS web interface. Afterwards I had to restart my phone in order to show the printer in the printer dialog.
