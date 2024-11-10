@@ -19,7 +19,7 @@ When proceeding to the next installation step, the Raspberry software will ask y
 
 Recommended settings:
 * **Set a password** (recent OS versions don't have a default password)
-* **Enable SSH**: Choose "Allow public-key authentication only" and copy your desktop PC's public SSH key into the text field (in case you don't have one yet, the software can generate one for you). This will allow you to login without password
+* **Enable SSH**: Choose between "Use password authentication" and "Allow public-key authentication only"
 * Choose a hostname: e.g. raspberrypi
 * (Optionally) enter your Wi-Fi settings, in case you can't connect a network cable
 
@@ -30,7 +30,7 @@ Connect the Pi to your router with a network cable. Plug the USB printer into yo
 First update the system:
 {% highlight shell linenos %}
 sudo apt update
-sudo apt upgrade
+sudo apt full-upgrade
 {% endhighlight %}
 
 
