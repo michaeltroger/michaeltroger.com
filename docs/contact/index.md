@@ -23,7 +23,7 @@ You can use the below form to send me an encrypted email:
     <p><b>Your email app should now have been opened. If it was not, then please manually send the message from above to &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</b></p>
 </div>
 
-{:.note}{:.small-font}
+{:.note .small-font}
 **Not familiar with PGP yet?**  
 Pretty Good Privacy (PGP) makes email communication much safer.
 If you press the above button, your message will be encrypted with PGP.
