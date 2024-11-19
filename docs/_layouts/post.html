@@ -9,13 +9,13 @@ layout: default
 </div>
 <div class="share-page small-font">
     Share this on: 
-    <a href="https://bsky.app/intent/compose?text={{ page.title }}%20{{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Bluesky">Bluesky</a>
-    <a href="https://www.threads.net/intent/post?text={{ page.title }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Threads">Threads</a>
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on X">X</a>
+    <a href="https://bsky.app/intent/compose?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Bluesky">Bluesky</a>
+    <a href="https://www.threads.net/intent/post?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Threads">Threads</a>
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on X">X</a>
     <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
-    <a href="https://www.linkedin.com/shareArticle?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on LinkedIn">LinkedIn</a>
-    <a href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit</a>
-    <a href="https://api.whatsapp.com/send?text={{ page.title }}%20{{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on WhatsApp">WhatsApp</a>
-    <a href="mailto:?subject={{ page.title }}&body=Check out this site: {{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share via email">Email</a>
+    <a href="https://www.linkedin.com/shareArticle?url={{ site.url }}{{ page.url }}&title={{ page.title | uri_escape }}" rel="nofollow" target="_blank" title="Share on LinkedIn">LinkedIn</a>
+    <a href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title | uri_escape }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit</a>
+    <a href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on WhatsApp">WhatsApp</a>
+    <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share via email">Email</a>
 </div>
 <p class="found-issue small-font">Did you find any issue? Follow the link to the source below and open an Issue or a PR!</p>
