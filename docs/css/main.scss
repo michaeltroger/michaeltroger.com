@@ -20,7 +20,7 @@ textarea, input, button, select {
 h1, h2, h3, nav ul a, footer ul a, input, button {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
-footer, .note {
+.small-font {
     font-size: $font-size-small;
 }
 h1 {
@@ -54,6 +54,11 @@ ul.posts li {
 }
 .share-page {
     margin-bottom: 20px;
+    padding-top: 30px;
+
+    a {
+        padding: 5px;
+    }
 }
 .note {
     background-color: lightgray;
@@ -156,7 +161,7 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
     h2, h3 {
        font-size: $font-size-regular-smallscreen;
     }
-    footer, .note {
+    .small-font {
         font-size: $font-size-small-smallscreen;
     }
 }
