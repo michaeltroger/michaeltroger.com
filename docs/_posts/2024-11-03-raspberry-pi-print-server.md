@@ -2,6 +2,8 @@
 layout: post
 title: Raspberry Pi Print Server
 ---
+*Last updated: 2024-12-18*
+
 In this article I will describe how to set up a USB printer as a (wireless) network printer, using a Raspberry Pi 3. Finally I will connect my Linux desktop and other clients with the printer. In this example I'm connecting a Brother laser printer (HL-L2310D), however most of the tutorial is applicable for any USB printer.
 
 # Install the Operating System
@@ -57,12 +59,16 @@ Now install the appropriate printer drivers. In case of my Brother laser printer
 Back in the CUPS admin page the device can now be selected. Choose to share this printer. Print a test page from within the CUPS web interface.
 
 # Connect Clients
-## Linux PC
-On EndeavourOS (KDE) the printer can't be found out of the box. But there is a handy tool to the rescue. Install it as follows:
+## Linux PC (EndevourOS)
+On EndeavourOS (KDE) the printer can't be found (via GUI) out of the box. But there is a handy tool to the rescue. Install it as follows:
 {% highlight shell linenos %}pacman -S system-config-printer{% endhighlight %}
 Then launch the tool:
 {% highlight shell linenos %}system-config-printer{% endhighlight %}
-Follow the instructions (applying firewall settings), add the printer and that should be it!
+Follow the instructions, add the printer and that should be it!
+
+## Linux PC (Bazzite)
+While not discovered by the printer settings GUI, the easiest way I found was using a terminal command.
+{% highlight shell linenos %}sudo lpadmin -p brother -E -v ipp://raspberrypi:631/printers/Brother_HL-L2310D_series -m everywhere{% endhighlight %}
 
 ## Windows PC
 On Windows 10 the printer was recognized out of the box.
