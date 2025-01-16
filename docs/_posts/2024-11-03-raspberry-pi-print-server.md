@@ -78,3 +78,6 @@ On Android 15 I had to manually add the printer:
 Default Print Service -> Add printer
 {% highlight shell linenos %}raspberrypi:631/printers/Brother_HL-L2310D_series{% endhighlight %}
 The printer name you can find in the CUPS web interface. Afterwards I had to restart my phone in order to show the printer in the printer dialog.
+
+## iOS and macOS
+On Apple devices the printer was recognized automatically.
