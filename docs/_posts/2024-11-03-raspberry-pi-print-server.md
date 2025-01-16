@@ -2,7 +2,7 @@
 layout: post
 title: Raspberry Pi Print Server
 ---
-*Last updated: 2024-12-18*
+*Last updated: 2025-01-16*
 
 In this article I will describe how to set up a USB printer as a (wireless) network printer, using a Raspberry Pi 3. Finally I will connect my Linux desktop and other clients with the printer. In this example I'm connecting a Brother laser printer (HL-L2310D), however most of the tutorial is applicable for any USB printer.
 
