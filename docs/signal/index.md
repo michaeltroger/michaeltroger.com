@@ -5,6 +5,6 @@ description: My contact info for the Signal messenger.
 ---
 # Signal me
 
-Add and text me on Signal: [Michael Troger](https://signal.me/#eu/mQSNhZj6cm52pLwD07aBqUWJBSzc2HU3mnSaglo5ttIzhhiEJRJH2otozi-OSBXF)
+Add and text me on Signal: [Michael Troger](https://signal.me/#eu/0n3ZV4EEhwiOCWnMJ1OmuOOtIMTUect5TdKwtyV7s6wJyydA8yBBN6qKHKymlVeF)
 
-![Add me on Signal (QR code)](/images/qr.svg){:.img-fullwidth-lowmax}
+![Add me on Signal (QR code)](/images/qr.png){:.img-fullwidth-lowmax}
