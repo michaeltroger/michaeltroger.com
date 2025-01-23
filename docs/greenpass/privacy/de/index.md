@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Grüner Pass Privatsphäre und Datenschutz
-description: Datenschutz-Erklärung für die Grüner Pass PDF Wallet Android App.
+title: PDF Wallet Privatsphäre und Datenschutz
+description: Datenschutz-Erklärung für die PDF Wallet Android App.
 ---
 ## [English](/greenpass/privacy)
-# Grüner Pass: Privatsphäre und Datenschutz
+# PDF Wallet: Privatsphäre und Datenschutz
 
 ## Kontaktdaten
 Michael Troger, MSc.  
@@ -34,7 +34,7 @@ Nach Eingabe des Passworts zur Entschlüsselung, bleibt das Dokument dauerhaft (
 Dein Passwort wird ausschließlich zur Entschlüsselung verwendet und wird nirgends gespeichert und nirgends hingesendet.
 
 ## Open Source
-Der [Quellcode der App](https://github.com/michaeltroger/greenpass-android) ist vollständig Open Source.
+Der [Quellcode der App](https://github.com/michaeltroger/pdfwallet-android) ist vollständig Open Source.
 Das erlaubt dir die App-Funkionalität und ihr Verhalten zu überprüfen.
   
 ## Gibt es Werbung in der App?

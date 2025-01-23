@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Green Pass Privacy Policy
-description: Privacy Policy of the Green Pass PDF Wallet Android app
+title: PDF Wallet Privacy Policy
+description: Privacy Policy of the PDF Wallet Android app
 ---
 ## [Deutsch](/greenpass/privacy/de)
-# Green Pass: Privacy Policy
+# PDF Wallet: Privacy Policy
 
 ## Contact Data
 Michael Troger, MSc.  
@@ -34,7 +34,7 @@ After inserting the password for decryption, the document stays permanently (unt
 Your password is solely used for decryption and is not saved or sent anywhere.
   
 ## Open Source
-The [source code of the app](https://github.com/michaeltroger/greenpass-android) is fully Open Source, which allows you to check the app's functionality and behavior.
+The [source code of the app](https://github.com/michaeltroger/pdfwallet-android) is fully Open Source, which allows you to check the app's functionality and behavior.
 
 ## Does the app have any ads?
 No, there are no ads.
