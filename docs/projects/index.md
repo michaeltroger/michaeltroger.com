@@ -43,7 +43,7 @@ I bring experience in writing code used by several millions of users worldwide. 
 Although being a professional software developer, programming stayed a hobby of mine. Therefore I'm working on some projects in my free-time.
 Following a selected list of Android projects that I actively maintain, described in more detail:
 
-* [Green Pass PDF Wallet](/greenpass)
+* [PDF Wallet](/greenpass)
 * [Cyrillic Transliterator: Latin To Cyrillic](/latintocyrillic)
 * [Multiple Computer Vision Apps](/computervision)
 
