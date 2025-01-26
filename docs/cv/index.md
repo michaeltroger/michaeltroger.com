@@ -26,9 +26,11 @@ In that time I also gained my first work experience as a web developer in new me
 Following that I earned my **Master's degree** in **Mobile Computing** where my thesis engaged with Machine Learning based on smartphone sensor data. 
 After my studies I then switched also professionally fully from Web Development to Software Development.
 
-Currently I'm a **Senior Software Engineer** (Android) at **adidas Digital Sports** (formerly adidas Runtastic), where I gained lots of knowledge, working in an international Scrum team.
-Working on Adidas apps as well as on in-house libraries, the job allows me to write code that is used by millions of sports users worldwide. 
-I especially appreciate being able to work with state of the art technologies.
+For more than 7 years I worked as **Software Engineer** (Android) at **adidas Digital Sports** (formerly adidas Runtastic), where I gained lots of knowledge, working in an international Scrum team.
+Working on Adidas apps as well as on in-house libraries, the job allowed me to write code that is used by millions of sports users worldwide.
+I especially appreciated being able to work with state of the art technologies.
+
+Since 2025 I work at **Bora**, where I continue my software engineering journey by developing software for kitchen hardware.
 
 To explore my full CV please check my [LinkedIn](https://www.linkedin.com/in/michaeltroger/).
   
