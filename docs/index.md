@@ -7,7 +7,7 @@ description: Michael Troger, Senior Software Engineer Android at adidas Digital 
 
 * Pronouns: he/him
 * I'm from Puchenau, Austria.
-* I work as a Android Developer at [Bora](https://www.bora.com/).
+* I work as an Android Developer at [Bora](https://www.bora.com/).
 * I'm the author of [PDF Wallet](/greenpass).
 
 ![Image of myself, Michael Troger](/images/michael.jpg){:.me}
