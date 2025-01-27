@@ -4,7 +4,7 @@ title: Michael Troger Private
 description: Some insides into my private life.
 ---
 # Private
-I'm a positive, calm and open-minded person living in Puchenau, Austria.
+I'm a positive, calm and open-minded person living in Upper Austria.
 Originally I come from the Austrian federal state Tyrol.
 While I'm born in Austria, I like to consider myself as a European rather than an Austrian.
 Throughout my life I was lucky to get to know people from all over the world. From Brasil, India and the Netherlands to name just a few.
