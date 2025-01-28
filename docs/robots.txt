@@ -12,3 +12,4 @@ Disallow: /*.jpeg$
 Disallow: /*.png$
 Disallow: /*.svg$
 Disallow: /*.webp$
+Disallow: /*.ico$
