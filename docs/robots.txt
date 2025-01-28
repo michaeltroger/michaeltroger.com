@@ -6,5 +6,10 @@ Disallow: /privacy/
 Disallow: /greenpass/privacy/
 Disallow: /latintocyrillic/privacy/
 Disallow: /greenpass/privacy/de/
-Disallow: /images/freetime.jpg
-Disallow: /images/qr.png
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.svg$
+Disallow: /*.webp$
+Disallow: /*.ico$
