@@ -2,6 +2,7 @@
 layout: default
 title: PDF Wallet Privacy Policy
 description: Privacy Policy of the PDF Wallet Android app
+noindex: true
 ---
 ## [Deutsch](/greenpass/privacy/de)
 # PDF Wallet: Privacy Policy

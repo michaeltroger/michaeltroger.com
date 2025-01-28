@@ -2,6 +2,7 @@
 layout: default
 title: Michael Troger on Signal
 description: My contact info for the Signal messenger.
+noindex: true
 ---
 # Signal me
 

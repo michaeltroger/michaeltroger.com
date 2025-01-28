@@ -2,6 +2,7 @@
 layout: default
 title: Contact Michael Troger
 description: Infos on how to contact me.
+noindex: true
 ---
 # Contact
 

@@ -2,6 +2,7 @@
 layout: default
 title: PDF Wallet Privatsphäre und Datenschutz
 description: Datenschutz-Erklärung für die PDF Wallet Android App.
+noindex: true
 ---
 ## [English](/greenpass/privacy)
 # PDF Wallet: Privatsphäre und Datenschutz

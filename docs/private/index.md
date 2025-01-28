@@ -2,6 +2,7 @@
 layout: default
 title: Michael Troger Private
 description: Some insides into my private life.
+noindex: true
 ---
 # Private
 I'm a positive, calm and open-minded person living in Upper Austria.

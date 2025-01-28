@@ -2,6 +2,7 @@
 layout: default
 title: Latin To Cyrillic Privacy Policy
 description: Privacy Policy of the Cyrillic Android app
+noindex: true
 ---
 # Latin To Cyrillic: Privacy Policy
 
