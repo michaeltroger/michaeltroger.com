@@ -30,7 +30,7 @@ Simple web (online) version using the Serbian alphabet:
 
 More alphabets and features in the [Android version](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic). 
 With ~50,000 downloads one of the most successful apps of its kind, while being fully [open source](https://github.com/michaeltroger/latintocyrillic-android)!
-The business logic is available as separate [Kotlin Multiplatform library](https://github.com/michaeltroger/latin-to-cyrillic) on [Maven Central](https://repo1.maven.org/maven2/com/michaeltroger/). 
+The business logic is available as separate [KMP (Kotlin Multiplatform library)](https://github.com/michaeltroger/latin-to-cyrillic-kmp) on [Maven Central](https://central.sonatype.com/search?namespace=com.michaeltroger). 
 
 Included alphabets in the Android version:
 
