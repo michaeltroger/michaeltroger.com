@@ -1,5 +1,6 @@
 {
 	"name": "Jekyll",
-	"build": { "dockerfile": "Dockerfile" },
+	"postCreateCommand": "cd docs && bundle install",
+	"postStartCommand": "cd docs && bundle exec jekyll serve",
 	"forwardPorts": [4000]
 }
