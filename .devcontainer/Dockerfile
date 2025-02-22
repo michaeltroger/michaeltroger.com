@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/jekyll:2-bullseye
 
-WORKDIR /docs
+WORKDIR docs
 
 RUN bundle install
 
