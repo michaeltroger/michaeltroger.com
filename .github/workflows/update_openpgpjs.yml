@@ -11,9 +11,9 @@ jobs:
       with:
         submodules: true
         
-    - run: rm -rd openpgpjs
+    - run: git submodule update --init --remote --recursive
 
-    - run: git submodule update --remote --merge
+    - run: git submodule update --recursive
 
     - uses: actions/setup-node@v4
       with:
