@@ -11,9 +11,9 @@ jobs:
       with:
         submodules: true
         
-    - run: git submodule update --init --remote --recursive
+    - run: git submodule update --recursive --init
 
-    - run: git submodule update --recursive
+    - run: git submodule foreach --recursive git pull origin main
 
     - uses: actions/setup-node@v4
       with:
