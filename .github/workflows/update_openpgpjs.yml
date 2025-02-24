@@ -11,8 +11,6 @@ jobs:
       with:
         submodules: true
 
-    - run: git submodule foreach --recursive git fetch origin
-
     - run: git submodule update --remote --merge
 
     - uses: actions/setup-node@v4
