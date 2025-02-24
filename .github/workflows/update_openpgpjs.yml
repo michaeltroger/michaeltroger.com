@@ -11,11 +11,7 @@ jobs:
       with:
         submodules: recursive
 
-    - run: |
-        cd openpgpjs
-        git fetch origin
-        git merge origin/main --allow-unrelated-histories
-
+    - run: rm -rd openpgpjs
     
     - run: git submodule update --remote --merge
 
