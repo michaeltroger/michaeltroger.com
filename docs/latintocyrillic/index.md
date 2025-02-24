@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Latin to Cyrillic Online Converter by Michael Troger
-description: Introducing my Latin to Cyrillic Android app.
+description: Introducing the Latin to Cyrillic Android app, created by Michael Troger.
 ---
 # Cyrillic Transliterator: Latin To Cyrillic
 A Latin to Cyrillic and Cyrillic to Latin converter (transliterator).

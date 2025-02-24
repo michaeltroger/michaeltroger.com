@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Allorunner AR
-description: Instructions for Allorunner AR Android app.
+description: Instructions for Michael Troger's Allorunner AR Android app.
 ---
 # An Augmented Reality endless runner!
 Download the game at [Google Play](https://play.google.com/store/apps/details?id=com.michaeltroger.allorunnerar).

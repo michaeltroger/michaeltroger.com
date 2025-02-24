@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects by Michael Troger
-description: Introducing the projects I worked on in the past and also an overview about ongoing ones.
+description: Introducing Michael Troger's software projects, both private ones as well as professional ones.
 ---
 # Projects
 {:.no_toc}

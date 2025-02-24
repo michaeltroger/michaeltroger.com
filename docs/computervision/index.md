@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Computer Vision by Michael Troger
-description: Introducing my Augmented Reality Android projects.
+description: Introducing Michael Troger's Augmented Reality Android projects.
 ---
 # Computer Vision on Android
 In my studies I had courses like Computer Graphics, Digital Imaging and Computer Vision.

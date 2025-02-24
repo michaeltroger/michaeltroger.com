@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CV of Michael Troger
-description: A brief overview of my career
+description: A brief overview of Michael Troger's career plus some insides into the tech stack he uses.
 ---
 # My Dream Job
 * Flexible work time

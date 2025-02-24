@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Privacy Policy
-description: Privacy Policy of the Website
 noindex: true
 ---
 # Privacy Policy

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Michael Troger's Blog
-description: Overview of my blog posts.
+description: Michael Troger's blog posts related to software engineering, IT and Linux.
 ---
 # {{ page.title }}
 
