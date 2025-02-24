@@ -10,10 +10,8 @@ jobs:
     - uses: actions/checkout@v4
       with:
         submodules: true
-        
-    - run: git submodule update --recursive --init
 
-    - run: git submodule foreach --recursive git pull origin main
+    - run: git submodule foreach --recursive git fetch origin && git reset --hard origin/main
 
     - uses: actions/setup-node@v4
       with:
