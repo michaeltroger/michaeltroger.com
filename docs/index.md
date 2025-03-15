@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Michael Troger
-description: Michael Troger, Android Developer
+description: Portfolio website of Michael Troger, an Android Developer from Upper Austria.
 ---
 # Hi there, I'm Michael Troger!
 

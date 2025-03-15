@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Michael Troger Private
-description: Some insides into my private life.
 noindex: true
 ---
 # Private

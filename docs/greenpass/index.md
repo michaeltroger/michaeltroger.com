@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PDF Wallet by Michael Troger
-description: Introducing the PDF Wallet Android app.
+description: Introducing the PDF Wallet Android app, created by Michael Troger. A former top 3 app in Austria.
 ---
 # PDF Wallet
 Previously known as Green Pass PDF Wallet.
