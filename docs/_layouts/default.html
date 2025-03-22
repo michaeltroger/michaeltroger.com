@@ -7,17 +7,17 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'none';"/>
 			{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="{% link css/main.scss %}">
 		</head>
 		<body>
 			<nav>
 	    		<ul>
-	        		<li><a href="/">home</a></li>
-	        		<li><a href="/cv">cv</a></li>
-	        		<li><a href="/projects">projects</a></li>
-	        		<li><a href="/private">private</a></li>
-	        		<li><a href="/blog">blog</a></li>
-				<li><a href="/contact">contact</a></li>
+	        		<li><a href="{% link index.md %}">home</a></li>
+	        		<li><a href="{% link cv/index.md %}">cv</a></li>
+	        		<li><a href="{% link projects/index.md %}">projects</a></li>
+	        		<li><a href="{% link insights/index.md %}">insights</a></li>
+	        		<li><a href="{% link private/index.md %}">private</a></li>
+				<li><a href="{% link contact/index.md %}">contact</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
@@ -25,7 +25,7 @@
 			</div>
 			<footer class="small-font">
 	    		<ul>
-	        		<li><a href="/privacy">Privacy Policy</a></li>
+	        		<li><a href="{% link privacy/index.md %}">Privacy Policy</a></li>
 	        		<li><a href="https://github.com/michaeltroger">GitHub</a></li>
 	        		<li><a href="https://stackoverflow.com/users/5155371/michael-troger">Stack Overflow</a></li>
 	        		<li><a href="https://www.linkedin.com/in/michaeltroger">LinkedIn</a></li>

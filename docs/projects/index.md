@@ -43,9 +43,9 @@ I bring experience in writing code used by several millions of users worldwide. 
 Although being a professional software developer, programming stayed a hobby of mine. Therefore I'm working on some projects in my free-time.
 Following a selected list of Android projects that I actively maintain, described in more detail:
 
-* [PDF Wallet](/greenpass)
-* [Cyrillic Transliterator: Latin To Cyrillic](/latintocyrillic)
-* [Multiple Computer Vision Apps](/computervision)
+* [PDF Wallet]({% link greenpass/index.md %})
+* [Cyrillic Transliterator: Latin To Cyrillic]({% link latintocyrillic/index.md %})
+* [Multiple Computer Vision Apps]({% link computervision/index.md %})
 
 Some of them you can also find on my [Google Play Developer page](https://play.google.com/store/apps/developer?id=Michael+Troger).
 
@@ -80,7 +80,7 @@ I'm an active member on GitHub and Stack Overflow. Feel free to check out my pro
 
 [Michael Troger on GitHub](https://github.com/michaeltroger)
 
-Additionally I created an automatically generated overview of [all my open-source repositories](/repositories). Excerpt:
+Additionally I created an automatically generated overview of [all my open-source repositories]({% link repositories/index.md %}). Excerpt:
 
 {% assign repos = site.github.public_repositories %}
 {% if repos %}
@@ -93,6 +93,6 @@ Additionally I created an automatically generated overview of [all my open-sourc
         Stars: {{ repo.stargazers_count }} | Forks: {{ repo.forks_count }}
     </li>
   {% endfor %}
-    <li><a href="/repositories">See more</a></li>
+    <li><a href="{% link repositories/index.md %}">See more</a></li>
 </ul>
 {% endif %}

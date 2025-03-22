@@ -43,15 +43,15 @@ Included alphabets in the Android version:
 * Ukrainian (ISO 9:1995)
 
 <a href='https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-<img alt='Get it on Google Play' height='80' src='/images/googleplay.png'/>
+<img alt='Get it on Google Play' height='80' src='{% link images/googleplay.png %}'/>
 </a>
 <a href="https://f-droid.org/packages/at.mikenet.serbianlatintocyrillic">
-<img src="/images/fdroid.png" alt="Get it on F-Droid" height="80">
+<img src="{% link images/fdroid.png %}" alt="Get it on F-Droid" height="80">
 </a>
 
-[Privacy Policy English](/latintocyrillic/privacy)  
+[Privacy Policy English]({% link latintocyrillic/privacy/index.md %})  
 
 [Source Code Android app on GitHub](https://github.com/michaeltroger/latintocyrillic-android)
 [Source Code KMP (Kotlin Multiplatform) library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic-kmp)
 
-<script src="/js/serbian_latin_cyrillic.js"></script>
+<script src="{% link js/serbian_latin_cyrillic.js %}"></script>

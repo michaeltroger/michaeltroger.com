@@ -8,7 +8,7 @@ noindex: true
 Michael Troger, MSc.  
 Puchenau, Austria
 
-Signal: [QR code](/signal) \| [Send message](https://signal.me/#eu/0n3ZV4EEhwiOCWnMJ1OmuOOtIMTUect5TdKwtyV7s6wJyydA8yBBN6qKHKymlVeF)
+Signal: [QR code]({% link signal/index.md %}) \| [Send message](https://signal.me/#eu/0n3ZV4EEhwiOCWnMJ1OmuOOtIMTUect5TdKwtyV7s6wJyydA8yBBN6qKHKymlVeF)
 
 Email: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
 You can use the below form to send me an encrypted email:
@@ -35,11 +35,11 @@ You can send it as it is. I (and only I) will be able to decrypt and read your m
 You can find my public key via the Web Key Directory (WKD) and on the [keys.openpgp.org](https://keys.openpgp.org/) key server.
 
 Download:  
-[Public Key](/files/troger_public.asc)  
+[Public Key]({% link files/troger_public.asc %})  
 
 Fingerprint:  
 CD61 A00F 7652 8C73 67D4  
 2E12 9D3B 8646 DE92 27FD
 
-<script src="/js/openpgp.min.js"></script>
-<script src="/js/contact.js"></script>
+<script src="{% link js/openpgp.min.js %}"></script>
+<script src="{% link js/contact.js %}"></script>

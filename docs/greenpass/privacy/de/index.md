@@ -3,7 +3,7 @@ layout: default
 title: PDF Wallet Privatsphäre und Datenschutz
 noindex: true
 ---
-## [English](/greenpass/privacy)
+## [English]({% link greenpass/privacy/index.md %})
 # PDF Wallet: Privatsphäre und Datenschutz
 
 ## Kontaktdaten

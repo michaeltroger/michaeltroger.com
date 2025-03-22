@@ -14,6 +14,6 @@ I like to go for a run, or to go for a hike with my girlfriend and my friends.
 Since I was a kid, I am fascinated by computers and IT and ever since I try to stay up-to-date about things.
 My interests include things like playing board games, playing video games and reading books.
 
-I'm not on any social media network besides LinkedIn. So if you see any profiles with my name on Facebook / Instagram etc. then that's not me. You can easily contact me through this website though. I'd be happy about [a message](/contact), if we lost track from each other over the years or to get to know each other.
+I'm not on any social media network besides LinkedIn. So if you see any profiles with my name on Facebook / Instagram etc. then that's not me. You can easily contact me through this website though. I'd be happy about [a message]({% link contact/index.md %}), if we lost track from each other over the years or to get to know each other.
 
-![Image of myself, Michael Troger](/images/freetime.jpg){:.img-fullwidth}
+![Image of myself, Michael Troger]({% link /images/freetime.jpg %}){:.img-fullwidth}
