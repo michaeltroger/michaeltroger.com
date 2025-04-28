@@ -17,4 +17,3 @@ jobs:
             --header "Authorization: Bearer $USER_TOKEN"
         env:
           USER_TOKEN: ${{ secrets.USER_TOKEN }}
-      - uses: gautamkrishnar/keepalive-workflow@v1
