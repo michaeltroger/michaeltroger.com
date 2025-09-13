@@ -7,7 +7,9 @@ noindex: true
 
 ## Contact Data
 Michael Troger, MSc.  
-Puchenau, Austria  
+Kürnbergblick 1   
+4048 Puchenau  
+Austria  
 &#x63;&#x79;&#x72;&#x69;&#x6C;&#x6C;&#x69;&#x63;&#x40;&#x74;&#x72;&#x6F;&#x67;&#x65;&#x72;&#x2E;&#x61;&#x70;&#x70;
 
 ## Which data is collected when using the app?
@@ -35,5 +37,5 @@ Therefore it has also no access to things like the internet, the camera, or any 
 The app optionally allows to copy text to your clipboard.
 
 ## Up-to-Dateness of this Policy
-This policy is currently valid and was created in March, 2024. Since the app will be updated from time to time, I might also update this policy.
+This policy is currently valid and was created in September, 2025. Since the app will be updated from time to time, I might also update this policy.
 The current policy will always be available at this URL. The policy is [open-source]({{ site.website_source_root_url }}{{ page.path }}) like the rest of the app, so you can also check the history of changes.

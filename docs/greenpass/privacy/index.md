@@ -8,7 +8,9 @@ noindex: true
 
 ## Contact Data
 Michael Troger, MSc.  
-Puchenau, Austria  
+Kürnbergblick 1   
+4048 Puchenau  
+Austria  
 &#103;&#114;&#101;&#101;&#110;&#112;&#97;&#115;&#115;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 
 ## Which data is collected when using the app?
@@ -58,5 +60,5 @@ An external link can also be handled by one of your other installed apps, like e
 When you leave the app through such an external link, then I can not guarantee the same level of privacy as in my own app. 
 
 ## Up-to-Dateness of this Policy
-This policy is currently valid and was created in April, 2024. Since the app will be updated from time to time, I might also update this policy.
+This policy is currently valid and was created in September, 2025. Since the app will be updated from time to time, I might also update this policy.
 The current policy will always be available at this URL. The policy is [open-source]({{ site.website_source_root_url }}{{ page.path }}) like the rest of the app, so you can also check the history of changes.

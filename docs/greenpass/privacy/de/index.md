@@ -8,7 +8,9 @@ noindex: true
 
 ## Kontaktdaten
 Michael Troger, MSc.  
-Puchenau, Austria  
+Kürnbergblick 1   
+4048 Puchenau  
+Austria  
 &#103;&#114;&#101;&#101;&#110;&#112;&#97;&#115;&#115;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 
 ## Welche Daten werden bei Verwendung der App erfasst?
@@ -59,5 +61,5 @@ Ein externer Link kann auch von einer deiner anderen installierten Apps geöffne
 Wenn du die App durch solch einen externen Link verlässt, dann kann ich nicht die selbe Privatsphäre garantieren wie in meiner eigenen App.
 
 ## Aktualität dieser Datenschutzerklärung
-Diese Datenschutzerklärung ist aktuell und wurde im April 2024 erstellt. Da die App von Zeit zu Zeit aktualisiert wird, könnte ich auch diese Erklärung aktualisieren.
+Diese Datenschutzerklärung ist aktuell und wurde im September 2025 erstellt. Da die App von Zeit zu Zeit aktualisiert wird, könnte ich auch diese Erklärung aktualisieren.
 Die aktuelle Erklärung wird immer unter dieser URL verfügbar sein. Die Erklärung ist [Open-Source]({{ site.website_source_root_url }}{{ page.path }}) wie der Rest der App, was es auch ermöglicht die Änderungshistorie einzusehen.

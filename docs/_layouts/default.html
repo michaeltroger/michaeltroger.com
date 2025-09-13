@@ -12,11 +12,8 @@
 		<body>
 			<nav>
 	    		<ul>
-	        		<li><a href="{% link index.md %}">home</a></li>
-	        		<li><a href="{% link cv/index.md %}">cv</a></li>
-	        		<li><a href="{% link projects/index.md %}">projects</a></li>
-	        		<li><a href="{% link insights/index.md %}">insights</a></li>
-	        		<li><a href="{% link private/index.md %}">private</a></li>
+				<li><a href="{% link index.md %}">home</a></li>
+				<li><a href="{% link apps/index.md %}">apps</a></li>
 				<li><a href="{% link contact/index.md %}">contact</a></li>
 	    		</ul>
 			</nav>
@@ -25,11 +22,11 @@
 			</div>
 			<footer class="small-font">
 	    		<ul>
+	        		<li><a href="{% link imprint/index.md %}">Imprint</a></li>
 	        		<li><a href="{% link privacy/index.md %}">Privacy Policy</a></li>
 	        		<li><a href="https://github.com/michaeltroger">GitHub</a></li>
 	        		<li><a href="https://stackoverflow.com/users/5155371/michael-troger">Stack Overflow</a></li>
 	        		<li><a href="https://www.linkedin.com/in/michaeltroger">LinkedIn</a></li>
-	        		<li><a href="https://paypal.me/trogermichael">PayPal</a></li>
 				</ul>
 				<p>&copy; {{ site.time | date: '%Y' }} Michael Troger<br>
 				This website is <a href="{{ site.website_source_root_url }}{{ page.path }}">open source</a>.

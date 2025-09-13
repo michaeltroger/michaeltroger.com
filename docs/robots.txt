@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /contact/
 Disallow: /signal/
 Disallow: /private/
+Disallow: /imprint/
 Disallow: /privacy/
 Disallow: /greenpass/privacy/
 Disallow: /latintocyrillic/privacy/

@@ -11,8 +11,10 @@ While this might limit the functionality of the website, it also shows that I ca
 
 ## Contact Data
 Michael Troger, MSc.  
-Puchenau, Austria  
-&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
+Kürnbergblick 1   
+4048 Puchenau  
+Austria  
+&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 ## Which data is collected when using this website?
 I don't do any data collection and I do not have access to any personal data about your visit. 
@@ -64,5 +66,5 @@ No, there is no tracking.
 My email provider is [mailbox.org](https://mailbox.org), operated by the German company Heinlein Hosting GmbH.
 
 ## Up-to-Dateness of this Policy
-This policy is currently valid and was created in March, 2024. Since the website will be updated from time to time, I might also update this policy.
+This policy is currently valid and was created in September, 2025. Since the website will be updated from time to time, I might also update this policy.
 The current policy will always be available at this URL. The policy is [open-source]({{ site.website_source_root_url }}{{ page.path }}) like the rest of the website, so you can also check the history of changes.

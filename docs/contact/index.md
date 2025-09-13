@@ -4,10 +4,6 @@ title: Contact Michael Troger
 noindex: true
 ---
 # Contact
-
-Michael Troger, MSc.  
-Puchenau, Austria
-
 Signal: [QR code]({% link signal/index.md %}) \| [Send message](https://signal.me/#eu/0n3ZV4EEhwiOCWnMJ1OmuOOtIMTUect5TdKwtyV7s6wJyydA8yBBN6qKHKymlVeF)
 
 Email: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
