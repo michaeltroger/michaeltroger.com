@@ -17,7 +17,7 @@ E-Mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
   
 VAT number: ATU82401018  
   
-Member of the WKO, business consulting, accounting and information technology  
+Member of the WKO - Business consulting, accounting and information technology  
   
 Administrative district authority: Bezirkshauptmannschaft Urfahr-Umgebung  
   
