@@ -18,7 +18,7 @@ E-mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 VAT number: ATU82401018  
   
 Member of the WKO:  
-Trade group OÖ, Business consulting - Accounting - IT  
+[Trade group OÖ, Business consulting - Accounting - IT](https://firmen.wko.at/michael-troger/oberösterreich/?firmaid=993ab01c-72c8-4943-8355-31b67b78de6c)  
   
 Administrative district authority: Bezirkshauptmannschaft Urfahr-Umgebung  
   
