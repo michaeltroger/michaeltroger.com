@@ -4,7 +4,7 @@ title: Contact Michael Troger
 noindex: true
 ---
 # Contact
-Signal: [QR code]({% link signal/index.md %}) \| [Send message](https://signal.me/#eu/0n3ZV4EEhwiOCWnMJ1OmuOOtIMTUect5TdKwtyV7s6wJyydA8yBBN6qKHKymlVeF)
+Signal messenger: [Contact data]({% link signal/index.md %})  
 
 Email: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
 You can use the below form to send me an encrypted email:
