@@ -63,7 +63,7 @@ footer {
 input, button {
     border: 1px solid black;
     background: darkgray;
-    box-shadow: 10px 5px 5px blue;
+    box-shadow: 5px 5px 5px blue;
     font-size: 1rem;
     border-radius: 20px;
     padding: 10px;
@@ -74,8 +74,14 @@ input:focus, input:active, input:hover, button:focus, button:active, button:hove
     background: white
 }
 textarea {
+    border: 2px solid darkgray;
+    border-radius: 20px;
     overflow-y: scroll;
     resize: none;
+    outline: none;
+}
+textarea:focus {
+    border-color: blue;
 }
 pre {
     white-space: pre-wrap;
@@ -121,10 +127,15 @@ pre {
 .latin-cyrillic-textarea {
     min-height:200px;
     width:100%;
+    box-sizing: border-box;
 }
 #latin-button {
     margin-left: auto; 
     display: block;
+    margin-right: 10px;
+}
+#cyrillic-button {
+    margin-left: 10px;
 }
 a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
     width: 14px;
