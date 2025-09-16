@@ -24,13 +24,14 @@ h1, h2, h3, nav ul a, footer ul a, input, button {
     font-size: $font-size-small;
 }
 h1 {
-    font-size: $font-size-header;
+    font-size: $font-size-large;
 }
 h2, h3 {
     font-size: $font-size-regular;
 }
 header h1 {
     font-family: monospace;
+    font-size: $font-size-xlarge;
     margin: 0;
     color: $link-color;
 }
@@ -160,10 +161,13 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
         font-size: $font-size-regular-smallscreen;
     }
     h1 {
-       font-size: $font-size-header-smallscreen;
+       font-size: $font-size-large-smallscreen;
     }
     h2, h3 {
        font-size: $font-size-regular-smallscreen;
+    }
+    header h1 {
+       font-size: $font-size-xlarge-smallscreen;
     }
     .small-font {
         font-size: $font-size-small-smallscreen;
