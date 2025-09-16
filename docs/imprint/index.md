@@ -22,5 +22,6 @@ Member of the WKO:
   
 Regulating authority: Bezirkshauptmannschaft Urfahr-Umgebung  
   
-Employment law:  
+
+Laws regarding professions:  
 [Trade regulations: www.ris.bka.gv.at](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10007517)  
