@@ -3,7 +3,7 @@ layout: default
 title: Michael Troger's Repositories
 description: An overview over Michael Troger's Git repositories, hosted on GitHub.
 ---
-# {{ page.title }}
+# My repositories
 Last updated at: {{ site.time }}
 
 {% assign totalStars = 0 %}

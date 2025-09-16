@@ -10,13 +10,17 @@
 			<link rel="stylesheet" type="text/css" href="{% link css/main.scss %}">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-				<li><a href="{% link index.md %}">home</a></li>
-				<li><a href="{% link apps/index.md %}">apps</a></li>
-				<li><a href="{% link contact/index.md %}">contact</a></li>
-	    		</ul>
-			</nav>
+			<header>
+				<h1>Michael Troger<span class="caret"></span></h1>
+				<nav>
+					<ul>
+						<li><a href="{% link index.md %}">home</a></li>
+						<li><a href="{% link apps/index.md %}">apps</a></li>
+						<li><a href="{% link contact/index.md %}">contact</a></li>
+					</ul>
+				</nav>
+  			</header>
+			
 			<div class="container">
 			{{ content }}
 			</div>
