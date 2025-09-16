@@ -36,18 +36,6 @@ header h1 {
     align-items: center;
     color: $link-color;
 }
-.caret {
-    display: inline-block;
-    width: 0.1em;
-    height: 1.2em;
-    background: $link-color;
-    margin-left: 6px;
-    animation: blink 1s steps(1) infinite;
-}
-@keyframes blink {
-    0%, 50% { opacity: 1; }
-    50.01%, 100% { opacity: 0; }
-}
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
