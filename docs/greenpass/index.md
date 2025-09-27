@@ -19,13 +19,6 @@ Another idea was to avoid the manual step of zooming in on the PDF page for enla
 <a href="https://f-droid.org/packages/com.michaeltroger.gruenerpass">
 <img src="{% link /images/fdroid.png %}" alt="Get it on F-Droid" height="80">
 </a>
-<br>
-<a href="https://www.amazon.com/gp/mas/dl/android?p=com.michaeltroger.gruenerpass">
-<img src="{% link /images/amazonappstore.png %}" class="img-padding" alt="Available at Amazon Appstore" height='55'>
-</a>
-<a href="https://appgallery.huawei.com/app/C108212859">
-<img src="{% link /images/huaweiappgallery.png %}" class="img-padding" alt="Explore it on Huawei AppGallery" height='55'>
-</a>
 
 [Privacy Policy English]({% link greenpass/privacy/index.md %})  
 [Privacy Policy German (Datenschutzerklärung)]({% link greenpass/privacy/de/index.md %})
