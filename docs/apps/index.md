@@ -48,10 +48,10 @@ I bring experience in writing code used by several millions of users. During my 
 # Open-Source
 Over the years I learnt to value open-source software and platforms like Stack Overflow. 
 Since they helped me grow as developer, I decided to give something back to the community.
-I'm an active member on GitHub and Stack Overflow. Feel free to check out my profiles.
+I'm an active member on GitHub and Stack Overflow. Feel free to follow my profiles.
 
-[Michael Troger on StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)\
 [Michael Troger on GitHub](https://github.com/michaeltroger)
+[Michael Troger on StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)\
 
 Following an overview of [all my open-source repositories]({% link repositories/index.md %}). Excerpt:
 
