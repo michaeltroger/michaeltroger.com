@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contribute
-noindex: false
+title: How to Contribute
+description: Explaining how you can contribute to support my projects
 ---
 # Contribute
 Software is never really "finished". Even when no new features are added, computer software needs regular maintenance like bug fixes, security fixes or adaptations for the latest operating system versions. 
