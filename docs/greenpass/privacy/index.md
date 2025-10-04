@@ -11,7 +11,7 @@ Michael Troger, MSc.
 Kürnbergblick 1   
 4048 Puchenau  
 Austria  
-&#103;&#114;&#101;&#101;&#110;&#112;&#97;&#115;&#115;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
+&#112;&#100;&#102;&#119;&#97;&#108;&#108;&#101;&#116;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 
 ## In-app purchases
 Our app offers optional in-app purchases. Purchases and payments are processed securely by Google Play and are subject to Google’s Privacy Policy. We do not receive or store any payment information such as credit card details.
