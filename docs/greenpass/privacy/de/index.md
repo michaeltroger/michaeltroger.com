@@ -10,7 +10,7 @@ noindex: true
 Michael Troger, MSc.  
 Kürnbergblick 1   
 4048 Puchenau  
-Austria
+Austria  
 &#112;&#100;&#102;&#119;&#97;&#108;&#108;&#101;&#116;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 
 ## In-App-Käufe
