@@ -13,8 +13,11 @@ Kürnbergblick 1
 Austria  
 &#103;&#114;&#101;&#101;&#110;&#112;&#97;&#115;&#115;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 
+## In-App-Käufe
+Unsere App bietet optionale In-App-Käufe an. Käufe und Zahlungen werden sicher über Google Play abgewickelt und unterliegen der Datenschutzrichtlinie von Google. Wir erhalten oder speichern keine Zahlungsinformationen, wie z. B. Kreditkartendaten.
+
 ## Welche Daten werden bei Verwendung der App erfasst?
-**Die App funktioniert offline und alle von der App erfassten Daten bleiben auf dem Gerät** und werden nicht zu unseren Servern gesendet und auch nicht an Dritte weitergegeben.
+**Die App funktioniert offline und alle von der App erfassten Dokumenten-Daten bleiben auf dem Gerät** und werden nicht zu unseren Servern gesendet und auch nicht an Dritte weitergegeben.
 Das heißt wir haben keinen Zugriff auf deine persönlichen Daten.
 Folgend kannst du mehr Informationen finden wie Daten **auf deinem Gerät** verwendet werden:
 
