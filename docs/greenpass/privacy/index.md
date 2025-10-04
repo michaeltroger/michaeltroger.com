@@ -13,8 +13,11 @@ Kürnbergblick 1
 Austria  
 &#103;&#114;&#101;&#101;&#110;&#112;&#97;&#115;&#115;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;
 
-## Which data is collected when using the app?
-**The app works fully offline and all data gathered by the app stays on the device**, and is not transmitted to our or any third party servers.
+## In-app purchases
+Our app offers optional in-app purchases. Purchases and payments are processed securely by Google Play and are subject to Google’s Privacy Policy. We do not receive or store any payment information such as credit card details.
+
+## Which other data is collected when using the app?
+**The app works fully offline and all document data gathered by the app stays on the device**, and is not transmitted to our or any third party servers.
 That means we do not have access to your personal data.
 Following you can find more information about how data is used **on your device**:
 
@@ -49,7 +52,7 @@ This app optionally allows to authenticate via fingerprint sensor. Other than th
 Therefore it has also no access to things like internet, camera, or other (not imported) files on your device, etc.
 The app can solely access the currently imported documents.
 
-## Rootes devices
+## Rooted devices
 It is not recommended to use the app on so called rooted devices. Root access potentially allows other apps to access your otherwise safe documents.
 
 ## External links
