@@ -48,7 +48,7 @@ No, there are no ads.
 No, there is no tracking.
   
 ## Which permissions does this app need? To what device capabilities has this app access?
-This app optionally allows to authenticate via fingerprint sensor. Other than that the app requires no permissions at all.
+The biometric/fingerprint permission is included, since the app optionally allows to authenticate via fingerprint sensor. The billing permission is needed for allowing the voluntary in-app purchases. Other than that the app requires no permissions at all.
 Therefore it has also no access to things like internet, camera, or other (not imported) files on your device, etc.
 The app can solely access the currently imported documents.
 
