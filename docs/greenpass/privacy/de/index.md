@@ -49,7 +49,7 @@ Nein, es gibt keine Werbung.
 Nein, es gibt kein Tracking.
   
 ## Welche Berechtigungen braucht diese App? Auf welche Gerätefunktionalitäten hat diese App Zugriff?
-Die App erlaubt optional das Authentifizieren mit Fingerabdruck-Sensor. Darüber hinaus benötigt die App keinerlei Berechtigungen. 
+Die Biometric-/Fingerprint-Berechtigung ist inkludiert, da die App optional das Authentifizieren mit Fingerabdruck-Sensor erlaubt. Die Billing-Berechtigung wird für die freiwillige In-App-Kauf Funktionalität benötigt. Darüber hinaus benötigt die App keinerlei Berechtigungen. 
 Sie hat also keinen Zugriff auf Dinge wie Internet, Kamera, andere Dateien (die nicht importiert sind) auf deinem Gerät, etc.
 Sie hat ausschließlich Zugriff auf die aktuell importierten Dokumente.
 
