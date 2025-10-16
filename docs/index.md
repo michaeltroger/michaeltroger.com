@@ -5,12 +5,12 @@ description: Portfolio website of Michael Troger, an Android Developer from Uppe
 ---
 # Hi there!
 
-* I'm Michael Troger
-* I'm from Upper Austria
-* Pronouns: he/him
-* I work as an Android Developer at [Bora](https://www.bora.com/)
-* I run my own software development business
-* I code in Kotlin, leveraging Kotlin Multiplatform (KMP) and Jetpack Compose
-* I'm the author of [PDF Wallet]({% link greenpass/index.md %})
+* I'm __Michael Troger__.
+* I'm from __Upper Austria__.
+* __Pronouns__: he/him
+* I work as an __Android Developer__ for a __kitchen appliance company__.
+* I also run my own __software development business__.
+* I primarily code in __Kotlin__, leveraging __Kotlin Multiplatform (KMP)__ and __Jetpack Compose__.
+* I'm the author of [__PDF Wallet__]({% link greenpass/index.md %}).
 
 ![Image of myself, Michael Troger]({% link images/michael.jpg %}){:.me}
