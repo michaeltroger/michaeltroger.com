@@ -5,7 +5,7 @@ noindex: true
 ---
 ## [EN]({{ "/imprint" | relative_url }}) | [DE]({{ "/imprint/de" | relative_url }})  | [ES]({{ "/imprint/es" | relative_url }})  | [FR]({{ "/imprint/fr" | relative_url }})
 
-# Imprint
+# Impressum
 
 Michael Troger, MSc.  
 Kürnbergblick 1  
