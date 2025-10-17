@@ -20,7 +20,7 @@ Another idea was to avoid the manual step of zooming in on the PDF page for enla
 <img src="{% link /images/fdroid.png %}" alt="Get it on F-Droid" height="80">
 </a>
 
-[Privacy Policy]({% link https://michaeltroger.github.io/pdfwallet-android/privacy/ %})  
+[Privacy Policy](https://michaeltroger.github.io/pdfwallet-android/privacy/)  
 
 [Source Code on GitHub](https://github.com/michaeltroger/pdfwallet-android)
 
