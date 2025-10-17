@@ -3,7 +3,7 @@ layout: default
 title: Impressum
 noindex: true
 ---
-## [EN]({{ "/imprint" | relative_url }}) | [DE]({{ "/imprint/de" | relative_url }}) | [ES]({{ "/imprint/es" | relative_url }}) | [FR]({{ "/imprint/fr" | relative_url }})
+## [EN]({{ "/imprint" | relative_url }}) | [DE]({{ "/imprint/de" | relative_url }}) | [ES]({{ "/imprint/es" | relative_url }}) | [FR]({{ "/imprint/fr" | relative_url }}) | [IT]({{ "/imprint/it" | relative_url }}) | [PT]({{ "/imprint/pt" | relative_url }})
 
 # Impressum
 
