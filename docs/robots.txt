@@ -3,6 +3,9 @@ Disallow: /contact/
 Disallow: /signal/
 Disallow: /private/
 Disallow: /imprint/
+Disallow: /imprint/de/
+Disallow: /imprint/fr/
+Disallow: /imprint/es/
 Disallow: /privacy/
 Disallow: /greenpass/privacy/
 Disallow: /latintocyrillic/privacy/
