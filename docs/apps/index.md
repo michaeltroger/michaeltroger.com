@@ -24,7 +24,7 @@ I have experience writing code used by several million users. During my time at 
   My contribution: feature enhancements
 * [Adidas Training - Home workout](https://web.archive.org/web/20231020104742/http://play.google.com/store/apps/details?id=com.runtastic.android.results.lite)\
   10M+ downloads\
-  Previously known as "Runtastic Results", discontinued\
+  Previously known as "Runtastic Results", (discontinued)\
   My contribution: feature enhancements
 * [Adidas - Shopping](https://play.google.com/store/apps/details?id=com.adidas.app)\
   50M+ downloads\
@@ -34,7 +34,7 @@ I have experience writing code used by several million users. During my time at 
   My contribution: feature enhancements
 * [Runtastic Steps - Steps counter & pedometer](https://web.archive.org/web/20190418173635/https://play.google.com/store/apps/details?id=com.runtastic.android.me.lite)\
   1M+ downloads\
-  Previously known as "Runtastic Me", discontinued\
+  Previously known as "Runtastic Me", (discontinued)\
   My contribution: feature enhancements
 * [Runtastic Sleep Better - Sleep tracker](https://web.archive.org/web/20240102165257/https://play.google.com/store/apps/details?id=com.runtastic.android.sleepbetter.lite)\
   5M+ downloads\
