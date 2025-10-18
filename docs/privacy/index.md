@@ -14,12 +14,12 @@ Austria
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 ## What Data Is Processed
-I don’t collect or store any personal data from visitors.  
-To show you this website, some technical data (like your IP address) is automatically processed by the network and hosting providers. This is necessary for the website to work.
+I do not actively collect or store personal data about visitors.
+However, when you access this website, your browser automatically transmits certain technical data (such as your IP address) to the hosting and network providers. This data is processed only to enable the delivery and security of the website.
 
 This processing is based on **Article 6(1)(f) GDPR** — legitimate interest in providing a secure and functional website.
 
-Because I do not store or have access to this data, your GDPR rights (access, correction, deletion) generally don’t apply in relation to this site.
+Since this website itself does not store personal data and only temporary technical logs may exist on the hosting servers, these rights generally cannot be exercised in relation to your visit.
 
 ## Who Processes Data on My Behalf
 
