@@ -6,7 +6,7 @@ noindex: true
 # Privacy Policy
 Last updated: October 2025
 
-## Data Controller
+## Data Controller & Contact
 Michael Troger, MSc.  
 Kürnbergblick 1   
 4048 Puchenau  
