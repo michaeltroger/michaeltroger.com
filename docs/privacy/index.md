@@ -6,54 +6,51 @@ noindex: true
 # Privacy Policy
 Last updated: October 2025
 
-## Data Controller / Contact
+## Data Controller
 Michael Troger, MSc.  
 Kürnbergblick 1   
 4048 Puchenau  
 Austria  
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
-## Data Collected When Visiting This Website
-I do not actively collect any data about visitors.  
-However, to deliver the website to your browser, certain technical information — such as your IP address — must be processed temporarily by the companies providing the network and hosting infrastructure.  
-I do not have access to this data and do not receive any visitor statistics or logs.
+## What Data Is Processed
+I don’t collect or store any personal data from visitors.  
+To show you this website, some technical data (like your IP address) is automatically processed by the network and hosting providers. This is necessary for the website to work.
 
-This technically required processing is based on Article 6(1)(f) GDPR — legitimate interest in the proper functionality and delivery of the website.
+This processing is based on **Article 6(1)(f) GDPR** — legitimate interest in providing a secure and functional website.
 
-Under the GDPR, you generally have rights of access, rectification, and deletion regarding personal data. However, since I do not store or have access to any personal data of website visitors, these rights cannot be exercised in relation to this website.
+Because I do not store or have access to this data, your GDPR rights (access, correction, deletion) generally don’t apply in relation to this site.
 
-## Third-Party Infrastructure
+## Who Processes Data on My Behalf
 
-### Registrar & Name Server
-[OVH SAS](https://www.ovhcloud.com), a French company,
-is my registrar and name server provider. They translate the domain name into the actual IP address of the host.
-
-OVH will receive your IP address. This is required for a proper functionality of the website and a technical need.
-You can read the [OVH privacy policy](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/) for further information.
+### Domain Provider
+The domain is managed by **[OVH SAS](https://www.ovhcloud.com)** (France).  
+OVH processes your IP address to connect you to the website.  
+Read more: [OVH Privacy Policy](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/)
 
 ### Hosting
-The website is hosted by [GitHub, Inc.](https://github.com), a U.S. company.  
-GitHub (and its subprocessors such as Content Delivery Networks) receives your IP address and request details to deliver the website correctly.  
+This website is hosted by **[GitHub, Inc.](https://github.com)** (USA).  
+GitHub and its subprocessors (like Content Delivery Networks) receive your IP address and request details to deliver the site.  
 
-You can read the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection) and the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details.  
+Further information:  
+- [GitHub Pages – Data Collection](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
+- [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
+- [GitHub Subprocessors](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
 
-The list of [GitHub subprocessors](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors) is publicly available.  
-GitHub participates in the [EU–U.S. Data Privacy Framework](https://www.dataprivacyframework.gov).  
-
-## External Links
-An external link is any link that does not point to this website. Links to external sources are marked with an icon (except image links such as “Get it on Google Play”). Please check the link target before clicking. If you leave my website via an external link, I cannot guarantee the same level of privacy. I am not responsible for the content or data processing practices of external websites.
+GitHub participates in the **[EU–U.S. Data Privacy Framework](https://www.dataprivacyframework.gov)**.
 
 ## Contact Form
-The contact form only opens your email client. I do not receive any data unless you actively send me an email.
+The contact form only opens your email program. I only receive data if you choose to send me an email.  
+My email provider is **[mailbox.org](https://mailbox.org)**, operated by Heinlein Hosting GmbH (Germany).
 
-## Ads and tracking
-This website contains **no advertisements**, performs **no analytics**, and includes **no tracking mechanisms**.
+## Links to Other Websites
+External links (marked with an icon) lead to other websites. I’m not responsible for their content or privacy practices.
 
-## Cookies
-This website sets **no cookies**.
-
-## Email Provider
-My email provider is [mailbox.org](https://mailbox.org), operated by the German company Heinlein Hosting GmbH.
+## Cookies, Ads & Tracking
+This website:  
+- Sets **no cookies**  
+- Uses **no analytics or tracking**  
+- Shows **no advertisements**
 
 ## Open Source
-The [source code of the website]({{ site.website_source_url }}) is fully open source, allowing you to verify its functionality and behavior.
+The [source code of the website]({{ site.website_source_url }}) is open source. You can review how it works yourself.
