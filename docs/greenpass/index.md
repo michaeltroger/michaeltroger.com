@@ -23,7 +23,7 @@ The main idea behind this app was to eliminate the need to search for PDFs scatt
 [Source Code on GitHub](https://github.com/michaeltroger/pdfwallet-android)
 
 # Success
-With around 150,000 downloads and briefly being one of the top 3 apps in Austria, this is my most succesful privately developed app so far.
+With around 150,000 downloads and briefly being one of the top 3 apps in Austria, this is my most successful privately developed app so far.
 
 #3 of all apps in Austria on 2021-07-04:  
 ![#3 of all apps in Austria]({% link /images/top_apps.webp %}){:.img-fullwidth}
