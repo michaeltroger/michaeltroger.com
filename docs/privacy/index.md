@@ -16,24 +16,24 @@ Austria
 ## What Data Is Processed
 I do not actively collect or store personal data about visitors.
 
-When you access this website, your browser automatically transmits certain technical data (such as your IP address and request details) to the hosting and network providers.  
+When you access this website, your browser automatically transmits certain technical data (such as your IP address and request details) to the **hosting and DNS providers**.  
 This data is processed solely to deliver and secure the website and is automatically deleted after a short period.
 
-The legal basis for this processing is **Article 6(1)(f) GDPR** — my legitimate interest in providing a secure and functional website.
+The legal basis for this processing is Article 6(1)(f) GDPR — my legitimate interest in providing a secure and functional website.
 
-The hosting and network providers (**GitHub** and **OVH**) process connection data as **independent controllers** for their respective infrastructure services.
+The hosting and DNS providers (GitHub and OVH) process connection data as independent controllers for their respective infrastructure services.
 
 You have rights of access, rectification, and erasure under the GDPR; however, this website itself does not store any personal data.
 
 ## Service Providers
 
-### Domain Provider
-The domain is managed by **[OVH SAS](https://www.ovhcloud.com)** (France).  
+**Domain / DNS Provider**
+[OVH SAS](https://www.ovhcloud.com) (France).  
 OVH processes your IP address to connect you to the website.  
 Read more: [OVH Privacy Policy](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/)
 
-### Hosting
-This website is hosted by **[GitHub, Inc.](https://github.com)** (USA).  
+**Hosting Provider**
+[GitHub, Inc.](https://github.com) (USA).  
 GitHub and its subprocessors (like Content Delivery Networks) receive your IP address and request details to deliver the site.  
 
 Further information:  
