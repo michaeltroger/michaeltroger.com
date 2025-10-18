@@ -21,7 +21,7 @@ This processing is based on **Article 6(1)(f) GDPR** — legitimate interest in 
 
 Since this website itself does not store personal data and only temporary technical logs may exist on the hosting servers, these rights generally cannot be exercised in relation to your visit.
 
-## Who Processes Data on My Behalf
+## Service Providers
 
 ### Domain Provider
 The domain is managed by **[OVH SAS](https://www.ovhcloud.com)** (France).  
