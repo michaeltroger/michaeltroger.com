@@ -19,6 +19,7 @@ However, when you access this website, your browser automatically transmits cert
 
 This processing is based on **Article 6(1)(f) GDPR** — legitimate interest in providing a secure and functional website.
 
+You have rights of access, rectification, and erasure under the GDPR.  
 Since this website itself does not store personal data and only temporary technical logs may exist on the hosting servers, these rights generally cannot be exercised in relation to your visit.
 
 ## Service Providers
