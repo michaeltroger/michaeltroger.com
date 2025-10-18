@@ -46,9 +46,6 @@ An external link is any link that does not point to this website. Links to exter
 ## Contact Form
 The contact form only opens your email client. I do not receive any data unless you actively send me an email.
 
-## Open Source
-The [source code of the website]({{ site.website_source_url }}) is fully open source, allowing you to verify its functionality and behavior.
-
 ## Ads and tracking
 This website contains **no advertisements**, performs **no analytics**, and includes **no tracking mechanisms**.
 
@@ -57,3 +54,6 @@ This website sets **no cookies**.
 
 ## Email Provider
 My email provider is [mailbox.org](https://mailbox.org), operated by the German company Heinlein Hosting GmbH.
+
+## Open Source
+The [source code of the website]({{ site.website_source_url }}) is fully open source, allowing you to verify its functionality and behavior.
