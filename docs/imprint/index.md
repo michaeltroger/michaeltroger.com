@@ -14,7 +14,7 @@ Austria
   
 Software development 
   
-Signal messenger: [Contact data]({% link signal/index.md %})    
+Signal Messenger: [Contact data]({% link signal/index.md %})    
 E-mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 VAT number: ATU82401018  
