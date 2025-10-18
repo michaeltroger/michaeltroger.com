@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Apps by Michael Troger
-description: Introducing Michael Troger's software projects, both own ones as well as professional ones.
+description: Introducing Michael Troger's software projects — both personal and professional.
 ---
 # Apps
 {:.no_toc}
@@ -9,51 +9,51 @@ description: Introducing Michael Troger's software projects, both own ones as we
 * Table of Contents
 {:toc}
 
-# My own apps
+# My Own Apps
 * [PDF Wallet]({% link greenpass/index.md %})
 * [Cyrillic Transliterator: Latin To Cyrillic]({% link latintocyrillic/index.md %})
 * [Multiple Computer Vision Apps]({% link computervision/index.md %})
 
-Some of them you can also find on my [Google Play Developer page](https://play.google.com/store/apps/developer?id=Michael+Troger).
+Some of them can also be found on my [Google Play Developer page](https://play.google.com/store/apps/developer?id=Michael+Troger).
 
-# Apps worked on
-I bring experience in writing code used by several millions of users. During my time at adidas Digital Sports (Runtastic) I worked on:
+# Apps I Worked On
+I have experience writing code used by several million users. During my time at adidas Digital Sports (Runtastic), I worked on:
 * [Adidas Running - Sport activity tracker](https://play.google.com/store/apps/details?id=com.runtastic.android)\
   50M+ downloads\
-  previously known as "Runtastic"\
-  My part: feature enhancements
+  Previously known as "Runtastic"\
+  My contribution: feature enhancements
 * [Adidas Training - Home workout](https://web.archive.org/web/20231020104742/http://play.google.com/store/apps/details?id=com.runtastic.android.results.lite)\
   10M+ downloads\
-  previously known as "Runtastic Results", discontinued\
-  My part: feature enhancements
+  Previously known as "Runtastic Results", discontinued\
+  My contribution: feature enhancements
 * [Adidas - Shopping](https://play.google.com/store/apps/details?id=com.adidas.app)\
   50M+ downloads\
-  My part: feature enhancements
+  My contribution: feature enhancements
 * [Adidas Confirmed - Exclusive shopping](https://play.google.com/store/apps/details?id=com.adidas.confirmed.app)\
   10M+ downloads\
-  My part: feature enhancements
+  My contribution: feature enhancements
 * [Runtastic Steps - Steps counter & pedometer](https://web.archive.org/web/20190418173635/https://play.google.com/store/apps/details?id=com.runtastic.android.me.lite)\
   1M+ downloads\
-  previously known as "Runtastic Me", discontinued\
-  My part: feature enhancements
+  Previously known as "Runtastic Me", discontinued\
+  My contribution: feature enhancements
 * [Runtastic Sleep Better - Sleep tracker](https://web.archive.org/web/20240102165257/https://play.google.com/store/apps/details?id=com.runtastic.android.sleepbetter.lite)\
   5M+ downloads\
-  discontinued\
-  My part: maintainance
+  Discontinued\
+  My contribution: maintenance
 * [Runtastic Heart Rate Monitor](https://web.archive.org/web/20171226114912/https://play.google.com/store/apps/details?id=com.runtastic.android.heartrate.lite)\
   5M+ downloads\
-  discontinued\
-  My part: maintainance
+  Discontinued\
+  My contribution: maintenance
 
-# Open-Source
-Over the years I learnt to value open-source software and platforms like Stack Overflow. 
-Since they helped me grow as developer, I decided to give something back to the community.
-I'm an active member on GitHub and Stack Overflow. Feel free to follow my profiles.
+# Open Source
+Over the years, I’ve learned to value open-source software and platforms like Stack Overflow.  
+Since they helped me grow as a developer, I decided to give something back to the community.  
+I'm an active member on GitHub and Stack Overflow — feel free to follow my profiles.
 
 [Michael Troger on GitHub](https://github.com/michaeltroger)\
 [Michael Troger on StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)
 
-Following an overview of [all my open-source repositories]({% link repositories/index.md %}). Excerpt:
+Below is an overview of [all my open-source repositories]({% link repositories/index.md %}). Excerpt:
 
 {% assign repos = site.github.public_repositories %}
 {% if repos %}
