@@ -4,9 +4,9 @@ title: Latin to Cyrillic Online Converter by Michael Troger
 description: Introducing the Latin to Cyrillic Android app, created by Michael Troger.
 ---
 # Cyrillic Transliterator: Latin To Cyrillic
-A Latin to Cyrillic and Cyrillic to Latin converter (transliterator).
+A Latin-to-Cyrillic and Cyrillic-to-Latin converter (transliterator).
 
-Simple web (online) version using the Serbian alphabet:
+A simple web (online) version using the Serbian alphabet:
 
 <noscript><p class="warning">This converter does not work without JavaScript.</p></noscript>
 <table class="fullwidth">
@@ -28,9 +28,9 @@ Simple web (online) version using the Serbian alphabet:
     </tr>
 </table>
 
-More alphabets and features in the [Android version](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic). 
-With ~50,000 downloads one of the most successful apps of its kind, while being fully [open source](https://github.com/michaeltroger/latintocyrillic-android)!
-The business logic is available as separate [KMP (Kotlin Multiplatform)](https://github.com/michaeltroger/latin-to-cyrillic-kmp) library on [Maven Central](https://central.sonatype.com/search?namespace=com.michaeltroger). 
+More alphabets and features are available in the [Android version](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic). 
+With around 50,000 downloads, it is one of the most successful apps of its kind — and it’s fully [open source](https://github.com/michaeltroger/latintocyrillic-android)!
+The core business logic is available as separate [KMP (Kotlin Multiplatform)](https://github.com/michaeltroger/latin-to-cyrillic-kmp) library on [Maven Central](https://central.sonatype.com/search?namespace=com.michaeltroger). 
 
 Included alphabets in the Android version:
 
@@ -49,9 +49,9 @@ Included alphabets in the Android version:
 <img src="{% link images/fdroid.png %}" alt="Get it on F-Droid" height="80">
 </a>
 
-[Privacy Policy English]({% link latintocyrillic/privacy/index.md %})  
+[Privacy Policy]({% link latintocyrillic/privacy/index.md %})  
 
-[Source Code Android app on GitHub](https://github.com/michaeltroger/latintocyrillic-android)
-[Source Code KMP (Kotlin Multiplatform) library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic-kmp)
+[Source Code: Android App on GitHub](https://github.com/michaeltroger/latintocyrillic-android)
+[Source Code: KMP (Kotlin Multiplatform) Library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic-kmp)
 
 <script src="{% link js/serbian_latin_cyrillic.js %}"></script>
