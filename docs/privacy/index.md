@@ -27,12 +27,12 @@ You have rights of access, rectification, and erasure under the GDPR; however, t
 
 ## Service Providers
 
-**Domain / DNS Provider**
+**Domain / DNS Provider**  
 [OVH SAS](https://www.ovhcloud.com) (France).  
 OVH processes your IP address to connect you to the website.  
 Read more: [OVH Privacy Policy](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/)
 
-**Hosting Provider**
+**Hosting Provider**  
 [GitHub, Inc.](https://github.com) (USA).  
 GitHub and its subprocessors (like Content Delivery Networks) receive your IP address and request details to deliver the site.  
 
