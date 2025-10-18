@@ -15,12 +15,15 @@ Austria
   
 ## What Data Is Processed
 I do not actively collect or store personal data about visitors.
-However, when you access this website, your browser automatically transmits certain technical data (such as your IP address) to the hosting and network providers. This data is processed only to enable the delivery and security of the website.
 
-This processing is based on **Article 6(1)(f) GDPR** — legitimate interest in providing a secure and functional website.
+When you access this website, your browser automatically transmits certain technical data (such as your IP address and request details) to the hosting and network providers.  
+This data is processed solely to deliver and secure the website and is automatically deleted after a short period.
 
-You have rights of access, rectification, and erasure under the GDPR.  
-Since this website itself does not store personal data and only temporary technical logs may exist on the hosting servers, these rights generally cannot be exercised in relation to your visit.
+The legal basis for this processing is **Article 6(1)(f) GDPR** — my legitimate interest in providing a secure and functional website.
+
+The hosting and network providers (**GitHub** and **OVH**) process connection data as **independent controllers** for their respective infrastructure services.
+
+You have rights of access, rectification, and erasure under the GDPR; however, this website itself does not store any personal data.
 
 ## Service Providers
 
