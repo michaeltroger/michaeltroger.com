@@ -46,9 +46,7 @@ I have experience writing code used by several million users. During my time at 
   My contribution: maintenance
 
 # Open Source
-Over the years, I’ve learned to value open-source software and platforms like Stack Overflow.  
-Since they helped me grow as a developer, I decided to give something back to the community.  
-I'm an active member on GitHub and Stack Overflow — feel free to follow my profiles.
+Over the years, I’ve learned to value open-source software and platforms like Stack Overflow. Since they helped me grow as a developer, I decided to give something back to the community. I'm an active member on GitHub and Stack Overflow — feel free to follow my profiles.
 
 [Michael Troger on GitHub](https://github.com/michaeltroger)\
 [Michael Troger on StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)
