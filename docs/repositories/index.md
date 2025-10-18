@@ -3,7 +3,7 @@ layout: default
 title: Michael Troger's Repositories
 description: An overview over Michael Troger's Git repositories, hosted on GitHub.
 ---
-# My repositories
+# My Repositories
 Last updated at: {{ site.time }}
 
 {% assign totalStars = 0 %}
@@ -14,8 +14,8 @@ Last updated at: {{ site.time }}
   {% assign totalForks = totalForks | plus: repo.forks_count %}
 {% endfor %}
 
-Total received stars for repos: {{ totalStars }}  
-Total forks from repos: {{ totalForks }}
+Total stars received: {{ totalStars }}  
+Total forks: {{ totalForks }}
 
 [Follow @michaeltroger on GitHub](https://github.com/michaeltroger)
 
