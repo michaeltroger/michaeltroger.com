@@ -4,27 +4,27 @@ title: Contact Michael Troger
 noindex: true
 ---
 # Contact
-Signal messenger: [Contact data]({% link signal/index.md %})  
+Signal Messenger: [Contact data]({% link signal/index.md %})  
 
 Email: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
-You can use the below form to send me an encrypted email:
+You can use the form below to send me an encrypted email:
 
-<noscript><p class="warning">The form doesn't work without JavaScript, it's needed for encryption (using OpenPGP.js).</p></noscript>
+<noscript><p class="warning">The form doesn't work without JavaScript. It's required for encryption (using OpenPGP.js).</p></noscript>
 <form id="form">
     <textarea id="input" disabled name="body" rows="5" placeholder="Your message for me..."></textarea><br>
     <input type="submit" disabled value="Encrypt & open mail client" id="submit" title="mailto:&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">
 </form>
 <div id="after-sent" class="hidden">
     <button id="copy-to-clipboard">Copy text to clipboard.</button>
-    <p><b>Your email app should now have been opened. If it was not, then please manually send the message from above to &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</b></p>
+    <p><b>Your email app should now have opened. If it did not, please manually send the message above to &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</b></p>
 </div>
 
 {:.note .small-font}
 **Not familiar with PGP yet?**  
 Pretty Good Privacy (PGP) makes email communication much safer.
-If you press the above button, your message will be encrypted with PGP.
-It will start with "-----BEGIN PGP MESSAGE-----" and end with "-----END PGP MESSAGE-----".
-You can send it as it is. I (and only I) will be able to decrypt and read your message.
+If you press the button above, your message will be encrypted with PGP.
+It will start with “-----BEGIN PGP MESSAGE-----“ and end with “-----END PGP MESSAGE-----“.
+You can send it as is — only I will be able to decrypt and read your message.
 
 ## PGP
 
