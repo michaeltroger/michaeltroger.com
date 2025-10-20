@@ -16,34 +16,25 @@ Kürnbergblick 1
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
 
 ## Welche Daten verarbeitet werden
-Ich erhebe oder speichere **keine personenbezogenen Daten** über Besucher dieser Website.
+Ich selbst erhebe oder speichere keine personenbezogenen Daten über Besucher. Ebenso werden keine Serverprotokolle oder Verbindungsdaten von mir gespeichert.
 
-Beim Aufruf dieser Website übermittelt Ihr Browser automatisch bestimmte technische Daten (z. B. Ihre IP-Adresse und Anfragedetails) an die **Hosting- und DNS-Anbieter**.  
-Diese Daten werden ausschließlich zur Bereitstellung und Sicherung der Website verarbeitet und nach kurzer Zeit automatisch gelöscht.
+Wenn Sie jedoch auf diese Website zugreifen, übermittelt Ihr Browser automatisch bestimmte technische Daten (z. B. Ihre IP-Adresse und Anfragedetails) an den **Hosting-Anbieter und dessen Unterauftragsverarbeiter**.  
 
 Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO — mein berechtigtes Interesse an der Bereitstellung einer sicheren und funktionsfähigen Website.
 
-Die Hosting- und DNS-Anbieter (GitHub und OVH) verarbeiten Verbindungsdaten als eigenständige Verantwortliche für ihre jeweiligen Infrastrukturdienste.
+Sie haben gemäß DSGVO Rechte auf Auskunft, Berichtigung und Löschung; diese Website selbst speichert jedoch keine personenbezogenen Daten.
 
-Sie haben gemäß DSGVO Rechte auf Auskunft, Berichtigung und Löschung; jedoch speichert diese Website selbst keine personenbezogenen Daten.
-
-## Dienstleister
-
-**Domain- / DNS-Anbieter**  
-[OVH SAS](https://www.ovhcloud.com) (Frankreich).  
-OVH verarbeitet Ihre IP-Adresse, um die Verbindung zur Website herzustellen.  
-Mehr Informationen: [OVH Datenschutzerklärung](https://www.ovhcloud.com/de/terms-and-conditions/privacy-policy/)
-
-**Hosting-Anbieter**  
-[GitHub, Inc.](https://github.com) (USA).  
-GitHub und seine Unterauftragsverarbeiter (z. B. Content Delivery Networks) erhalten Ihre IP-Adresse und Anfragedaten, um die Website auszuliefern.  
+## Hosting-Anbieter
+[GitHub, Inc.](https://github.com) (USA)  
+GitHub und seine Unterauftragsverarbeiter (z. B. Content Delivery Networks) erhalten Ihre IP-Adresse und Anfragedetails, um die Website auszuliefern.  
+GitHub agiert als **unabhängiger Verantwortlicher** für diese technischen Daten.  
 
 Weitere Informationen:  
 - [GitHub Pages – Datenerhebung](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
-- [GitHub Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
-- [GitHub Unterauftragsverarbeiter](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
+- [GitHub-Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
+- [GitHub-Unterauftragsverarbeiter](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
 
-GitHub nimmt am **[EU–U.S. Data Privacy Framework](https://www.dataprivacyframework.gov)** teil.
+GitHub nimmt am **[EU–US Data Privacy Framework](https://www.dataprivacyframework.gov)** teil.
 
 ## Kontaktformular
 Das Kontaktformular öffnet lediglich Ihr E-Mail-Programm. Ich erhalte Daten nur, wenn Sie sich entscheiden, mir eine E-Mail zu senden.  

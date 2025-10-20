@@ -16,27 +16,18 @@ Austria
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 ## What Data Is Processed
-I do not actively collect or store personal data about visitors.
+I do not collect or store personal data about visitors myself. I also do not retain any server logs or connection data.
 
-When you access this website, your browser automatically transmits certain technical data (such as your IP address and request details) to the **hosting and DNS providers**.  
-This data is processed solely to deliver and secure the website and is automatically deleted after a short period.
+However, when you access this website, your browser automatically transmits certain technical data (such as your IP address and request details) to the **hosting provider and its subprocessors**.  
 
 The legal basis for this processing is Article 6(1)(f) GDPR — my legitimate interest in providing a secure and functional website.
 
-The hosting and DNS providers (GitHub and OVH) process connection data as independent controllers for their respective infrastructure services.
-
 You have rights of access, rectification, and erasure under the GDPR; however, this website itself does not store any personal data.
 
-## Service Providers
-
-**Domain / DNS Provider**  
-[OVH SAS](https://www.ovhcloud.com) (France).  
-OVH processes your IP address to connect you to the website.  
-Read more: [OVH Privacy Policy](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/)
-
-**Hosting Provider**  
-[GitHub, Inc.](https://github.com) (USA).  
-GitHub and its subprocessors (like Content Delivery Networks) receive your IP address and request details to deliver the site.  
+## Hosting Provider
+[GitHub, Inc.](https://github.com) (USA)  
+GitHub and its subprocessors (such as Content Delivery Networks) receive your IP address and request details to deliver the site. 
+GitHub operates as an **independent data controller** for this technical data. 
 
 Further information:  
 - [GitHub Pages – Data Collection](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  

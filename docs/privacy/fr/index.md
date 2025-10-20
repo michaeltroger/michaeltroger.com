@@ -16,34 +16,26 @@ Autriche
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
 
 ## Données traitées
-Je ne collecte ni ne stocke activement de données personnelles concernant les visiteurs.
+Je ne collecte ni ne stocke moi-même de données personnelles concernant les visiteurs.  
+Je ne conserve pas non plus de journaux de serveur ni de données de connexion.
 
-Lorsque vous accédez à ce site web, votre navigateur transmet automatiquement certaines données techniques (telles que votre adresse IP et les détails de la requête) aux **fournisseurs d’hébergement et de DNS**.  
-Ces données sont traitées uniquement afin d’assurer la livraison et la sécurité du site, et sont automatiquement supprimées après une courte période.
+Cependant, lorsque vous accédez à ce site web, votre navigateur transmet automatiquement certaines données techniques (telles que votre adresse IP et les détails de la requête) au **fournisseur d’hébergement et à ses sous-traitants**.  
 
 La base juridique de ce traitement est l’article 6(1)(f) du RGPD — mon intérêt légitime à fournir un site web sécurisé et fonctionnel.
 
-Les fournisseurs d’hébergement et de DNS (GitHub et OVH) traitent les données de connexion en tant que responsables indépendants pour leurs services d’infrastructure respectifs.
+Vous disposez de droits d’accès, de rectification et d’effacement en vertu du RGPD ; toutefois, ce site web ne stocke lui-même aucune donnée personnelle.
 
-Vous disposez de droits d’accès, de rectification et d’effacement conformément au RGPD ; cependant, ce site web ne stocke lui-même aucune donnée personnelle.
+## Fournisseur d’hébergement
+[GitHub, Inc.](https://github.com) (États-Unis)  
+GitHub et ses sous-traitants (tels que les réseaux de diffusion de contenu) reçoivent votre adresse IP et les détails de votre requête afin de délivrer le site.  
+GitHub agit en tant que **responsable de traitement indépendant** pour ces données techniques.  
 
-## Prestataires de services
-
-**Fournisseur de domaine / DNS**  
-[OVH SAS](https://www.ovhcloud.com) (France).  
-OVH traite votre adresse IP afin d’établir la connexion avec le site web.  
-En savoir plus : [Politique de confidentialité d’OVH](https://www.ovhcloud.com/fr/terms-and-conditions/privacy-policy/)
-
-**Fournisseur d’hébergement**  
-[GitHub, Inc.](https://github.com) (États-Unis).  
-GitHub et ses sous-traitants (comme les réseaux de diffusion de contenu) reçoivent votre adresse IP et les détails de votre requête afin d’afficher le site.
-
-Informations complémentaires :  
+Informations supplémentaires :  
 - [GitHub Pages – Collecte de données](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
 - [Déclaration de confidentialité GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
-- [Sous-traitants GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
+- [Sous-traitants de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
 
-GitHub participe au **[cadre de protection des données UE–États-Unis (Data Privacy Framework)](https://www.dataprivacyframework.gov)**.
+GitHub participe au **[Cadre de protection des données UE–États-Unis (Data Privacy Framework)](https://www.dataprivacyframework.gov)**.
 
 ## Formulaire de contact
 Le formulaire de contact ouvre simplement votre programme de messagerie. Je ne reçois des données que si vous choisissez de m’envoyer un e-mail.  

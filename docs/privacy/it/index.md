@@ -16,34 +16,25 @@ Austria
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
 
 ## Dati Trattati
-Non raccolgo né memorizzo attivamente dati personali dei visitatori.
+Non raccolgo né conservo personalmente dati personali sui visitatori. Inoltre, non conservo registri del server né dati di connessione.
 
-Quando accedi a questo sito web, il tuo browser trasmette automaticamente alcuni dati tecnici (come il tuo indirizzo IP e i dettagli della richiesta) ai **provider di hosting e DNS**.  
-Questi dati vengono trattati esclusivamente per fornire e proteggere il sito web e vengono eliminati automaticamente dopo un breve periodo di tempo.
+Tuttavia, quando accedi a questo sito web, il tuo browser trasmette automaticamente alcuni dati tecnici (come il tuo indirizzo IP e i dettagli della richiesta) al **fornitore di hosting e ai suoi sub-responsabili**.  
 
-La base giuridica per questo trattamento è l’Articolo 6(1)(f) del GDPR — il mio legittimo interesse a fornire un sito web sicuro e funzionante.
+La base giuridica per questo trattamento è l’Articolo 6(1)(f) del GDPR — il mio legittimo interesse nel fornire un sito web sicuro e funzionale.
 
-I provider di hosting e DNS (GitHub e OVH) trattano i dati di connessione in qualità di titolari autonomi del trattamento per i rispettivi servizi infrastrutturali.
+Hai diritti di accesso, rettifica e cancellazione ai sensi del GDPR; tuttavia, questo sito web non memorizza alcun dato personale.
 
-Hai il diritto di accesso, rettifica e cancellazione ai sensi del GDPR; tuttavia, questo sito web non memorizza alcun dato personale.
-
-## Fornitori di Servizi
-
-**Provider di Dominio / DNS**  
-[OVH SAS](https://www.ovhcloud.com) (Francia).  
-OVH tratta il tuo indirizzo IP per collegarti al sito web.  
-Maggiori informazioni: [Informativa sulla Privacy di OVH](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/)
-
-**Provider di Hosting**  
-[GitHub, Inc.](https://github.com) (USA).  
-GitHub e i suoi sub-responsabili (come le Content Delivery Network) ricevono il tuo indirizzo IP e i dettagli della richiesta per fornire il sito.  
+## Fornitore di Hosting
+[GitHub, Inc.](https://github.com) (USA)  
+GitHub e i suoi sub-responsabili (come le reti di distribuzione dei contenuti) ricevono il tuo indirizzo IP e i dettagli della richiesta per fornire il sito.  
+GitHub agisce come **titolare del trattamento indipendente** per questi dati tecnici.  
 
 Ulteriori informazioni:  
-- [GitHub Pages – Raccolta dei Dati](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
+- [GitHub Pages – Raccolta Dati](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
 - [Informativa sulla Privacy di GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
 - [Sub-responsabili di GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
 
-GitHub partecipa al **[Data Privacy Framework UE–USA](https://www.dataprivacyframework.gov)**.
+GitHub partecipa al **[Quadro per la Privacy dei Dati UE–USA](https://www.dataprivacyframework.gov)**.
 
 ## Modulo di Contatto
 Il modulo di contatto apre semplicemente il tuo programma di posta elettronica. Ricevo dati solo se scegli di inviarmi un’email.  

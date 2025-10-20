@@ -15,35 +15,26 @@ Kürnbergblick 1
 Áustria  
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
 
-## Quais Dados São Processados
-Não coleto nem armazeno ativamente quaisquer dados pessoais sobre os visitantes.
+## Que Dados São Processados
+Eu não recolho nem armazeno dados pessoais sobre os visitantes. Também não mantenho registos de servidor ou dados de ligação.
 
-Ao aceder (ou acessar) este site, o seu navegador transmite automaticamente certos dados técnicos (como o seu endereço IP e detalhes do pedido) para os **fornecedores de hospedagem e DNS**.  
-Esses dados são processados unicamente para disponibilizar e proteger o site, sendo eliminados automaticamente após um curto período.
+No entanto, ao aceder a este site, o seu navegador transmite automaticamente certos dados técnicos (como o seu endereço IP e detalhes do pedido) para o **fornecedor de alojamento e os seus subcontratantes**.  
 
-A base legal para este processamento é o Artigo 6(1)(f) do RGPD — o meu interesse legítimo em fornecer um site seguro e funcional.
+A base legal para este processamento é o Artigo 6(1)(f) do RGPD — o meu interesse legítimo em disponibilizar um site seguro e funcional.
 
-Os fornecedores de hospedagem e DNS (GitHub e OVH) processam os dados de conexão como controladores independentes para os respetivos serviços de infraestrutura.
+Tem direitos de acesso, retificação e eliminação ao abrigo do RGPD; no entanto, este site em si não armazena quaisquer dados pessoais.
 
-Você tem direitos de acesso, retificação e eliminação (ou apagamento) conforme o RGPD; no entanto, este site não armazena quaisquer dados pessoais.
-
-## Fornecedores de Serviços
-
-**Provedor de Domínio / DNS**  
-[OVH SAS](https://www.ovhcloud.com) (França).  
-A OVH processa o seu endereço IP para o conectar ao site.  
-Saiba mais: [Política de Privacidade da OVH](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/)
-
-**Provedor de Hospedagem**  
-[GitHub, Inc.](https://github.com) (EUA).  
-O GitHub e os seus subcontratantes (como redes de distribuição de conteúdo — CDNs) recebem o seu endereço IP e detalhes da requisição para entregar o site.  
+## Fornecedor de Alojamento
+[GitHub, Inc.](https://github.com) (EUA)  
+A GitHub e os seus subcontratantes (como as Redes de Entrega de Conteúdo) recebem o seu endereço IP e detalhes do pedido para disponibilizar o site.  
+A GitHub atua como **responsável independente pelo tratamento** desses dados técnicos.  
 
 Mais informações:  
-- [GitHub Pages – Coleta de Dados](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
-- [Declaração de Privacidade do GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
-- [Subprocessadores do GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
+- [GitHub Pages – Recolha de Dados](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
+- [Declaração de Privacidade da GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
+- [Subcontratantes da GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
 
-O GitHub participa no **[EU–U.S. Data Privacy Framework](https://www.dataprivacyframework.gov)**.
+A GitHub participa no **[Quadro de Privacidade de Dados UE–EUA (EU–U.S. Data Privacy Framework)](https://www.dataprivacyframework.gov)**.
 
 ## Formulário de Contato
 O formulário de contato apenas abre o seu programa de e-mail. Eu só recebo dados se você optar por enviar uma mensagem.  

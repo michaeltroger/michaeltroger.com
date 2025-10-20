@@ -16,34 +16,25 @@ Austria
 m@troger.app  
 
 ## Qué Datos Se Procesan
-No recopilo ni almaceno activamente datos personales sobre los visitantes.
+Yo no recopilo ni almaceno datos personales de los visitantes. Tampoco conservo registros del servidor ni datos de conexión.
 
-Cuando accedes a este sitio web, tu navegador transmite automáticamente ciertos datos técnicos (como tu dirección IP y los detalles de la solicitud) a los **proveedores de alojamiento y DNS**.  
-Estos datos se procesan únicamente para entregar y proteger el sitio web, y se eliminan automáticamente después de un breve período.
+Sin embargo, cuando accedes a este sitio web, tu navegador transmite automáticamente ciertos datos técnicos (como tu dirección IP y los detalles de la solicitud) al **proveedor de alojamiento y sus subencargados**.  
 
-La base legal para este tratamiento es el Artículo 6(1)(f) del RGPD — mi interés legítimo en ofrecer un sitio web seguro y funcional.
+La base legal para este procesamiento es el Artículo 6(1)(f) del RGPD — mi interés legítimo en proporcionar un sitio web seguro y funcional.
 
-Los proveedores de alojamiento y DNS (GitHub y OVH) procesan los datos de conexión como responsables independientes por sus respectivos servicios de infraestructura.
+Tienes derechos de acceso, rectificación y supresión en virtud del RGPD; sin embargo, este sitio web en sí no almacena ningún dato personal.
 
-Tienes derechos de acceso, rectificación y supresión en virtud del RGPD; sin embargo, este sitio web no almacena ningún dato personal.
-
-## Proveedores de Servicios
-
-**Proveedor de Dominio / DNS**  
-[OVH SAS](https://www.ovhcloud.com) (Francia).  
-OVH procesa tu dirección IP para conectarte al sitio web.  
-Más información: [Política de Privacidad de OVH](https://www.ovhcloud.com/en-ie/terms-and-conditions/privacy-policy/)
-
-**Proveedor de Alojamiento (Hosting)**  
-[GitHub, Inc.](https://github.com) (EE. UU.).  
-GitHub y sus subprocesadores (como las redes de distribución de contenido) reciben tu dirección IP y los detalles de la solicitud para entregar el sitio.  
+## Proveedor de Alojamiento
+[GitHub, Inc.](https://github.com) (EE. UU.)  
+GitHub y sus subencargados (como las redes de distribución de contenido) reciben tu dirección IP y los detalles de la solicitud para entregar el sitio.  
+GitHub actúa como un **responsable del tratamiento independiente** para estos datos técnicos.  
 
 Más información:  
-- [GitHub Pages – Recopilación de Datos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
-- [Declaración de Privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
-- [Subprocesadores de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
+- [GitHub Pages – Recopilación de datos](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)  
+- [Declaración de privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)  
+- [Subencargados de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors)  
 
-GitHub participa en el **[Marco de Privacidad de Datos UE–EE. UU.](https://www.dataprivacyframework.gov)**.
+GitHub participa en el **[Marco de Privacidad de Datos entre la UE y EE. UU.](https://www.dataprivacyframework.gov)**.
 
 ## Formulario de Contacto
 El formulario de contacto solo abre tu programa de correo electrónico. Solo recibo datos si decides enviarme un correo.  
