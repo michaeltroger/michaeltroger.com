@@ -10,7 +10,7 @@ noindex: true
 
 ## Responsable del Tratamiento y Contacto
 Michael Troger, MSc.  
-Kürnbergblick 1  
+Kürnbergblick 1/2  
 4048 Puchenau  
 Austria  
 m@troger.app  

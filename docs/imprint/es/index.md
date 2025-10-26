@@ -8,7 +8,7 @@ noindex: true
 # Aviso legal
 
 Michael Troger, MSc.  
-Kürnbergblick 1  
+Kürnbergblick 1/2  
 4048 Puchenau  
 Austria  
   

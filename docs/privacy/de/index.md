@@ -10,7 +10,7 @@ Letzte Aktualisierung: Oktober 2025
 
 ## Verantwortlicher & Kontakt
 Michael Troger, MSc.  
-Kürnbergblick 1  
+Kürnbergblick 1/2  
 4048 Puchenau  
 Österreich  
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  

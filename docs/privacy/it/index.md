@@ -10,7 +10,7 @@ Ultimo aggiornamento: Ottobre 2025
 
 ## Titolare del Trattamento & Contatti
 Michael Troger, MSc.  
-Kürnbergblick 1  
+Kürnbergblick 1/2  
 4048 Puchenau  
 Austria  
 &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
