@@ -10,7 +10,7 @@ description: Introducing Michael Troger's software projects — both personal an
 {:toc}
 
 # My Own Apps
-* [PDF Wallet]({% link greenpass/index.md %})
+* [PDF Wallet]({% link pdfwallet/index.md %})
 * [Cyrillic Transliterator: Latin To Cyrillic]({% link latintocyrillic/index.md %})
 * [Multiple Computer Vision Apps]({% link computervision/index.md %})
 
