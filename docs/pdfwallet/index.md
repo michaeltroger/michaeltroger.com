@@ -18,7 +18,7 @@ The main idea behind this app was to eliminate the need to search for PDFs scatt
 <img src="{% link /images/fdroid.png %}" alt="Get it on F-Droid" height="80">
 </a>
 
-[Privacy Policy](https://michaeltroger.github.io/pdfwallet-android/privacy/)  
+[Privacy Policy](https://pdfwallet.troger.app/privacy/)  
 
 [Source Code on GitHub](https://github.com/michaeltroger/pdfwallet-android)
 
