@@ -9,3 +9,4 @@ description: Spiegazione su come puoi contribuire a supportare i miei progetti
 Se ti piacciono i miei progetti, considera di fare una delle seguenti cose:
 * Acquista **"PDF Wallet Pro"**, un acquisto in-app disponibile nell’[app Android PDF Wallet (solo nella versione del Play Store)](https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass).
 * Valuta le mie app con **5 stelle** sul Google Play Store.
+* Consiglia le mie app a familiari e amici.
