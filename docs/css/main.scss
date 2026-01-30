@@ -153,6 +153,15 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
 .me {
     border-radius: 50%;
 }
+.store-badges img {
+    height: 80px;      
+    vertical-align: middle;
+    margin-right: 10px;  
+}
+.store-badges .apple {
+    height: 55px;
+}
+
 @media (max-width: 1200px) {
     body {
         width: auto;

@@ -28,11 +28,11 @@ A simple web (online) version using the Serbian alphabet:
     </tr>
 </table>
 
-More alphabets and features are available in the [Android version](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic). 
-With around 50,000 downloads, it is one of the most successful apps of its kind — and it’s fully [open source](https://github.com/michaeltroger/latintocyrillic-android)!
+More alphabets and features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
+With around 50,000 downloads, the Android version is one of the most successful apps of its kind — and it’s fully [open source](https://github.com/michaeltroger/latintocyrillic-android)!
 The core business logic is available as separate [KMP (Kotlin Multiplatform)](https://github.com/michaeltroger/latin-to-cyrillic-kmp) library on [Maven Central](https://central.sonatype.com/search?namespace=com.michaeltroger). 
 
-Included alphabets in the Android version:
+Included alphabets in the Android / iOS version:
 
 * Serbian Azbuka
 * Belarusian (ISO 9:1995)
@@ -42,12 +42,18 @@ Included alphabets in the Android version:
 * Russian (ISO 9:1995)
 * Ukrainian (ISO 9:1995)
 
+
+<div class="store-badges">
+<a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969">
+<img class="apple" src="{% link images/appstore.svg %}" alt="Download on the App Store">
+</a>
 <a href='https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-<img alt='Get it on Google Play' height='80' src='{% link images/googleplay.png %}'/>
+<img alt='Get it on Google Play' src='{% link images/googleplay.png %}'/>
 </a>
 <a href="https://f-droid.org/packages/at.mikenet.serbianlatintocyrillic">
-<img src="{% link images/fdroid.png %}" alt="Get it on F-Droid" height="80">
+<img src="{% link images/fdroid.png %}" alt="Get it on F-Droid">
 </a>
+</div>
 
 [Privacy Policy]({% link latintocyrillic/privacy/index.md %})  
 
