@@ -55,7 +55,7 @@ Included alphabets in the Android / iOS version:
 </a>
 </div>
 
-[Privacy Policy]({% link latintocyrillic/privacy/index.md %})  
+[Privacy Policy](https://cyrillic.app/privacy)  
 
 [Source Code: Android App on GitHub](https://github.com/michaeltroger/latintocyrillic-android)  
 [Source Code: KMP (Kotlin Multiplatform) Library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic-kmp)
