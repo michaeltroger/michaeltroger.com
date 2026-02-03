@@ -6,7 +6,7 @@ description: Introducing the Latin to Cyrillic Android app, created by Michael T
 # Cyrillic Transliterator: Latin To Cyrillic
 A Latin-to-Cyrillic and Cyrillic-to-Latin converter (transliterator).
 
-Find a simple **web version** at **[cyrillic.app](https://cyrillic.app)**.
+Find a simple **web (online) version** at **[cyrillic.app](https://cyrillic.app)**.
 <div class="store-badges">
 <a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969">
 <img class="apple" src="{% link images/appstore.svg %}" alt="Download on the App Store">
