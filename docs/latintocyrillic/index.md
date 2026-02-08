@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Latin to Cyrillic Online Converter by Michael Troger
-description: Introducing the Latin to Cyrillic Android app, created by Michael Troger.
+description: Introducing the Latin to Cyrillic Android and iOS apps, created by Michael Troger.
 ---
 # Cyrillic Transliterator: Latin To Cyrillic
 A Latin-to-Cyrillic and Cyrillic-to-Latin converter (transliterator).
@@ -14,13 +14,10 @@ Find a simple **web (online) version** at **[cyrillic.app](https://cyrillic.app)
 <a href='https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
 <img alt='Get it on Google Play' src='{% link images/googleplay.png %}'/>
 </a>
-<a href="https://f-droid.org/packages/at.mikenet.serbianlatintocyrillic">
-<img src="{% link images/fdroid.png %}" alt="Get it on F-Droid">
-</a>
 </div>
 
 More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
-With around 50,000 downloads, the Android version is one of the most successful apps of its kind — and it’s fully [open source](https://github.com/michaeltroger/latintocyrillic-android)!
+With around 50,000 downloads, the Android version is one of the most successful apps of its kind!
 The core business logic is available as separate [KMP (Kotlin Multiplatform)](https://github.com/michaeltroger/latin-to-cyrillic-kmp) library on [Maven Central](https://central.sonatype.com/search?namespace=com.michaeltroger). 
 
 Included alphabets:
