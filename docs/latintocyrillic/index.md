@@ -28,9 +28,7 @@ Included alphabets:
 </a>
 </div>
 
-[Privacy Policy](https://cyrillic.app/privacy)  
-
-[Source Code: KMP (Kotlin Multiplatform) Library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic-kmp)
+[Privacy Policy](https://cyrillic.app/privacy) / [Source Code: KMP (Kotlin Multiplatform) Library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic-kmp)
 
 # Success
 With around 50,000 downloads, the Android version is one of the most successful apps of its kind!
