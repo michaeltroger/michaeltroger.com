@@ -10,10 +10,11 @@ Find a simple **web (online) version** at **[cyrillic.app](https://cyrillic.app)
 More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
 
 Included alphabets:
-* Serbian Azbuka
+* Serbian
+* Serbian (ISO 9:1995)
 * Belarusian (ISO 9:1995)
 * Bulgarian (ISO 9:1995)
-* Macedonian (ALA-LC)
+* Macedonian
 * Macedonian (ISO 9:1995)
 * Russian (ISO 9:1995)
 * Ukrainian (ISO 9:1995)
