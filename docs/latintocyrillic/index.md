@@ -8,7 +8,6 @@ A Latin-to-Cyrillic and Cyrillic-to-Latin converter (transliterator). This app t
 
 Find a simple **web (online) version** at **[cyrillic.app](https://cyrillic.app)**.
 More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
-The core business logic is available as open source [KMP (Kotlin Multiplatform)](https://github.com/michaeltroger/latin-to-cyrillic-kmp) library on [Maven Central](https://central.sonatype.com/search?namespace=com.michaeltroger). 
 
 Included alphabets:
 * Serbian Azbuka
@@ -28,7 +27,7 @@ Included alphabets:
 </a>
 </div>
 
-[Privacy Policy](https://cyrillic.app/privacy) / [Source Code: KMP (Kotlin Multiplatform) Library on GitHub](https://github.com/michaeltroger/latin-to-cyrillic-kmp)
+[Privacy Policy](https://cyrillic.app/privacy)
 
 # Success
 With around 50,000 downloads, the Android version is one of the most successful apps of its kind!
