@@ -182,3 +182,49 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
         font-size: $font-size-small-smallscreen;
     }
 }
+
+/* Dark theme (auto via OS/browser preference) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  header h1 {
+    color: #bb86fc; 
+  }
+
+  a {
+    color: #bb86fc;
+  }
+
+  footer {
+    border-top: 1px solid #333333;
+  }
+
+  input, button, textarea {
+    background: #1e1e1e;
+    border: 1px solid #555555;
+    color: #e0e0e0;
+  }
+
+  input:focus, input:active, input:hover,
+  button:focus, button:active, button:hover {
+    background: #333333;
+  }
+
+  .note {
+    background-color: #2a2a2a;
+    border-color: #444444;
+    color: #e0e0e0;
+  }
+
+  pre {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+
+  .gutter pre {
+    color: #888888;
+  }
+}
