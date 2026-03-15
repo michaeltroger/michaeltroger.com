@@ -37,3 +37,6 @@ GitHub Pages builds automatically on commits. Files can be directly edited withi
 3. Build and serve the site locally at [http://localhost:4000](http://localhost:4000): `bundle exec jekyll serve`  
    Optionally, run the command [with a GitHub token](https://github.com/jekyll/github-metadata/blob/main/docs/authentication.md) to render repository information:  
    `JEKYLL_GITHUB_TOKEN=123abc bundle exec jekyll serve`
+
+## Author
+[Michael Troger](https://michaeltroger.com)
