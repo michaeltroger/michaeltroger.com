@@ -191,11 +191,11 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
   }
 
   header h1 {
-    color: #bb86fc; 
+    color: #088664; 
   }
 
   a {
-    color: #bb86fc;
+    color: #088664;
   }
 
   footer {
@@ -226,5 +226,9 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
 
   .gutter pre {
     color: #888888;
+  }
+
+  a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
+    filter: invert(100%);
   }
 }
