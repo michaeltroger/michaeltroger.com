@@ -7,7 +7,7 @@ description: Introducing the Latin to Cyrillic Android and iOS apps, created by 
 A Latin-to-Cyrillic and Cyrillic-to-Latin converter (transliterator). This app transliterates Latin (Latinica) to Cyrillic (Ћирилица) and Cyrillic back to Latin, supporting Serbian Azbuka, Russian, and several other Slavic alphabets using established international standards.
 
 Find a simple **web (online) version** at **[cyrillic.app](https://cyrillic.app)**.
-More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
+More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS/macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
 
 Included alphabets:
 * Serbian
