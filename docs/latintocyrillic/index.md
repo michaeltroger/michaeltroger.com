@@ -6,7 +6,17 @@ description: Introducing the Latin to Cyrillic Android and iOS apps, created by 
 # Cyrillic Transliterator: Latin To Cyrillic
 A Latin-to-Cyrillic and Cyrillic-to-Latin converter (transliterator). This app transliterates Latin (Latinica) to Cyrillic (Ћирилица) and Cyrillic back to Latin, supporting Serbian Azbuka, Russian, and several other Slavic alphabets using established international standards.
 
-Find a simple **web (online) version** at **[cyrillic.app](https://cyrillic.app)**.
+<div class="store-badges">
+<a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969">
+<img class="apple" src="{% link images/appstore.svg %}" alt="Download on the App Store">
+</a>
+<a href='https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+<img alt='Get it on Google Play' src='{% link images/googleplay.png %}'/>
+</a>
+</div>
+
+## Online (web) version: [cyrillic.app - Free Online Latin-To-Cyrillic Converter](https://cyrillic.app)
+
 More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS/macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
 
 Included alphabets:
@@ -18,15 +28,6 @@ Included alphabets:
 * Macedonian (ISO 9:1995)
 * Russian (ISO 9:1995)
 * Ukrainian (ISO 9:1995)
-
-<div class="store-badges">
-<a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969">
-<img class="apple" src="{% link images/appstore.svg %}" alt="Download on the App Store">
-</a>
-<a href='https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-<img alt='Get it on Google Play' src='{% link images/googleplay.png %}'/>
-</a>
-</div>
 
 [Privacy Policy](https://cyrillic.app/privacy)
 
