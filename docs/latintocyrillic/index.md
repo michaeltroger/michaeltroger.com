@@ -26,6 +26,7 @@ Included alphabets:
 * Bulgarian (ISO 9:1995)
 * Macedonian
 * Macedonian (ISO 9:1995)
+* Montenegrin
 * Russian (ISO 9:1995)
 * Ukrainian (ISO 9:1995)
 
