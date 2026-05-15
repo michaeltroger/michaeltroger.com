@@ -32,5 +32,5 @@ With around 150,000 downloads and briefly being one of the top 3 apps in Austria
 
 ## PDF Wallet in the Media
 * **Techdoc**<br>
-  YouTube video: ["5 Amazing Android Apps on F-Droid 🔥 FREE & OPENSOURCE!"](https://youtu.be/9tI6hpa5IbA?feature=shared&t=83)<br>
+  YouTube video: ["5 Amazing Android Apps on F-Droid"](https://youtu.be/9tI6hpa5IbA?feature=shared&t=83)<br>
   Blog article: ["5 Amazing Android Apps on F-Droid - August 2023"](https://techdocyoutube.blogspot.com/2023/08/5-amazing-android-apps-on-f-droid.html)
