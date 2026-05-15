@@ -11,12 +11,21 @@ The app is fully [open source](https://github.com/michaeltroger/pdfwallet-androi
 
 The main idea behind this app was to eliminate the need to search for PDFs scattered across different folders on your phone. With the PDF Wallet app, PDFs are stored inside the app itself — like in a "wallet" — and are therefore easy to find. Another idea was to avoid the manual step of zooming in on a PDF page to enlarge barcodes. The app automatically detects and enlarges barcodes for you.
 
-<a href='https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+<a href=''>
 <img alt='Get it on Google Play' height='80' src='{% link /images/googleplay.png %}'/>
 </a>
 <a href="https://f-droid.org/packages/com.michaeltroger.gruenerpass">
 <img src="{% link /images/fdroid.png %}" alt="Get it on F-Droid" height="80">
 </a>
+
+<div class="store-badges">
+<a href="https://apps.apple.com/app/6767864357">
+<img class="apple" src="{% link images/appstore.svg %}" alt="Download on the App Store">
+</a>
+<a href='https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+<img alt='Get it on Google Play' src='{% link images/googleplay.png %}'/>
+</a>
+</div>
 
 [Privacy Policy](https://pdfwallet.troger.app/privacy/) / [Source Code on GitHub](https://github.com/michaeltroger/pdfwallet-android) / [Landing Page](https://pdfwallet.troger.app)
 
