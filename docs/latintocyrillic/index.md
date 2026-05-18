@@ -34,3 +34,7 @@ Included alphabets:
 
 # Success
 With around 50,000 downloads, the Android version is one of the most successful apps of its kind!
+
+## Cyrillic to Latin in the Media
+* **Techdoc**<br>
+  Chip.de: ["Kyrillisch umwandeln: Mit diesen Tools klappt's"](https://www.chip.de/ratgeber/wifi-dsl-internet/kyrillisch-umwandeln-mit-diesen-tools-klappt-s_ed7ff093-d1e4-42c7-998b-b5b208756e9e.html)
