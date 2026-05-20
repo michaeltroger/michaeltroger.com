@@ -7,7 +7,7 @@ description: Explicação sobre como pode contribuir para apoiar os meus projeto
 
 # Contribuir
 Se gosta dos meus projetos, considere fazer uma das seguintes opções:
-* Comprar o **"PDF Wallet Pro"**, uma compra dentro da aplicação disponível na [app PDF Wallet para Android (apenas na versão da Play Store)](https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass).
-* Compre o **“Cyrillic Pro”**, uma compra dentro do app disponível nos apps Cirílico Transliterador para [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) e [iOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969).  
+* Comprar o **"PDFWallet Pro"**, uma compra dentro da aplicação disponível nas apps PDFWallet para [iOS, macOS](https://apps.apple.com/app/6767864357) e [Android](https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass).
+* Compre o **“Cyrillic Pro”**, uma compra dentro do app disponível nos apps Cirílico Transliterador para [iOS, macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) e [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic).
 * Avaliar as minhas aplicações com **5 estrelas** na Google Play Store e na Apple App Store.
 * Recomende os meus aplicativos à sua família e aos seus amigos.
