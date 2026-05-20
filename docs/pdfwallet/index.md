@@ -5,7 +5,7 @@ description: Introducing the PDF Wallet mobile app, created by Michael Troger. A
 ---
 # PDF Wallet
 Previously known as Green Pass PDF Wallet.
-An iOS and Android app that stores and displays your most important PDF documents — for example a public transport ticket, a theater ticket, or any other PDF certificate.
+An iOS, MacOS and Android app that stores and displays your most important PDF documents — for example a public transport ticket, a theater ticket, or any other PDF certificate.
 Any included barcode is automatically enlarged if, for instance, a QR code is detected within the document.
 
 The main idea behind this app was to eliminate the need to search for PDFs scattered across different folders on your phone. With the PDF Wallet app, PDFs are stored inside the app itself — like in a "wallet" — and are therefore easy to find. Another idea was to avoid the manual step of zooming in on a PDF page to enlarge barcodes. The app automatically detects and enlarges barcodes for you.

@@ -17,7 +17,7 @@ A Latin-to-Cyrillic and Cyrillic-to-Latin converter (transliterator). This app t
 
 ## Online (web) version: [cyrillic.app - Free Online Latin-To-Cyrillic Converter](https://cyrillic.app)
 
-More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS/macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
+More features are available in the [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) and [iOS & macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) versions. 
 
 Included alphabets:
 * Serbian
