@@ -14,7 +14,7 @@ description: Introducing Michael Troger's software projects — both personal an
 * [Cyrillic Transliterator: Latin To Cyrillic]({% link latintocyrillic/index.md %})
 * [Multiple Computer Vision Apps]({% link computervision/index.md %})
 
-Some of them can also be found on my [Google Play Developer page](https://play.google.com/store/apps/developer?id=Michael+Troger).
+Some of them can also be found on my [Google Play Developer page](https://play.google.com/store/apps/developer?id=Michael+Troger) and my [Apple App Store Developer page](https://apps.apple.com/us/developer/michael-troger/id1871929506).
 
 # Apps I Worked On
 I have experience writing code used by several million users. During my time at adidas Digital Sports (Runtastic), I worked on:
