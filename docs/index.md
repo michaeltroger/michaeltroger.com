@@ -6,7 +6,7 @@ description: Portfolio website of Michael Troger, an Android Developer from Uppe
 # Hi there!
 
 * I'm __Michael Troger__.
-* I'm from __Upper Austria__.
+* I'm from __Austria__.
 * __Pronouns__: he/him
 * I work as an __Android Developer__ for a __kitchen appliance company__.
 * I also run my own __software development business__.
