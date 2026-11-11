@@ -232,3 +232,7 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
     filter: invert(100%);
   }
 }
+.lang-picker {
+  text-align: right;
+  margin-bottom: 1em;
+}

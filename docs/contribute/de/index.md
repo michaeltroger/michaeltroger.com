@@ -3,7 +3,6 @@ layout: default
 title: Wie man beitragen kann
 description: Erklärung, wie du meine Projekte unterstützen kannst
 ---
-## [EN]({{ "/contribute" | relative_url }}) | [DE]({{ "/contribute/de" | relative_url }}) | [ES]({{ "/contribute/es" | relative_url }}) | [FR]({{ "/contribute/fr" | relative_url }}) | [IT]({{ "/contribute/it" | relative_url }}) | [PT]({{ "/contribute/pt" | relative_url }})
 
 # Beitrag leisten
 Wenn dir meine Projekte gefallen, ziehe bitte eine der folgenden Möglichkeiten in Betracht:

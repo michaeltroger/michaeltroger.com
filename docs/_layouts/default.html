@@ -1,5 +1,18 @@
+{%- assign url_parts = page.url | split: "/" -%}
+{%- assign localized_sections = "privacy,imprint,contribute" | split: "," -%}
+{%- assign url_section = url_parts[1] -%}
+{%- assign url_lang = url_parts[2] | default: "" -%}
+{%- assign lang_codes = "" -%}
+{%- for l in site.data.languages -%}{%- assign lang_codes = lang_codes | append: l[0] | append: "," -%}{%- endfor -%}
+{%- assign lang_codes = lang_codes | split: "," -%}
+{%- if localized_sections contains url_section -%}
+{%- if lang_codes contains url_lang -%}
+{%- assign page_lang = url_lang -%}
+{%- assign lang_base = '/' | append: url_section | append: '/' | relative_url -%}
+{%- endif -%}
+{%- endif -%}
 <!DOCTYPE html>
-	<html>
+	<html{% if page_lang %} lang="{{ page_lang }}"{% endif %}>
 		<head>
 			<meta charset="utf-8" />
 			<title>{{ page.title }}</title>
@@ -9,6 +22,13 @@
 			<meta name="referrer" content="no-referrer">
 			{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 			<link rel="stylesheet" type="text/css" href="{% link css/main.scss %}">
+			{% if page_lang %}
+			{%- for l in site.data.languages %}
+			<link rel="alternate" hreflang="{{ l[0] }}" href="{{ lang_base | append: l[0] | append: '/' | absolute_url }}">
+			{%- endfor %}
+			<link rel="alternate" hreflang="x-default" href="{{ lang_base | absolute_url }}">
+			<script src="{{ '/js/lang.js' | relative_url }}"></script>
+			{% endif %}
 		</head>
 		<body>
 			<header>
@@ -22,13 +42,22 @@
   			</header>
 			
 			<div class="container">
+			{% if page_lang %}
+			<div class="lang-picker">
+				<select id="lang-picker" aria-label="Language" data-base="{{ lang_base }}">
+					{%- for l in site.data.languages %}
+					<option value="{{ l[0] }}"{% if l[0] == page_lang %} selected{% endif %}>{{ l[1] }}</option>
+					{%- endfor %}
+				</select>
+			</div>
+			{% endif %}
 			{{ content }}
 			</div>
 			<footer class="small-font">
 	    		<ul>
-	        		<li><a href="{% link imprint/index.md %}">Imprint</a></li>
-	        		<li><a href="{% link privacy/index.md %}">Privacy Policy</a></li>
-	        		<li><a href="{% link contribute/index.md %}">Contribute</a></li>
+	        		<li><a href="{{ '/imprint/' | relative_url }}">Imprint</a></li>
+	        		<li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
+	        		<li><a href="{{ '/contribute/' | relative_url }}">Contribute</a></li>
 	        		<li><a href="https://github.com/michaeltroger">GitHub</a></li>
 	        		<li><a href="https://www.linkedin.com/in/michaeltroger">LinkedIn</a></li>
 				</ul>

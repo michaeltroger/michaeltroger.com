@@ -1,0 +1,22 @@
+{%- assign base = '/' | append: page.section | append: '/' | relative_url -%}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'none';"/>
+		<meta name="referrer" content="no-referrer">
+		<meta name="robots" content="noindex">
+		<title>{{ page.title }}</title>
+		<link rel="canonical" href="{{ base | append: 'en/' | absolute_url }}">
+		<script src="{{ '/js/lang.js' | relative_url }}" data-lang-redirect="{{ base }}"></script>
+		<noscript><meta http-equiv="refresh" content="0; url={{ base }}en/"></noscript>
+	</head>
+	<body>
+		<ul>
+			{%- for l in site.data.languages %}
+			<li><a href="{{ base }}{{ l[0] }}/" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
+			{%- endfor %}
+		</ul>
+	</body>
+</html>
