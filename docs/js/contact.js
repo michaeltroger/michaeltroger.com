@@ -11,10 +11,10 @@ copyToClipboard.onclick = () => {
     navigator.clipboard
         .writeText(input.value)
         .then(() => {
-            alert("Copied to clipboard.");
+            alert(copyToClipboard.dataset.successMessage);
         })
         .catch(() => {
-            alert("Error. Couldn't copy to clipboard. Please copy manually.");
+            alert(copyToClipboard.dataset.errorMessage);
         });
 };
 

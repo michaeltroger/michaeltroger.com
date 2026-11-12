@@ -11,14 +11,15 @@
         if (supported.indexOf(code) >= 0) pick = code;
       }
     }
-    location.replace(redirect.getAttribute("data-lang-redirect") + (pick || "en") + "/" + location.search + location.hash);
+    var path = redirect.getAttribute("data-lang-path");
+    location.replace("/" + (pick || "en") + "/" + (path ? path + "/" : "") + location.search + location.hash);
   }
   document.addEventListener("DOMContentLoaded", function () {
     var picker = document.getElementById("lang-picker");
     if (!picker) return;
     picker.addEventListener("change", function () {
       try { localStorage.setItem("lang", picker.value); } catch (e) {}
-      location.href = picker.getAttribute("data-base") + picker.value + "/";
+      location.href = "/" + picker.value + picker.getAttribute("data-path") + location.search + location.hash;
     });
   });
 })();

@@ -25,7 +25,7 @@ jobs:
     - name: Generate screenshots homepage
       uses: flameddd/screenshots-ci-action@master
       with:
-        url: https://michaeltroger.com
+        url: https://michaeltroger.com/en/
         devices: iPhone 13
     - name: Keep only few homepage screenshots
       run: |
@@ -35,7 +35,7 @@ jobs:
     - name: Generate screenshots contact page
       uses: flameddd/screenshots-ci-action@master
       with:
-        url: https://michaeltroger.com/contact
+        url: https://michaeltroger.com/en/contact/
         devices: iPhone 13
     - name: Keep only few contact screenshots
       run: |

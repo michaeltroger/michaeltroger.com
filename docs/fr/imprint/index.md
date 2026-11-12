@@ -13,7 +13,7 @@ Autriche
   
 Développement logiciel 
   
-Messagerie Signal : [Coordonnées]({% link signal/index.md %})    
+Messagerie Signal : [Coordonnées](/fr/signal/)    
 E-mail : &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 Numéro de TVA : ATU82401018

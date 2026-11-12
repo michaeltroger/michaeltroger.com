@@ -1,4 +1,3 @@
-{%- assign base = '/' | append: page.section | append: '/' | relative_url -%}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -8,14 +7,23 @@
 		<meta name="referrer" content="no-referrer">
 		<meta name="robots" content="noindex">
 		<title>{{ page.title }}</title>
-		<link rel="canonical" href="{{ base | append: 'en/' | absolute_url }}">
-		<script src="{{ '/js/lang.js' | relative_url }}" data-lang-redirect="{{ base }}"></script>
-		<noscript><meta http-equiv="refresh" content="0; url={{ base }}en/"></noscript>
+		{% if page.section %}
+		<link rel="canonical" href="{{ '/' | append: 'en/' | append: page.section | append: '/' | relative_url | absolute_url }}">
+		<noscript><meta http-equiv="refresh" content="0; url={{ '/' | append: 'en/' | append: page.section | append: '/' | relative_url }}"></noscript>
+		{% else %}
+		<link rel="canonical" href="{{ '/en/' | relative_url | absolute_url }}">
+		<noscript><meta http-equiv="refresh" content="0; url={{ '/en/' | relative_url }}"></noscript>
+		{% endif %}
+		<script src="{{ '/js/lang.js' | relative_url }}" data-lang-redirect="true" data-lang-path="{{ page.section }}"></script>
 	</head>
 	<body>
 		<ul>
 			{%- for l in site.data.languages %}
-			<li><a href="{{ base }}{{ l[0] }}/" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
+			{% if page.section %}
+			<li><a href="{{ '/' | append: l[0] | append: '/' | append: page.section | append: '/' | relative_url }}" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
+			{% else %}
+			<li><a href="{{ '/' | append: l[0] | append: '/' | relative_url }}" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
+			{% endif %}
 			{%- endfor %}
 		</ul>
 	</body>
