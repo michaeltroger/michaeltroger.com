@@ -16,10 +16,6 @@ jobs:
     - uses: actions/checkout@v4
     - name: Remove old screenshots first
       run: rm -rd screenshots
-    - name: install puppeteer-headful
-      uses: mujo-code/puppeteer-headful@master
-      env:
-        CI: 'true'
     - name: Create temporary directory for screenshots
       run: mkdir new_screenshots
     - name: Generate screenshots homepage
