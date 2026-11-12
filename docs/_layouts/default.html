@@ -29,6 +29,13 @@
 		</head>
 		<body>
 			<header>
+				<div class="lang-picker">
+					<select id="lang-picker" aria-label="{{ site.data.i18n[page_lang].language }}" data-path="{{ page_path }}">
+						{%- for l in site.data.languages %}
+						<option value="{{ l[0] }}"{% if l[0] == page_lang %} selected{% endif %}>{{ l[1] }}</option>
+						{%- endfor %}
+					</select>
+				</div>
 				<h1><a href="{{ '/' | append: page_lang | append: '/' | relative_url }}">Michael Troger</a></h1>
 				<nav>
 					<ul>
@@ -39,13 +46,6 @@
   			</header>
 			
 			<div class="container">
-			<div class="lang-picker">
-				<select id="lang-picker" aria-label="{{ site.data.i18n[page_lang].language }}" data-path="{{ page_path }}">
-					{%- for l in site.data.languages %}
-					<option value="{{ l[0] }}"{% if l[0] == page_lang %} selected{% endif %}>{{ l[1] }}</option>
-					{%- endfor %}
-				</select>
-			</div>
 			{{ content }}
 			</div>
 			<footer class="small-font">

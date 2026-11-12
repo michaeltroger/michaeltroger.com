@@ -35,6 +35,9 @@ header h1 {
     margin: 0;
     color: $link-color;
 }
+header {
+    position: relative;
+}
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
@@ -233,6 +236,71 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
   }
 }
 .lang-picker {
-  text-align: right;
-  margin-bottom: 1em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0.65em;
+    width: 0;
+    height: 0;
+    border-top: 5px solid $link-color;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    transform: translateY(-25%);
+    pointer-events: none;
+  }
+
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    background: transparent;
+    color: $link-color;
+    cursor: pointer;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    padding: 0.35em 1.5em 0.35em 0.6em;
+  }
+
+  select:hover {
+    border-color: $link-color;
+  }
+
+  select:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+
+  option {
+    background-color: white;
+    color: #222;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .lang-picker {
+    &::after {
+      border-top-color: #006aff;
+    }
+
+    select {
+      border-color: #555555;
+      color: #006aff;
+    }
+
+    select:hover {
+      border-color: #006aff;
+    }
+
+    option {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+  }
 }
