@@ -1,4 +1,5 @@
 title: Michael Troger
+url: https://michaeltroger.com
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 website_source_url: https://github.com/michaeltroger/michaeltroger.com

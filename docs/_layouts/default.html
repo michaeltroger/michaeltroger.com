@@ -3,7 +3,9 @@
 {%- for l in site.data.languages -%}{%- assign lang_codes = lang_codes | append: l[0] | append: "," -%}{%- endfor -%}
 {%- assign lang_codes = lang_codes | split: "," -%}
 {%- assign url_lang = url_parts[1] | default: "" -%}
+{%- assign is_localized = false -%}
 {%- if lang_codes contains url_lang -%}
+{%- assign is_localized = true -%}
 {%- assign page_lang = url_lang -%}
 {%- assign page_path = page.url | remove_first: "/" | remove_first: page_lang -%}
 {%- else -%}
@@ -21,10 +23,15 @@
 			<meta name="referrer" content="no-referrer">
 			{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 			<link rel="stylesheet" type="text/css" href="{% link css/main.scss %}">
+			{%- if is_localized %}
+			{%- unless page.noindex %}
+			<link rel="canonical" href="{{ page.url | relative_url | absolute_url }}">
+			{%- endunless %}
 			{%- for l in site.data.languages %}
 			<link rel="alternate" hreflang="{{ l[0] }}" href="{{ '/' | append: l[0] | append: page_path | relative_url | absolute_url }}">
 			{%- endfor %}
 			<link rel="alternate" hreflang="x-default" href="{{ '/' | append: 'en' | append: page_path | relative_url | absolute_url }}">
+			{%- endif %}
 			<script src="{{ '/js/lang.js' | relative_url }}"></script>
 		</head>
 		<body>
