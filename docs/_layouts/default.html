@@ -1,18 +1,17 @@
 {%- assign url_parts = page.url | split: "/" -%}
-{%- assign localized_sections = "privacy,imprint,contribute" | split: "," -%}
-{%- assign url_section = url_parts[1] -%}
-{%- assign url_lang = url_parts[2] | default: "" -%}
 {%- assign lang_codes = "" -%}
 {%- for l in site.data.languages -%}{%- assign lang_codes = lang_codes | append: l[0] | append: "," -%}{%- endfor -%}
 {%- assign lang_codes = lang_codes | split: "," -%}
-{%- if localized_sections contains url_section -%}
+{%- assign url_lang = url_parts[1] | default: "" -%}
 {%- if lang_codes contains url_lang -%}
 {%- assign page_lang = url_lang -%}
-{%- assign lang_base = '/' | append: url_section | append: '/' | relative_url -%}
-{%- endif -%}
+{%- assign page_path = page.url | remove_first: "/" | remove_first: page_lang -%}
+{%- else -%}
+{%- assign page_lang = "en" -%}
+{%- assign page_path = page.url -%}
 {%- endif -%}
 <!DOCTYPE html>
-	<html{% if page_lang %} lang="{{ page_lang }}"{% endif %}>
+	<html lang="{{ page_lang }}">
 		<head>
 			<meta charset="utf-8" />
 			<title>{{ page.title }}</title>
@@ -22,47 +21,43 @@
 			<meta name="referrer" content="no-referrer">
 			{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 			<link rel="stylesheet" type="text/css" href="{% link css/main.scss %}">
-			{% if page_lang %}
 			{%- for l in site.data.languages %}
-			<link rel="alternate" hreflang="{{ l[0] }}" href="{{ lang_base | append: l[0] | append: '/' | absolute_url }}">
+			<link rel="alternate" hreflang="{{ l[0] }}" href="{{ '/' | append: l[0] | append: page_path | relative_url | absolute_url }}">
 			{%- endfor %}
-			<link rel="alternate" hreflang="x-default" href="{{ lang_base | absolute_url }}">
+			<link rel="alternate" hreflang="x-default" href="{{ '/' | append: 'en' | append: page_path | relative_url | absolute_url }}">
 			<script src="{{ '/js/lang.js' | relative_url }}"></script>
-			{% endif %}
 		</head>
 		<body>
 			<header>
-				<h1><a href="{% link index.md %}">Michael Troger</a></h1>
+				<h1><a href="{{ '/' | append: page_lang | append: '/' | relative_url }}">Michael Troger</a></h1>
 				<nav>
 					<ul>
-						<li><a href="{% link apps/index.md %}">apps</a></li>
-						<li><a href="{% link contact/index.md %}">contact</a></li>
+						<li><a href="{{ '/' | append: page_lang | append: '/apps/' | relative_url }}">{{ site.data.i18n[page_lang].apps }}</a></li>
+						<li><a href="{{ '/' | append: page_lang | append: '/contact/' | relative_url }}">{{ site.data.i18n[page_lang].contact }}</a></li>
 					</ul>
 				</nav>
   			</header>
 			
 			<div class="container">
-			{% if page_lang %}
 			<div class="lang-picker">
-				<select id="lang-picker" aria-label="Language" data-base="{{ lang_base }}">
+				<select id="lang-picker" aria-label="{{ site.data.i18n[page_lang].language }}" data-path="{{ page_path }}">
 					{%- for l in site.data.languages %}
 					<option value="{{ l[0] }}"{% if l[0] == page_lang %} selected{% endif %}>{{ l[1] }}</option>
 					{%- endfor %}
 				</select>
 			</div>
-			{% endif %}
 			{{ content }}
 			</div>
 			<footer class="small-font">
 	    		<ul>
-	        		<li><a href="{{ '/imprint/' | relative_url }}">Imprint</a></li>
-	        		<li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
-	        		<li><a href="{{ '/contribute/' | relative_url }}">Contribute</a></li>
+                 <li><a href="{{ '/' | append: page_lang | append: '/imprint/' | relative_url }}">{{ site.data.i18n[page_lang].imprint }}</a></li>
+                 <li><a href="{{ '/' | append: page_lang | append: '/privacy/' | relative_url }}">{{ site.data.i18n[page_lang].privacy }}</a></li>
+                 <li><a href="{{ '/' | append: page_lang | append: '/contribute/' | relative_url }}">{{ site.data.i18n[page_lang].contribute }}</a></li>
 	        		<li><a href="https://github.com/michaeltroger">GitHub</a></li>
 	        		<li><a href="https://www.linkedin.com/in/michaeltroger">LinkedIn</a></li>
 				</ul>
 				<p>&copy; {{ site.time | date: '%Y' }} Michael Troger<br>
-				This website is <a href="{{ site.website_source_root_url }}{{ page.path }}">open source</a>.
+				{{ site.data.i18n[page_lang].website_open_source_before }} <a href="{{ site.website_source_root_url }}{{ page.path }}">{{ site.data.i18n[page_lang].open_source }}</a>.
 				</p>
 			</footer>
 		</body>

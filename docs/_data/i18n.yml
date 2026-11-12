@@ -1,0 +1,54 @@
+en:
+  apps: Apps
+  contact: Contact
+  imprint: Imprint
+  privacy: Privacy Policy
+  contribute: Contribute
+  language: Language
+  website_open_source_before: This website is
+  open_source: open source
+de:
+  apps: Apps
+  contact: Kontakt
+  imprint: Impressum
+  privacy: Datenschutzerklärung
+  contribute: Unterstützen
+  language: Sprache
+  website_open_source_before: Diese Website ist
+  open_source: quelloffen
+es:
+  apps: Aplicaciones
+  contact: Contacto
+  imprint: Aviso legal
+  privacy: Política de privacidad
+  contribute: Colaborar
+  language: Idioma
+  website_open_source_before: Este sitio web es
+  open_source: de código abierto
+fr:
+  apps: Applications
+  contact: Contact
+  imprint: Mentions légales
+  privacy: Politique de confidentialité
+  contribute: Contribuer
+  language: Langue
+  website_open_source_before: Ce site web est
+  open_source: open source
+it:
+  apps: App
+  contact: Contatti
+  imprint: Note legali
+  privacy: Informativa sulla privacy
+  contribute: Contribuire
+  language: Lingua
+  website_open_source_before: Questo sito web è
+  open_source: open source
+pt:
+  apps: Aplicações
+  contact: Contacto
+  imprint: Ficha técnica
+  privacy: Política de privacidade
+  contribute: Contribuir
+  language: Idioma
+  website_open_source_before: Este site é
+  open_source: de código aberto

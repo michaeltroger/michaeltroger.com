@@ -13,7 +13,7 @@ Austria
   
 Sviluppo software  
   
-Signal messenger: [Dati di contatto]({% link signal/index.md %})  
+Signal messenger: [Dati di contatto](/it/signal/)  
 E-mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 Partita IVA: ATU82401018  

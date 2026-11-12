@@ -13,7 +13,7 @@ Austria
   
 Desarrollo de software  
   
-Signal messenger: [Datos de contacto]({% link signal/index.md %})    
+Signal messenger: [Datos de contacto](/es/signal/)    
 Correo electrónico: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 Número de IVA: ATU82401018  
