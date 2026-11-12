@@ -283,6 +283,16 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
   }
 }
 
+@media (max-width: 1200px) {
+  .lang-picker {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .lang-picker {
     &::after {
