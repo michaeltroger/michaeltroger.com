@@ -13,7 +13,7 @@ Les PDF sont enregistrés dans l’application, comme dans un portefeuille, et s
 <a href="https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Disponible sur Google Play" src="{% link images/googleplay.png %}"/></a>
 </div>
 
-[Politique de confidentialité](https://pdfwallet.troger.app/privacy/) / [Site web](https://pdfwallet.troger.app)
+[Politique de confidentialité](https://pdfwallet.app/privacy/) / [Site web](https://pdfwallet.app)
 
 ## Succès
 Avec environ 150 000 téléchargements et une brève troisième place parmi les applications en Autriche, c’est mon application personnelle la plus réussie à ce jour.

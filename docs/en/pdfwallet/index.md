@@ -13,7 +13,7 @@ PDFs are stored inside the app, like in a wallet, so they are easy to find. The 
 <a href="https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="{% link images/googleplay.png %}"/></a>
 </div>
 
-[Privacy Policy](https://pdfwallet.troger.app/privacy/) / [Landing Page](https://pdfwallet.troger.app)
+[Privacy Policy](https://pdfwallet.app/privacy/) / [Landing Page](https://pdfwallet.app)
 
 ## Success
 With around 150,000 downloads and briefly ranking among Austria's top 3 apps, this is my most successful privately developed app so far.

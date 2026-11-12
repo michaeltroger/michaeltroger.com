@@ -13,7 +13,7 @@ Die PDFs liegen direkt in der App, wie in einer Brieftasche, und sind dadurch le
 <a href="https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Bei Google Play herunterladen" src="{% link images/googleplay.png %}"/></a>
 </div>
 
-[Datenschutzerklärung](https://pdfwallet.troger.app/privacy/) / [Website](https://pdfwallet.troger.app)
+[Datenschutzerklärung](https://pdfwallet.app/privacy/) / [Website](https://pdfwallet.app)
 
 ## Erfolg
 Mit rund 150.000 Downloads und einem kurzzeitigen Platz unter den drei beliebtesten Apps Österreichs ist dies bisher meine erfolgreichste selbst entwickelte App.

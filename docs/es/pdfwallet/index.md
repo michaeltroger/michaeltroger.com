@@ -13,7 +13,7 @@ Los PDF se guardan en la propia aplicación, como en una cartera, y son fáciles
 <a href="https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Disponible en Google Play" src="{% link images/googleplay.png %}"/></a>
 </div>
 
-[Política de privacidad](https://pdfwallet.troger.app/privacy/) / [Página web](https://pdfwallet.troger.app)
+[Política de privacidad](https://pdfwallet.app/privacy/) / [Página web](https://pdfwallet.app)
 
 ## Éxito
 Con unos 150.000 descargas y habiendo alcanzado brevemente el tercer puesto de las aplicaciones más populares de Austria, es mi aplicación independiente más exitosa hasta la fecha.
