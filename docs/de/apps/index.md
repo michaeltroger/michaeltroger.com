@@ -22,7 +22,7 @@ Ich habe Erfahrung mit Software, die von mehreren Millionen Menschen genutzt wir
 * Runtastic Heart Rate Monitor — über 5 Mio. Downloads; eingestellt; Wartung.
 
 ## Open Source
-Im Laufe der Jahre habe ich Open-Source-Software und Plattformen wie Stack Overflow schätzen gelernt. Sie haben mich als Entwickler weitergebracht, deshalb möchte ich der Community etwas zurückgeben. Ich bin auf GitHub und Stack Overflow aktiv.
+Im Laufe der Jahre habe ich Open-Source-Software und Plattformen wie Stack Overflow schätzen gelernt. Sie haben mich als Entwickler weitergebracht, deshalb möchte ich der Community etwas zurückgeben. Ich bin auf GitHub aktiv. Früher war ich auch auf Stack Overflow aktiv, im Zeitalter der KI trage ich dort jedoch nicht mehr bei – meine bisherigen Antworten sind weiterhin auf meinem Profil zu finden.
 
 [Michael Troger auf GitHub](https://github.com/michaeltroger) · [Michael Troger auf StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)
 

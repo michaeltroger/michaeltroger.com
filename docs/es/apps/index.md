@@ -22,7 +22,7 @@ Tengo experiencia desarrollando software utilizado por millones de personas. En 
 * Runtastic Heart Rate Monitor — más de 5 millones de descargas; discontinuada; mantenimiento.
 
 ## Código abierto
-Valoro el software de código abierto y plataformas como Stack Overflow. Me ayudaron a crecer como desarrollador y por eso quiero contribuir a la comunidad. Participo activamente en GitHub y Stack Overflow.
+Valoro el software de código abierto y plataformas como Stack Overflow. Me ayudaron a crecer como desarrollador y por eso quiero contribuir a la comunidad. Participo activamente en GitHub. Antes también era un miembro activo de Stack Overflow, pero en la era de la IA ya no contribuyo allí; mis respuestas anteriores siguen disponibles en mi perfil.
 
 [Michael Troger en GitHub](https://github.com/michaeltroger) · [Michael Troger en StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)
 
