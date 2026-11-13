@@ -25,6 +25,6 @@ I have contributed to apps used by millions of people. At adidas Digital Sports 
 I value open-source software and platforms like Stack Overflow. They helped me grow as a developer, so I give something back to the community. I'm active on GitHub — feel free to follow my profile. I used to be an active member on Stack Overflow, but in the age of AI I no longer contribute there; my past answers remain available on my profile.
 
 [Michael Troger on GitHub](https://github.com/michaeltroger)  
-[Michael Troger on StackOverflow](https://stackoverflow.com/users/5155371/michael-troger)
+[Michael Troger on StackOverflow](https://stackoverflow.com/users/michaeltroger)
 
 Browse [all my open-source repositories](/en/repositories/).
