@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Latin to Cyrillic Online Converter by Michael Troger
-description: Introducing the Latin to Cyrillic Android and iOS apps, created by Michael Troger.
+title: Cyrillic Latin Transliterator by Michael Troger
+description: Introducing Cyrillic Latin Transliterator, the Latin and Cyrillic conversion app created by Michael Troger.
 ---
-# Cyrillic Transliterator: Latin To Cyrillic
+# {{ site.data.apps.cyrillic.en }}
 A Latin-to-Cyrillic and Cyrillic-to-Latin converter. It supports Serbian Azbuka, Russian, and other Slavic alphabets using established international standards.
 
 <div class="store-badges">

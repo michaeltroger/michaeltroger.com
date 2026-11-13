@@ -1,9 +1,9 @@
 ---
 layout: default
-title: PDF Wallet by Michael Troger
-description: Introducing the PDF Wallet mobile app, created by Michael Troger. A former top 3 app in Austria.
+title: PDFWallet by Michael Troger
+description: Introducing PDFWallet, the PDF document app created by Michael Troger and a former top 3 app in Austria.
 ---
-# PDF Wallet
+# {{ site.data.apps.pdfwallet }}
 Previously known as Green Pass PDF Wallet, this iOS, macOS and Android app stores and displays important PDF documents — for example, public transport or theater tickets and other certificates. Barcodes such as QR codes are automatically enlarged.
 
 PDFs are stored inside the app, like in a wallet, so they are easy to find. The app also detects and enlarges barcodes without requiring you to zoom in manually.
@@ -24,5 +24,5 @@ Ranked #3 of all apps in Austria on 2021-07-04:
 Ranked #1 among new apps in Austria on 2021-07-04:  
 ![#1 of new apps in Austria]({% link /images/top_apps_new.webp %}){:.img-fullwidth}
 
-## PDF Wallet in the Media
+## {{ site.data.apps.pdfwallet }} in the Media
 * **Techdoc** — ["5 Amazing Android Apps on F-Droid"](https://youtu.be/9tI6hpa5IbA?feature=shared&t=83) and [the August 2023 article](https://techdocyoutube.blogspot.com/2023/08/5-amazing-android-apps-on-f-droid.html).

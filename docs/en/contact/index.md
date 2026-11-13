@@ -5,9 +5,11 @@ noindex: true
 ---
 # Contact
 Signal Messenger: [Contact details](/en/signal/)  
+Email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</a>  
+LinkedIn: [linkedin.com/in/michaeltroger](https://www.linkedin.com/in/michaeltroger)
 
-Email: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
-You can use the form below to send me an encrypted email:
+## Encrypted email
+If you prefer, use the form below to send me an encrypted email:
 
 <noscript><p class="warning">The form doesn't work without JavaScript. JavaScript is required for encryption with OpenPGP.js.</p></noscript>
 <form id="form">

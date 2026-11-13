@@ -5,9 +5,11 @@ noindex: true
 ---
 # Contacto
 Signal Messenger: [Datos de contacto](/es/signal/)  
+Correo electrónico: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</a>  
+LinkedIn: [linkedin.com/in/michaeltroger](https://www.linkedin.com/in/michaeltroger)
 
-Correo electrónico: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
-Puedes usar el siguiente formulario para enviarme un correo cifrado:
+## Correo cifrado
+Si lo prefieres, puedes usar el siguiente formulario para enviarme un correo cifrado:
 
 <noscript><p class="warning">El formulario no funciona sin JavaScript, necesario para cifrar con OpenPGP.js.</p></noscript>
 <form id="form">

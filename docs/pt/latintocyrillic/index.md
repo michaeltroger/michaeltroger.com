@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Conversor online de latim para cirílico de Michael Troger
-description: Aplicações de conversão de latim para cirílico para Android e iOS.
+title: Cirílico Latino Transliterador de Michael Troger
+description: Cirílico Latino Transliterador de Michael Troger converte entre os alfabetos latino e cirílico e está disponível para Android e iOS.
 ---
-# Transliterador cirílico: latim para cirílico
+# {{ site.data.apps.cyrillic.pt }}
 Um conversor de latim para cirílico e de cirílico para latim. Suporta o alfabeto sérvio, russo e outros alfabetos eslavos segundo normas internacionais estabelecidas.
 
 <div class="store-badges">

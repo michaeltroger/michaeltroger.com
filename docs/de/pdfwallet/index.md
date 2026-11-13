@@ -1,9 +1,9 @@
 ---
 layout: default
-title: PDF Wallet von Michael Troger
-description: Die PDF-Wallet-App von Michael Troger — früher eine der drei beliebtesten Apps in Österreich.
+title: PDFWallet von Michael Troger
+description: PDFWallet, die App von Michael Troger zum Speichern und Anzeigen von PDF-Dokumenten, war kurzzeitig eine der drei beliebtesten Apps in Österreich.
 ---
-# PDF Wallet
+# {{ site.data.apps.pdfwallet }}
 Früher bekannt als Green Pass PDF Wallet. Diese App für iOS, macOS und Android speichert und zeigt wichtige PDF-Dokumente an — zum Beispiel Fahrkarten, Theaterkarten oder andere Zertifikate. Enthält ein Dokument einen Barcode wie einen QR-Code, wird dieser automatisch vergrößert.
 
 Die PDFs liegen direkt in der App, wie in einer Brieftasche, und sind dadurch leicht zu finden. Barcodes werden automatisch erkannt und vergrößert, ohne dass du manuell zoomen musst.
@@ -24,5 +24,5 @@ Platz 3 aller Apps in Österreich am 04.07.2021:
 Platz 1 der neuen Apps in Österreich am 04.07.2021:  
 ![Platz 1 der neuen Apps in Österreich]({% link /images/top_apps_new.webp %}){:.img-fullwidth}
 
-## PDF Wallet in den Medien
+## {{ site.data.apps.pdfwallet }} in den Medien
 * **Techdoc** — ["5 Amazing Android Apps on F-Droid"](https://youtu.be/9tI6hpa5IbA?feature=shared&t=83) und [der Artikel vom August 2023](https://techdocyoutube.blogspot.com/2023/08/5-amazing-android-apps-on-f-droid.html).

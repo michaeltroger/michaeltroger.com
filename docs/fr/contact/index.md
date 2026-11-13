@@ -5,9 +5,11 @@ noindex: true
 ---
 # Contact
 Signal Messenger : [Coordonnées](/fr/signal/)  
+E-mail : <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</a>  
+LinkedIn : [linkedin.com/in/michaeltroger](https://www.linkedin.com/in/michaeltroger)
 
-E-mail : &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
-Vous pouvez utiliser le formulaire ci-dessous pour m’envoyer un e-mail chiffré :
+## E-mail chiffré
+Si vous préférez, vous pouvez utiliser le formulaire ci-dessous pour m’envoyer un e-mail chiffré :
 
 <noscript><p class="warning">Le formulaire ne fonctionne pas sans JavaScript, nécessaire au chiffrement avec OpenPGP.js.</p></noscript>
 <form id="form">

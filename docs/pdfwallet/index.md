@@ -1,6 +1,6 @@
 ---
 layout: lang-redirect
-title: PDF Wallet by Michael Troger
+title: PDFWallet by Michael Troger
 section: pdfwallet
 permalink: /pdfwallet/
 ---

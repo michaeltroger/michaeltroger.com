@@ -5,9 +5,11 @@ noindex: true
 ---
 # Kontakt
 Signal Messenger: [Kontaktdaten](/de/signal/)  
+E-Mail: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</a>  
+LinkedIn: [linkedin.com/in/michaeltroger](https://www.linkedin.com/in/michaeltroger)
 
-E-Mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
-Über das folgende Formular kannst du mir eine verschlüsselte E-Mail senden:
+## Verschlüsselte E-Mail
+Wenn du möchtest, kannst du mir über das folgende Formular eine verschlüsselte E-Mail senden:
 
 <noscript><p class="warning">Ohne JavaScript funktioniert das Formular nicht. JavaScript wird für die Verschlüsselung mit OpenPGP.js benötigt.</p></noscript>
 <form id="form">

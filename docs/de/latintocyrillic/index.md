@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Latein-Kyrillisch-Online-Konverter von Michael Troger
-description: Die Latein-Kyrillisch-Apps für Android und iOS von Michael Troger.
+title: Kyrillisch Latein Umwandler von Michael Troger
+description: Kyrillisch Latein Umwandler von Michael Troger wandelt zwischen lateinischer und kyrillischer Schrift um und ist für Android und iOS verfügbar.
 ---
-# Kyrillisch-Transliterator: Latein zu Kyrillisch
+# {{ site.data.apps.cyrillic.de }}
 Ein Konverter von Latein zu Kyrillisch und zurück. Die App unterstützt serbische Azbuka, Russisch und weitere slawische Alphabete nach etablierten internationalen Standards.
 
 <div class="store-badges">

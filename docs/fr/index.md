@@ -1,14 +1,34 @@
 ---
 layout: default
-title: Michael Troger
-description: Site portfolio de Michael Troger, développeur Android en Autriche.
+title: Michael Troger, développeur Android et Kotlin Multiplatform
+description: Michael Troger est développeur Android et Kotlin Multiplatform en Autriche. Il a contribué à des applications adidas et Runtastic totalisant plus de 100 millions de téléchargements et a créé PDFWallet et Cyrillique Latin Translittérer.
 ---
-# Bonjour !
+# Développeur Android et Kotlin Multiplatform en Autriche
 
-* Je suis __Michael Troger__.
-* Je viens d’__Autriche__.
-* __Pronoms__ : il/lui
-* Je travaille comme __développeur Android__ pour une __entreprise d’appareils de cuisine__.
-* Je dirige également ma propre __entreprise de développement logiciel__.
-* Je code principalement en __Kotlin__, avec __Kotlin Multiplatform (KMP)__ et __Jetpack Compose__.
-* Je suis l’auteur de [__PDF Wallet__](/fr/pdfwallet/) et de [__cyrillic.app__](/fr/latintocyrillic/).
+Je développe des applications Android et Kotlin Multiplatform avec Kotlin et Jetpack Compose.
+
+J’ai contribué à des applications adidas et Runtastic totalisant plus de 100 millions de téléchargements. Mon application {{ site.data.apps.pdfwallet }} a été téléchargée environ 150 000 fois et a brièvement atteint la 3ᵉ place parmi toutes les applications en Autriche.
+
+À travers ma petite entreprise de logiciels, je publie mes propres applications {{ site.data.apps.pdfwallet }} et {{ site.data.apps.cyrillic.fr }}.
+
+## Mes applications
+
+### [{{ site.data.apps.pdfwallet }}](/fr/pdfwallet/)
+Stockez et consultez vos documents PDF importants sur iOS, macOS et Android.
+
+<div class="store-badges">
+<a href="https://apps.apple.com/app/6767864357"><img class="apple" src="{% link images/appstore.svg %}" alt="Télécharger dans l’App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=com.michaeltroger.gruenerpass"><img alt="Disponible sur Google Play" src="{% link images/googleplay.png %}"/></a>
+</div>
+
+### [{{ site.data.apps.cyrillic.fr }}](/fr/latintocyrillic/)
+Convertissez entre les alphabets latin et cyrillique, avec prise en charge du serbe, du russe et d’autres langues slaves.
+
+<div class="store-badges">
+<a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969"><img class="apple" src="{% link images/appstore.svg %}" alt="Télécharger dans l’App Store"></a>
+<a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic"><img alt="Disponible sur Google Play" src="{% link images/googleplay.png %}"/></a>
+</div>
+
+## Open source
+
+Je partage une sélection de projets sur GitHub. Découvrez [tous mes dépôts](/fr/repositories/) ou [suivez-moi sur GitHub](https://github.com/michaeltroger).

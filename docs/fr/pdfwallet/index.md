@@ -1,9 +1,9 @@
 ---
 layout: default
-title: PDF Wallet par Michael Troger
-description: L’application PDF Wallet de Michael Troger, brièvement parmi les trois meilleures applications en Autriche.
+title: PDFWallet par Michael Troger
+description: PDFWallet, l’application de Michael Troger pour stocker et consulter des documents PDF, a brièvement figuré parmi les trois meilleures applications en Autriche.
 ---
-# PDF Wallet
+# {{ site.data.apps.pdfwallet }}
 Auparavant appelée Green Pass PDF Wallet, cette application pour iOS, macOS et Android stocke et affiche vos documents PDF importants, comme des titres de transport ou des billets de théâtre. Les codes-barres, y compris les codes QR, sont automatiquement agrandis.
 
 Les PDF sont enregistrés dans l’application, comme dans un portefeuille, et sont faciles à retrouver. L’application détecte et agrandit aussi les codes-barres sans zoom manuel.
@@ -24,5 +24,5 @@ N° 3 de toutes les applications en Autriche le 04/07/2021 :
 N° 1 des nouvelles applications en Autriche le 04/07/2021 :  
 ![N° 1 des nouvelles applications en Autriche]({% link /images/top_apps_new.webp %}){:.img-fullwidth}
 
-## PDF Wallet dans les médias
+## {{ site.data.apps.pdfwallet }} dans les médias
 * **Techdoc** — ["5 Amazing Android Apps on F-Droid"](https://youtu.be/9tI6hpa5IbA?feature=shared&t=83) et [l’article d’août 2023](https://techdocyoutube.blogspot.com/2023/08/5-amazing-android-apps-on-f-droid.html).

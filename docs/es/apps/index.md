@@ -5,8 +5,8 @@ description: Mis proyectos de software personales y profesionales.
 ---
 # Aplicaciones
 ## Mis propias aplicaciones
-* [PDF Wallet](/es/pdfwallet/)
-* [Transliterador de cirílico: de latín a cirílico](/es/latintocyrillic/)
+* [{{ site.data.apps.pdfwallet }}](/es/pdfwallet/)
+* [{{ site.data.apps.cyrillic.es }}](/es/latintocyrillic/)
 * [Aplicaciones de visión artificial](/es/computervision/)
 
 Algunas también están disponibles en mi página de desarrollador de [Google Play](https://play.google.com/store/apps/developer?id=Michael+Troger) y en la [App Store de Apple](https://apps.apple.com/us/developer/michael-troger/id1871929506).

@@ -5,9 +5,11 @@ noindex: true
 ---
 # Contatti
 Signal Messenger: [Dati di contatto](/it/signal/)  
+E-mail: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</a>  
+LinkedIn: [linkedin.com/in/michaeltroger](https://www.linkedin.com/in/michaeltroger)
 
-E-mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
-Puoi usare il modulo qui sotto per inviarmi un’e-mail crittografata:
+## E-mail crittografata
+Se preferisci, puoi usare il modulo qui sotto per inviarmi un’e-mail crittografata:
 
 <noscript><p class="warning">Il modulo non funziona senza JavaScript, necessario per la crittografia con OpenPGP.js.</p></noscript>
 <form id="form">
