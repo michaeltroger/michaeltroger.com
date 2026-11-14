@@ -13,7 +13,7 @@ Kürnbergblick 1/2
   
 Softwareentwicklung 
   
-Signal Messenger: [Kontaktdaten](/de/signal/)    
+Signal Messenger: [Kontaktdaten](/de/signal/){:rel="nofollow"}    
 E-Mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 UID-Nummer: ATU82401018  

@@ -7,4 +7,37 @@ Disallow: /*.svg$
 Disallow: /*.webp$
 Disallow: /*.ico$
 
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Diffbot
+Disallow: /privacy/
+Disallow: /imprint/
+Disallow: /*/privacy/
+Disallow: /*/imprint/
+Disallow: /contact/
+Disallow: /signal/
+Disallow: /*/contact/
+Disallow: /*/signal/
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.svg$
+Disallow: /*.webp$
+Disallow: /*.ico$
+
 Sitemap: https://michaeltroger.com/sitemap.xml

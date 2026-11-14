@@ -13,7 +13,7 @@ Kürnbergblick 1/2
   
 Desenvolvimento de software  
   
-Signal messenger: [Dados de contacto](/pt/signal/)  
+Signal messenger: [Dados de contacto](/pt/signal/){:rel="nofollow"}  
 E-mail: &#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;  
   
 Número de IVA: ATU82401018  

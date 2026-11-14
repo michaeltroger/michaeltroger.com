@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'none';"/>
 		<meta name="referrer" content="no-referrer">
-		<meta name="robots" content="noindex">
+		<meta name="robots" content="noindex, {% if page.noindex %}nofollow, {% endif %}noai, noimageai">
 		<title>{{ page.title }}</title>
 		{% if page.section %}
 		<link rel="canonical" href="{{ '/' | append: 'en/' | append: page.section | append: '/' | relative_url | absolute_url }}">

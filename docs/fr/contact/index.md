@@ -4,7 +4,7 @@ title: Contacter Michael Troger
 noindex: true
 ---
 # Contact
-Signal Messenger : [Coordonnées](/fr/signal/)  
+Signal Messenger : [Coordonnées](/fr/signal/){:rel="nofollow"}  
 E-mail : <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;">&#109;&#64;&#116;&#114;&#111;&#103;&#101;&#114;&#46;&#97;&#112;&#112;</a>  
 LinkedIn : [linkedin.com/in/michaeltroger](https://www.linkedin.com/in/michaeltroger)
 

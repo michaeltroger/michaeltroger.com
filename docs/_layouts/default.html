@@ -21,7 +21,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'none';"/>
 			<meta name="referrer" content="no-referrer">
-			{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+			{% if page.noindex %}<meta name="robots" content="noindex, nofollow, noai, noimageai">{% endif %}
 			<link rel="stylesheet" type="text/css" href="{% link css/main.scss %}">
 			{%- if is_localized %}
 			{%- unless page.noindex %}
@@ -50,7 +50,7 @@
 				<nav>
 					<ul>
 						<li><a href="{{ '/' | append: page_lang | append: '/apps/' | relative_url }}">{{ site.data.i18n[page_lang].apps }}</a></li>
-						<li><a href="{{ '/' | append: page_lang | append: '/contact/' | relative_url }}">{{ site.data.i18n[page_lang].contact }}</a></li>
+						<li><a href="{{ '/' | append: page_lang | append: '/contact/' | relative_url }}" rel="nofollow">{{ site.data.i18n[page_lang].contact }}</a></li>
 					</ul>
 				</nav>
   			</header>
@@ -60,8 +60,8 @@
 			</div>
 			<footer class="small-font">
 	    		<ul>
-                 <li><a href="{{ '/' | append: page_lang | append: '/imprint/' | relative_url }}">{{ site.data.i18n[page_lang].imprint }}</a></li>
-                 <li><a href="{{ '/' | append: page_lang | append: '/privacy/' | relative_url }}">{{ site.data.i18n[page_lang].privacy }}</a></li>
+            				 <li><a href="{{ '/' | append: page_lang | append: '/imprint/' | relative_url }}" rel="nofollow">{{ site.data.i18n[page_lang].imprint }}</a></li>
+            				 <li><a href="{{ '/' | append: page_lang | append: '/privacy/' | relative_url }}" rel="nofollow">{{ site.data.i18n[page_lang].privacy }}</a></li>
                  <li><a href="{{ '/' | append: page_lang | append: '/contribute/' | relative_url }}">{{ site.data.i18n[page_lang].contribute }}</a></li>
 	        		<li><a href="https://github.com/michaeltroger">GitHub</a></li>
 	        		<li><a href="https://www.linkedin.com/in/michaeltroger">LinkedIn</a></li>
