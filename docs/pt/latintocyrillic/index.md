@@ -11,12 +11,12 @@ Um conversor de latim para cirílico e de cirílico para latim. Suporta o alfabe
 <a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Obter no Google Play" src="{% link images/googleplay.png %}"/></a>
 </div>
 
-## Versão online: [cyrillic.app - conversor gratuito de latim para cirílico](https://cyrillic.app)
+## Versão online: [cyrillic.app - conversor gratuito de latim para cirílico](https://cyrillic.app/convert)
 Mais funcionalidades estão disponíveis nas versões para [iOS e macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) e [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic).
 
 Alfabetos incluídos: sérvio; sérvio, bielorrusso, búlgaro, macedónio, montenegrino, russo e ucraniano (ISO 9:1995).
 
-[Política de privacidade](https://cyrillic.app/privacy)
+[Política de privacidade](https://cyrillic.app/privacy) / [Página web](https://cyrillic.app)
 
 ## Sucesso
 Com cerca de 50 000 transferências, a versão Android é uma das aplicações mais bem-sucedidas do seu género.

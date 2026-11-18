@@ -11,12 +11,12 @@ A Latin-to-Cyrillic and Cyrillic-to-Latin converter. It supports Serbian Azbuka,
 <a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="{% link images/googleplay.png %}"/></a>
 </div>
 
-## Online version: [cyrillic.app - Free Online Latin-To-Cyrillic Converter](https://cyrillic.app)
+## Online version: [cyrillic.app - Free Online Latin-To-Cyrillic Converter](https://cyrillic.app/convert)
 More features are available in the [iOS, macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) and [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic) versions.
 
 Supported alphabets: Serbian; Serbian, Belarusian, Bulgarian, Macedonian, Montenegrin, Russian and Ukrainian (ISO 9:1995).
 
-[Privacy Policy](https://cyrillic.app/privacy)
+[Privacy Policy](https://cyrillic.app/privacy) / [Landing Page](https://cyrillic.app)
 
 ## Success
 With around 50,000 downloads, the Android version is one of the most successful apps of its kind!

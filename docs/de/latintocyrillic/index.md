@@ -11,12 +11,12 @@ Ein Konverter von Latein zu Kyrillisch und zurück. Die App unterstützt serbisc
 <a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Bei Google Play herunterladen" src="{% link images/googleplay.png %}"/></a>
 </div>
 
-## Online-Version: [cyrillic.app - kostenloser Online-Konverter von Latein zu Kyrillisch](https://cyrillic.app)
+## Online-Version: [cyrillic.app - kostenloser Online-Konverter von Latein zu Kyrillisch](https://cyrillic.app/convert)
 Weitere Funktionen gibt es in den Versionen für [iOS und macOS](https://apps.apple.com/app/cyrillic-to-latin/id6758277969) und [Android](https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic).
 
 Enthaltene Alphabete: Serbisch; Serbisch, Belarussisch, Bulgarisch, Mazedonisch, Montenegrinisch, Russisch und Ukrainisch (ISO 9:1995).
 
-[Datenschutzerklärung](https://cyrillic.app/privacy)
+[Datenschutzerklärung](https://cyrillic.app/privacy) / [Website](https://cyrillic.app)
 
 ## Erfolg
 Mit rund 50.000 Downloads ist die Android-Version eine der erfolgreichsten Apps ihrer Art!
