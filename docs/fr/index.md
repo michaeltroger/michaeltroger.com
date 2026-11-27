@@ -28,7 +28,3 @@ Convertissez entre les alphabets latin et cyrillique, avec prise en charge du se
 <a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969"><img class="apple" src="{% link images/appstore.svg %}" alt="Télécharger dans l’App Store"></a>
 <a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic"><img alt="Disponible sur Google Play" src="{% link images/googleplay.png %}"/></a>
 </div>
-
-## Open source
-
-Je partage une sélection de projets sur GitHub. Découvrez [tous mes dépôts](/fr/repositories/) ou [suivez-moi sur GitHub](https://github.com/michaeltroger).

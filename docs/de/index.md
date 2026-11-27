@@ -28,7 +28,3 @@ Zwischen lateinischem und kyrillischem Alphabet umwandeln, mit Unterstützung f�
 <a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969"><img class="apple" src="{% link images/appstore.svg %}" alt="Im App Store laden"></a>
 <a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic"><img alt="Bei Google Play herunterladen" src="{% link images/googleplay.png %}"/></a>
 </div>
-
-## Open Source
-
-Ich teile ausgewählte Projekte auf GitHub. Entdecke [alle meine Repositories](/de/repositories/) oder [folge mir auf GitHub](https://github.com/michaeltroger).

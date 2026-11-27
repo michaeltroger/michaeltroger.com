@@ -28,7 +28,3 @@ Convert between Latin and Cyrillic alphabets, with support for Serbian, Russian 
 <a href="https://apps.apple.com/app/cyrillic-to-latin/id6758277969"><img class="apple" src="{% link images/appstore.svg %}" alt="Download on the App Store"></a>
 <a href="https://play.google.com/store/apps/details?id=at.mikenet.serbianlatintocyrillic"><img alt="Get it on Google Play" src="{% link images/googleplay.png %}"/></a>
 </div>
-
-## Open Source
-
-I share selected projects on GitHub. Browse [all my repositories](/en/repositories/) or [follow me on GitHub](https://github.com/michaeltroger).
