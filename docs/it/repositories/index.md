@@ -8,7 +8,7 @@ Ultimo aggiornamento: {{ site.time }}
 
 {% assign totalStars = 0 %}
 {% assign totalForks = 0 %}
-{% assign repos = site.github.public_repositories %}
+{% assign repos = site.github.public_repositories | where_exp: "repo", "repo.name != 'c'" | where_exp: "repo", "repo.name != 'p'" %}
 {% for repo in repos %}
   {% assign totalStars = totalStars | plus: repo.stargazers_count %}
   {% assign totalForks = totalForks | plus: repo.forks_count %}
