@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Michael Troger – Android- und Kotlin-Multiplatform-Entwickler
-description: Michael Troger ist Android- und Kotlin-Multiplatform-Entwickler aus Österreich. Er hat zu adidas- und Runtastic-Apps mit über 100 Mio. Downloads beigetragen und PDFWallet sowie Kyrillisch Latein Umwandler entwickelt.
+title: Michael Troger – Entwickler für mobile Apps (Android & Kotlin Multiplatform)
+description: Entwickler für mobile Apps aus Österreich mit Schwerpunkt auf Android und Kotlin Multiplatform. Mitwirkender an adidas- und Runtastic-Apps mit über 100 Mio. Downloads, Entwickler von PDFWallet und Kyrillisch Latein Umwandler.
 ---
-# Android- und Kotlin-Multiplatform-Entwickler aus Österreich
+# Entwickler für mobile Apps aus Österreich
 
-Ich entwickle Android- und Kotlin-Multiplatform-Apps mit Kotlin und Jetpack Compose.
+Ich entwickle Apps für Android und iOS mit Kotlin Multiplatform und Jetpack Compose.
 
 Ich habe zu adidas- und Runtastic-Apps mit insgesamt über 100 Mio. Downloads beigetragen. Meine eigene App {{ site.data.apps.pdfwallet }} wurde rund 150.000-mal heruntergeladen und belegte kurzzeitig Platz 3 unter allen Apps in Österreich.
 
