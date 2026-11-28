@@ -11,7 +11,8 @@ body {
     width: 70%;
     font-size: $font-size-regular;
     font-family: 'Garamond', 'Times New Roman', 'Serif';
-    color: $text-color;
+    background-color: $light-background-color;
+    color: $light-text-color;
 }
 textarea, input, button, select {
     font-family: inherit;
@@ -33,7 +34,7 @@ header h1 {
     font-family: monospace;
     font-size: $font-size-xlarge;
     margin: 0;
-    color: $link-color;
+    color: $light-link-color;
 }
 header {
     position: relative;
@@ -50,13 +51,17 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: $link-color;
+    color: $light-link-color;
+}
+main a:not(:has(img)),
+footer p a:not(:has(img)) {
+    text-decoration: underline;
 }
 a:hover {
     text-decoration: underline;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid $light-border-color;
 }
 .note {
     background-color: lightgray;
@@ -189,46 +194,46 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
 /* Dark theme (auto via OS/browser preference) */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: $dark-background-color;
+    color: $dark-text-color;
   }
 
   header h1 {
-    color: #4d94ff;
+    color: $dark-link-color;
   }
 
   a {
-    color: #4d94ff;
+    color: $dark-link-color;
   }
 
   footer {
-    border-top: 1px solid #333333;
+    border-top-color: $dark-border-color;
   }
 
   input, button, textarea {
-    background: #1e1e1e;
-    border: 1px solid #555555;
-    color: #e0e0e0;
+    background: $dark-surface-color;
+    border-color: $dark-control-border-color;
+    color: $dark-text-color;
   }
 
   input:focus, input:active, input:hover,
   button:focus, button:active, button:hover {
-    background: #333333;
+    background: $dark-hover-surface-color;
   }
 
   .note {
-    background-color: #2a2a2a;
-    border-color: #444444;
-    color: #e0e0e0;
+    background-color: $dark-note-surface-color;
+    border-color: $dark-note-border-color;
+    color: $dark-text-color;
   }
 
   pre {
-    background-color: #1e1e1e;
-    color: #e0e0e0;
+    background-color: $dark-surface-color;
+    color: $dark-text-color;
   }
 
   .gutter pre {
-    color: #888888;
+    color: $dark-muted-text-color;
   }
 
   a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
@@ -247,7 +252,7 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
     right: 0.65em;
     width: 0;
     height: 0;
-    border-top: 5px solid $link-color;
+    border-top: 5px solid $light-link-color;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     transform: translateY(-25%);
@@ -257,10 +262,10 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
   select {
     appearance: none;
     -webkit-appearance: none;
-    border: 1px solid #d5d5d5;
+    border: 1px solid $light-border-color;
     border-radius: 4px;
     background: transparent;
-    color: $link-color;
+    color: $light-link-color;
     cursor: pointer;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
@@ -268,17 +273,17 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
   }
 
   select:hover {
-    border-color: $link-color;
+    border-color: $light-link-color;
   }
 
   select:focus-visible {
-    outline: 2px solid $link-color;
+    outline: 2px solid $light-link-color;
     outline-offset: 2px;
   }
 
   option {
-    background-color: white;
-    color: #222;
+    background-color: $light-surface-color;
+    color: $light-option-text-color;
   }
 }
 
@@ -296,9 +301,9 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
 @media (max-width: 600px) {
   .lang-code {
     display: inline-block;
-    border: 1px solid #d5d5d5;
+    border: 1px solid $light-border-color;
     border-radius: 4px;
-    color: $link-color;
+    color: $light-link-color;
     cursor: pointer;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
@@ -317,7 +322,7 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
 
     &:hover .lang-code,
     &:focus-within .lang-code {
-      border-color: $link-color;
+      border-color: $light-link-color;
     }
   }
 }
@@ -325,33 +330,33 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
 @media (prefers-color-scheme: dark) {
   .lang-picker {
     &::after {
-      border-top-color: #4d94ff;
+      border-top-color: $dark-link-color;
     }
 
     select {
-      border-color: #555555;
-      color: #4d94ff;
+      border-color: $dark-control-border-color;
+      color: $dark-link-color;
     }
 
     select:hover {
-      border-color: #4d94ff;
+      border-color: $dark-link-color;
     }
 
     @media (max-width: 600px) {
       .lang-code {
-        border-color: #555555;
-        color: #4d94ff;
+        border-color: $dark-control-border-color;
+        color: $dark-link-color;
       }
 
       &:hover .lang-code,
       &:focus-within .lang-code {
-        border-color: #4d94ff;
+        border-color: $dark-link-color;
       }
     }
 
     option {
-      background-color: #1e1e1e;
-      color: #e0e0e0;
+      background-color: $dark-surface-color;
+      color: $dark-text-color;
     }
   }
 }
