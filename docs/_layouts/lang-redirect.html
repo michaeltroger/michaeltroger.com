@@ -17,14 +17,16 @@
 		<script src="{{ '/js/lang.js' | relative_url }}" data-lang-redirect="true" data-lang-path="{{ page.section }}"></script>
 	</head>
 	<body>
-		<ul>
-			{%- for l in site.data.languages %}
-			{% if page.section %}
-			<li><a href="{{ '/' | append: l[0] | append: '/' | append: page.section | append: '/' | relative_url }}" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
-			{% else %}
-			<li><a href="{{ '/' | append: l[0] | append: '/' | relative_url }}" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
-			{% endif %}
-			{%- endfor %}
-		</ul>
+		<main>
+			<ul>
+				{%- for l in site.data.languages %}
+				{% if page.section %}
+				<li><a href="{{ '/' | append: l[0] | append: '/' | append: page.section | append: '/' | relative_url }}" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
+				{% else %}
+				<li><a href="{{ '/' | append: l[0] | append: '/' | relative_url }}" hreflang="{{ l[0] }}">{{ l[1] }}</a></li>
+				{% endif %}
+				{%- endfor %}
+			</ul>
+		</main>
 	</body>
 </html>
