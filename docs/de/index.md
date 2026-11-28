@@ -11,6 +11,8 @@ Ich habe zu adidas- und Runtastic-Apps mit insgesamt über 100 Mio. Downloads be
 
 Über mein kleines Softwareunternehmen veröffentliche ich meine eigenen Apps {{ site.data.apps.pdfwallet }} und {{ site.data.apps.cyrillic.de }}.
 
+Meine Apps werden in der EU mit Fokus auf Datenschutz entwickelt: keine Werbung, kein Tracking, kein Konto erforderlich.
+
 ## Meine Apps
 
 ### [{{ site.data.apps.pdfwallet }}](/de/pdfwallet/)

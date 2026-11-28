@@ -11,6 +11,8 @@ J’ai contribué à des applications adidas et Runtastic totalisant plus de 100
 
 À travers ma petite entreprise de logiciels, je publie mes propres applications {{ site.data.apps.pdfwallet }} et {{ site.data.apps.cyrillic.fr }}.
 
+Mes applications sont développées dans l’UE dans le respect de la vie privée : sans publicité, sans pistage, sans compte requis.
+
 ## Mes applications
 
 ### [{{ site.data.apps.pdfwallet }}](/fr/pdfwallet/)

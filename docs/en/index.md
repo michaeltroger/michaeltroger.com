@@ -11,6 +11,8 @@ I've contributed to adidas and Runtastic apps with 100M+ combined downloads. My 
 
 Through my small software business, I publish my own apps {{ site.data.apps.pdfwallet }} and {{ site.data.apps.cyrillic.en }}.
 
+My apps are developed in the EU with privacy in mind: no ads, no tracking, no account required.
+
 ## My Apps
 
 ### [{{ site.data.apps.pdfwallet }}](/en/pdfwallet/)

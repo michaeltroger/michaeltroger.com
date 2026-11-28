@@ -11,6 +11,8 @@ Ho contribuito ad app adidas e Runtastic con oltre 100 milioni di download compl
 
 Attraverso la mia piccola azienda software pubblico le mie app {{ site.data.apps.pdfwallet }} e {{ site.data.apps.cyrillic.it }}.
 
+Le mie app sono sviluppate nell’UE con attenzione alla privacy: niente pubblicità, niente tracciamento, nessun account richiesto.
+
 ## Le mie app
 
 ### [{{ site.data.apps.pdfwallet }}](/it/pdfwallet/)
