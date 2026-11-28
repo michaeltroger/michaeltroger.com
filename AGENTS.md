@@ -30,7 +30,6 @@ Guidance for AI coding agents working on this repository.
 cd docs
 bundle install
 bundle exec jekyll serve        # http://localhost:4000
-# optional: JEKYLL_GITHUB_TOKEN=<token> bundle exec jekyll serve
 ```
 - There's no automated test suite. Check changes by running `bundle exec jekyll build` in `docs/` (it must succeed without errors) and looking at the affected pages locally.
 - Never commit build output (`docs/_site/`, `.jekyll-cache/`, `.sass-cache/`, `.jekyll-metadata`).
