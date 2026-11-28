@@ -194,11 +194,11 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
   }
 
   header h1 {
-    color: #006aff; 
+    color: #4d94ff;
   }
 
   a {
-    color: #006aff;
+    color: #4d94ff;
   }
 
   footer {
@@ -325,27 +325,27 @@ a:not(:is([href^='/']), :is([href^='#']), :has(img))::after {
 @media (prefers-color-scheme: dark) {
   .lang-picker {
     &::after {
-      border-top-color: #006aff;
+      border-top-color: #4d94ff;
     }
 
     select {
       border-color: #555555;
-      color: #006aff;
+      color: #4d94ff;
     }
 
     select:hover {
-      border-color: #006aff;
+      border-color: #4d94ff;
     }
 
     @media (max-width: 600px) {
       .lang-code {
         border-color: #555555;
-        color: #006aff;
+        color: #4d94ff;
       }
 
       &:hover .lang-code,
       &:focus-within .lang-code {
-        border-color: #006aff;
+        border-color: #4d94ff;
       }
     }
 
